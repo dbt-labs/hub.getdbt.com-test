@@ -1,0 +1,9 @@
+{
+    "name": "zuora",
+    "namespace": "fivetran",
+    "description": "dbt models for dbt_zuora",
+    "latest": "0.2.1",
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
