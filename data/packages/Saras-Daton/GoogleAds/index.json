@@ -1,0 +1,9 @@
+{
+    "name": "GoogleAds",
+    "namespace": "Saras-Daton",
+    "description": "dbt models for GoogleAds",
+    "latest": "1.1.1",
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
