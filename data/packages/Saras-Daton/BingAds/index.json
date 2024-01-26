@@ -1,0 +1,9 @@
+{
+    "name": "BingAds",
+    "namespace": "Saras-Daton",
+    "description": "dbt models for BingAds",
+    "latest": "1.1.1",
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
