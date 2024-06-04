@@ -1,0 +1,22 @@
+{
+    "id": "dbt-labs/dbt_utils/1.2.0-rc1",
+    "name": "dbt_utils",
+    "version": "1.2.0-rc1",
+    "published_at": "2024-04-23T21:33:40",
+    "packages": [],
+    "require_dbt_version": [
+        ">=1.3.0",
+        "<2.0.0"
+    ],
+    "works_with": [],
+    "_source": {
+        "type": "github",
+        "url": "https://github.com/dbt-labs/dbt-utils/tree/1.2.0-rc1/",
+        "readme": "https://raw.githubusercontent.com/dbt-labs/dbt-utils/1.2.0-rc1/README.md"
+    },
+    "downloads": {
+        "tarball": "https://codeload.github.com/dbt-labs/dbt-utils/tar.gz/1.2.0-rc1",
+        "format": "tgz",
+        "sha1": "6bffc8e65c36f9f9f8b3cf0c00ebe12ffadf8d71"
+    }
+}
