@@ -1,0 +1,19 @@
+{
+    "id": "Snowflake-Labs/dbt_constraints/0.6.3",
+    "name": "dbt_constraints",
+    "version": "0.6.3",
+    "published_at": "2024-03-21T15:33:22",
+    "packages": [],
+    "require_dbt_version": ">=1.0.0",
+    "works_with": [],
+    "_source": {
+        "type": "github",
+        "url": "https://github.com/Snowflake-Labs/dbt_constraints/tree/0.6.3/",
+        "readme": "https://raw.githubusercontent.com/Snowflake-Labs/dbt_constraints/0.6.3/README.md"
+    },
+    "downloads": {
+        "tarball": "https://codeload.github.com/Snowflake-Labs/dbt_constraints/tar.gz/0.6.3",
+        "format": "tgz",
+        "sha1": "66d32dd74ecb20f541f8f0471e734c3af83ca11e"
+    }
+}
