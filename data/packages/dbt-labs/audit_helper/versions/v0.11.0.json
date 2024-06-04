@@ -1,0 +1,30 @@
+{
+    "id": "dbt-labs/audit_helper/v0.11.0",
+    "name": "audit_helper",
+    "version": "v0.11.0",
+    "published_at": "2024-03-19T15:16:00",
+    "packages": [
+        {
+            "package": "dbt-labs/dbt_utils",
+            "version": [
+                ">=0.9.0",
+                "<2.0.0"
+            ]
+        }
+    ],
+    "require_dbt_version": [
+        ">=1.2.0",
+        "<2.0.0"
+    ],
+    "works_with": [],
+    "_source": {
+        "type": "github",
+        "url": "https://github.com/dbt-labs/dbt-audit-helper/tree/v0.11.0/",
+        "readme": "https://raw.githubusercontent.com/dbt-labs/dbt-audit-helper/v0.11.0/README.md"
+    },
+    "downloads": {
+        "tarball": "https://codeload.github.com/dbt-labs/dbt-audit-helper/tar.gz/v0.11.0",
+        "format": "tgz",
+        "sha1": "e9f31e7dcad5a4c7b46ef9f9efb178f1474df29b"
+    }
+}
