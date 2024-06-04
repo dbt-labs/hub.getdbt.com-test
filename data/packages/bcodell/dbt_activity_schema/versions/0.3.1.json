@@ -1,0 +1,22 @@
+{
+    "id": "bcodell/dbt_activity_schema/0.3.1",
+    "name": "dbt_activity_schema",
+    "version": "0.3.1",
+    "published_at": "2024-02-23T06:36:05",
+    "packages": [],
+    "require_dbt_version": [
+        ">=1.2.0",
+        "<2.0.0"
+    ],
+    "works_with": [],
+    "_source": {
+        "type": "github",
+        "url": "https://github.com/bcodell/dbt-activity-schema/tree/0.3.1/",
+        "readme": "https://raw.githubusercontent.com/bcodell/dbt-activity-schema/0.3.1/README.md"
+    },
+    "downloads": {
+        "tarball": "https://codeload.github.com/bcodell/dbt-activity-schema/tar.gz/0.3.1",
+        "format": "tgz",
+        "sha1": "a4aea8836289da78c97f10355e2d26bf1881cf24"
+    }
+}
