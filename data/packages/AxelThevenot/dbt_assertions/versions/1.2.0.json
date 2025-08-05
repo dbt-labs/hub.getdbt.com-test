@@ -1,0 +1,22 @@
+{
+    "id": "AxelThevenot/dbt_assertions/1.2.0",
+    "name": "dbt_assertions",
+    "version": "1.2.0",
+    "published_at": "2024-02-27T13:09:31",
+    "packages": [],
+    "require_dbt_version": [
+        ">=1.7.0",
+        "<2.0.0"
+    ],
+    "works_with": [],
+    "_source": {
+        "type": "github",
+        "url": "https://github.com/AxelThevenot/dbt-assertions/tree/1.2.0/",
+        "readme": "https://raw.githubusercontent.com/AxelThevenot/dbt-assertions/1.2.0/README.md"
+    },
+    "downloads": {
+        "tarball": "https://codeload.github.com/AxelThevenot/dbt-assertions/tar.gz/1.2.0",
+        "format": "tgz",
+        "sha1": "9758f46b8fd7a965049bff4fd640fcb0875899d8"
+    }
+}

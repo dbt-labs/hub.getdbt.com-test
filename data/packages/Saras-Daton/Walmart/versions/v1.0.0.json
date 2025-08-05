@@ -1,0 +1,27 @@
+{
+    "id": "Saras-Daton/Walmart/v1.0.0",
+    "name": "Walmart",
+    "version": "v1.0.0",
+    "published_at": "2023-05-15T18:17:02",
+    "packages": [
+        {
+            "package": "Saras-Daton/currency_exchange_rates",
+            "version": "1.0.2"
+        }
+    ],
+    "require_dbt_version": [
+        ">=1.0.0",
+        "<2.0.0"
+    ],
+    "works_with": [],
+    "_source": {
+        "type": "github",
+        "url": "https://github.com/Saras-Daton/PinterestAds/tree/v1.0.0/",
+        "readme": "https://raw.githubusercontent.com/Saras-Daton/PinterestAds/v1.0.0/README.md"
+    },
+    "downloads": {
+        "tarball": "https://codeload.github.com/Saras-Daton/PinterestAds/tar.gz/v1.0.0",
+        "format": "tgz",
+        "sha1": "d6e557a15444119714613bd8ad3db7e8e8f78682"
+    }
+}

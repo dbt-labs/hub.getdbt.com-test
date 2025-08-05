@@ -1,0 +1,9 @@
+{
+    "name": "incr_stream",
+    "namespace": "arnoN7",
+    "description": "dbt models for dbt-incremental-stream",
+    "latest": "1.1.0",
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
