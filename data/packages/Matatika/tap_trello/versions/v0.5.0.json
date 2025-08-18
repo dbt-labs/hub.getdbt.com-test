@@ -1,0 +1,22 @@
+{
+    "id": "Matatika/tap_trello/v0.5.0",
+    "name": "tap_trello",
+    "version": "v0.5.0",
+    "published_at": "1970-01-01T00:00:00.000000+00:00",
+    "packages": [],
+    "require_dbt_version": [
+        ">=1.0.0",
+        "<2.0.0"
+    ],
+    "works_with": [],
+    "_source": {
+        "type": "github",
+        "url": "https://github.com/Matatika/dbt-tap-trello/tree/v0.5.0/",
+        "readme": "https://raw.githubusercontent.com/Matatika/dbt-tap-trello/v0.5.0/README.md"
+    },
+    "downloads": {
+        "tarball": "https://codeload.github.com/Matatika/dbt-tap-trello/tar.gz/v0.5.0",
+        "format": "tgz",
+        "sha1": "7e8b73013c5b1a5dcca9e3f281eb10b7cba0c063"
+    }
+}
