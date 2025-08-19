@@ -2,6 +2,10 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'salesforce_source.materialized'.
+  --> ../fivetran_dbt_salesforce_source/dbt_project.yml:9:19
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'salesforce_source.tmp.materialized'.
+  --> ../fivetran_dbt_salesforce_source/dbt_project.yml:8:21
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -94,4 +98,4 @@ error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:172:9
-  Finished 'parse' target 'dev' with 46 errors and 1 warning in 204ms
+  Finished 'parse' target 'dev' with 48 errors and 1 warning in 192ms
