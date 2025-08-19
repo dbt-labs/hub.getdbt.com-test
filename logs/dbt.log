@@ -22,4 +22,4 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:11:5
-  Finished 'parse' target 'dev' with 7 errors and 1 warning in 104ms 531us 219ns
+  Finished 'parse' target 'dev' with 7 errors and 1 warning in 99ms 200us 447ns
