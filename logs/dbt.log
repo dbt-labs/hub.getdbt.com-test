@@ -1,33 +1,4 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-  Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The dbt_snow_utils.stg_snowpipe__copy_history model triggered this warning. 
-
-(in models/staging/snowpipe/stg_snowpipe__copy_history.sql:23:2)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/snowpipe/stg_snowpipe__copy_history.sql:23:2
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The dbt_snow_utils.stg_snowpipe__usage_history model triggered this warning. 
-
-(in models/staging/snowpipe/stg_snowpipe__usage_history.sql:11:2)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/snowpipe/stg_snowpipe__usage_history.sql:11:2
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 279ms
+  Finished 'parse' target 'dev' with 1 warning in 58ms
