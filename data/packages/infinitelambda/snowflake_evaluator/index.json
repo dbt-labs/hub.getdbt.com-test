@@ -1,0 +1,10 @@
+{
+    "name": "snowflake_evaluator",
+    "namespace": "infinitelambda",
+    "description": "dbt models for dbt-snowflake-evaluator",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
