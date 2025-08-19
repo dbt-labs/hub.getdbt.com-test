@@ -1,4 +1,97 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-  Finished 'parse' target 'dev' in 137ms
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_day.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_day_by_company.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_day_by_country.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_day_by_country_company.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_day_by_country_company_filtered_both.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_day_by_country_company_filtered_country.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_day_by_country_company_numeric_filter.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_month.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_month_by_days.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_year.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in tests/get_missing_dates/assert_missing_year_by_month.sql:3:5)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1005: Ref 'data_generator_enriched_describe' not found in project. Searched for 'dbt_eda_tools.data_generator_enriched_describe, data_generator_enriched_describe'
+  --> tests/describe/assert_data_describe_all.sql:8:24
+error: dbt1005: Ref 'data_generator_enriched_describe' not found in project. Searched for 'dbt_eda_tools.data_generator_enriched_describe, data_generator_enriched_describe'
+  --> tests/describe/assert_data_describe_column_details.sql:8:24
+error: dbt1005: Ref 'data_aggregated_mixed_granularity' not found in project. Searched for 'dbt_eda_tools.data_aggregated_mixed_granularity, data_aggregated_mixed_granularity'
+  --> tests/describe/assert_data_describe_column_details_estimated_granularity.sql:8:24
+error: dbt1005: Ref 'data_aggregated_yearly_granularity' not found in project. Searched for 'dbt_eda_tools.data_aggregated_yearly_granularity, data_aggregated_yearly_granularity'
+  --> tests/describe/assert_data_describe_column_details_estimated_granularity_yearly.sql:8:24
+error: dbt1005: Ref 'data_generator_enriched_describe' not found in project. Searched for 'dbt_eda_tools.data_generator_enriched_describe, data_generator_enriched_describe'
+  --> tests/describe/assert_data_describe_include.sql:8:24
+error: dbt1005: Ref 'data_generator_enriched_describe' not found in project. Searched for 'dbt_eda_tools.data_generator_enriched_describe, data_generator_enriched_describe'
+  --> tests/describe/assert_data_describe_structure.sql:8:24
+error: dbt1005: Ref 'data_aggregated' not found in project. Searched for 'dbt_eda_tools.data_aggregated, data_aggregated'
+  --> tests/percent_of_total/assert_percent_of_total_level.sql:9:10
+error: dbt1005: Ref 'data_aggregated' not found in project. Searched for 'dbt_eda_tools.data_aggregated, data_aggregated'
+  --> tests/percent_of_total/assert_percent_of_total_rounding.sql:9:6
+  Finished 'parse' target 'dev' with 19 errors in 145ms
