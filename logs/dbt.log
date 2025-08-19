@@ -9,4 +9,4 @@ error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' inste
 error: dbt1065: Package `intercom_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_intercom/models/intercom.yml:13:35
-  Finished 'parse' target 'dev' with 4 errors and 1 warning in 209ms
+  Finished 'parse' target 'dev' with 4 errors and 1 warning in 206ms
