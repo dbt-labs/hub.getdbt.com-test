@@ -2,10 +2,12 @@ dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
 warning: dbt1041: Found package-lock.yml file with out of date formatting, ignoring...
-   Loading dependencies.yml
+warning: dbt1041: Attempted to infer package name from package-lock.yml, but no packages directory found, skipping...
+  Fetching packages.yml
+Installing packages
+Installing dbt_utils: 1.3.0
    Loading dbt_project.yml
-   Loading dbt_packages/audit_helper/dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 2 warnings in 82ms 919us 400ns
+  Finished 'parse' target 'dev' with 3 warnings in 166ms 478us 106ns
