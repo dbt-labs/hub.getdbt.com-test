@@ -1,8 +1,5 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-warning: dbt1065: Updated version available for dbt_utils@0.9.6: 1.3.0
-Installing dbt_utils: 0.9.6
-  Finished 'parse' target 'dev' with 1 warning in 299ms
+  Finished 'parse' target 'dev' in 129ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
