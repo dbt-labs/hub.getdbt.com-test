@@ -7,4 +7,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
 error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: dq_tools
 (in :1:2)
   --> ../infinitelambda_dq-tools/models/01_lake/source_dq_tools.yml:5:13
-  Finished 'parse'  with 1 error and 1 warning in 46ms 122us 241ns
+  Finished 'parse'  with 1 error and 1 warning in 47ms 761us 187ns
