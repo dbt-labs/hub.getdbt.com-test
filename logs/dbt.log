@@ -3,5 +3,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1065: Package `zuora_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1005: dbt found two resources with the database relation "postgres"."public_zuora_source"."stg_zuora__account". Nodes: model.zuora_source.stg_zuora__account, model.zuora.stg_zuora__account
-  Finished 'parse'  with 2 errors and 1 warning in 225ms
+  Finished 'parse' target 'dev' with 1 error and 1 warning in 256ms
