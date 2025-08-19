@@ -6,4 +6,4 @@ error: dbt1065: Package `microsoft_ads_source` issued one or more compatibility 
 error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: doc: doc 'country' not found for package 'microsoft_ads'
 (in :1:2)
   --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:486:22
-  Finished 'parse'  with 2 errors and 1 warning in 142ms
+  Finished 'parse'  with 2 errors and 1 warning in 146ms
