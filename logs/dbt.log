@@ -3,31 +3,50 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 Installing packages
-warning: dbt1065: Updated version available for google_ads_source@0.13.0: 0.14.0
-Installing google_ads_source: 0.13.0
-Installing spark_utils: 0.3.0
+warning: dbt1065: Updated version available for facebook_pages@0.3.0: 1.0.0
+Installing facebook_pages: 0.3.0
 Installing fivetran_utils: 0.4.10
+Installing instagram_business_source: 0.3.0
+warning: dbt1065: Updated version available for instagram_business@0.3.0: 1.0.0
+Installing instagram_business: 0.3.0
+warning: dbt1065: Updated version available for twitter_organic@0.3.0: 1.0.0
+Installing twitter_organic: 0.3.0
+warning: dbt1065: Updated version available for youtube_analytics@0.5.0: 1.0.0
+Installing youtube_analytics: 0.5.0
+Installing spark_utils: 0.3.0
 Installing dbt_utils: 1.3.0
+Installing youtube_analytics_source: 0.5.0
+Installing linkedin_pages_source: 0.3.0
+warning: dbt1065: Updated version available for linkedin_pages@0.3.0: 1.0.0
+Installing linkedin_pages: 0.3.0
+Installing twitter_organic_source: 0.3.0
+Installing facebook_pages_source: 0.3.0
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
+   Loading dbt_packages/facebook_pages/dbt_project.yml
+   Loading dbt_packages/facebook_pages_source/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
-   Loading dbt_packages/google_ads_source/dbt_project.yml
+   Loading dbt_packages/instagram_business/dbt_project.yml
+   Loading dbt_packages/instagram_business_source/dbt_project.yml
+   Loading dbt_packages/linkedin_pages/dbt_project.yml
+   Loading dbt_packages/linkedin_pages_source/dbt_project.yml
    Loading dbt_packages/spark_utils/dbt_project.yml
+   Loading dbt_packages/twitter_organic/dbt_project.yml
+   Loading dbt_packages/twitter_organic_source/dbt_project.yml
+   Loading dbt_packages/youtube_analytics/dbt_project.yml
+   Loading dbt_packages/youtube_analytics_source/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1065: Package `google_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `instagram_business_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `linkedin_pages_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `facebook_pages_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `youtube_analytics_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `twitter_organic_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `facebook_pages` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `instagram_business` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `linkedin_pages` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `twitter_organic` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `youtube_analytics` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_ads/models/google_ads.yml:76:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_ads/models/google_ads.yml:114:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_ads/models/google_ads.yml:160:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_ads/models/google_ads.yml:213:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_ads/models/google_ads.yml:259:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_ads/models/google_ads.yml:312:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_ads/models/google_ads.yml:9:13
-  Finished 'parse' target 'dev' with 8 errors and 2 warnings in 1s 30ms 250us 324ns
+  --> ../fivetran_dbt_social_media_reporting/models/social_media_reporting.yml:9:13
+  Finished 'parse' target 'dev' with 11 errors and 6 warnings in 3s 944ms 963us 123ns
