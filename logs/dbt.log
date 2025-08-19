@@ -2,6 +2,33 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1065: Package `instagram_business_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1005: dbt found two resources with the database relation "postgres"."public_stg_instagram_business"."stg_instagram_business__media_history". Nodes: model.instagram_business_source.stg_instagram_business__media_history, model.instagram_business.stg_instagram_business__media_history
-  Finished 'parse'  with 2 errors and 1 warning in 126ms
+Installing packages
+Installing fivetran_utils: 0.4.10
+Installing dbt_utils: 1.3.0
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mailchimp_source/models/src_mailchimp.yml:7:5
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_mailchimp_source/models/stg_mailchimp.yml:481:13
+  Finished 'parse' target 'dev' with 13 errors and 1 warning in 341ms
