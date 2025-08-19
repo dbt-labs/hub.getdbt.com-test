@@ -2,7 +2,8 @@
     "name": "snowplow_media_player",
     "namespace": "snowplow",
     "description": "dbt models for dbt-snowplow-media-player",
-    "latest": "0.3.2",
+    "latest": "0.9.3",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
