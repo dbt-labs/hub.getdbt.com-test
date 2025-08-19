@@ -1,0 +1,10 @@
+{
+    "name": "hubspot",
+    "namespace": "dlt-hub",
+    "description": "dbt models for dlt-dbt-hubspot",
+    "latest": "0.1.5",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
