@@ -2,4 +2,7 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
    Loading packages.yml
-  Finished 'parse' target 'dev' with 1 warning in 144ms
+error: dbt1501: Failed to add template invalid operation: return() is called in a non-block context
+(in dbt_project_evaluator.default__calculate_number_lines:11:12)
+  --> dbt_project_evaluator.default__calculate_number_lines:11:12
+  Finished 'parse'  with 1 error and 1 warning in 49ms
