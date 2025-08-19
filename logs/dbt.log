@@ -36,24 +36,18 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_tiktok_ads_source/models/src_tiktok_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_tiktok_ads_source/models/src_tiktok_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_tiktok_ads_source/models/src_tiktok_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_tiktok_ads_source/models/src_tiktok_ads.yml:11:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:59:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:288:13
+  --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:275:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:113:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:208:13
+  --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:195:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:447:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:166:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:368:13
-  Finished 'parse' target 'dev' with 24 errors and 1 warning in 130ms 783us 114ns
+  --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:355:13
+  Finished 'parse' target 'dev' with 21 errors and 1 warning in 125ms 633us 336ns
