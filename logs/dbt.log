@@ -2,6 +2,6 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1005: Could not find package fivetran/facebook_pages_source in the package lookup map
-  Finished 'parse'  with 1 error and 1 warning in 154ms
+error: dbt1005: Could not find package fivetran/youtube_analytics_source in the package lookup map
+  Finished 'parse'  with 1 error and 1 warning in 211ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
