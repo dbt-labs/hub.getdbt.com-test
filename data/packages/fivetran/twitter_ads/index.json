@@ -2,7 +2,8 @@
     "name": "twitter_ads",
     "namespace": "fivetran",
     "description": "dbt models for dbt_twitter",
-    "latest": "0.7.0",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
