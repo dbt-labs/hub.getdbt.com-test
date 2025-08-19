@@ -1,6 +1,8 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
+error: dbt1059: Duplicate key `description`. This key overwrites a previous definition of the same key at line 160 column 9. YAML path: `models[0].columns[67].description`.
+  --> ../snowplow_dbt-snowplow-unified/models/sessions/sessions.yml:161:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-unified/models/base/manifest/base_manifest.yml:41:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
@@ -34,7 +36,7 @@ error: dbt1060: While parsing config: Ignored unexpected key `"describtion"`. YA
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-unified/models/optional_modules/conversions/conversions.yml:9:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-unified/models/optional_modules/conversions/conversions.yml:49:9
+  --> ../snowplow_dbt-snowplow-unified/models/optional_modules/conversions/conversions.yml:47:9
 error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
   --> models/optional_modules/conversions/snowplow_unified_conversions.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
@@ -54,11 +56,11 @@ error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_d
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-unified/models/user_mapping/user_mapping.yml:9:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:142:9
+  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:143:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:152:9
+  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:153:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:162:9
+  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:163:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[1].tags`.
   --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:11:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[1].tags`.
@@ -77,5 +79,17 @@ error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowpl
   --> models/views/snowplow_unified_views.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
   --> models/views/snowplow_unified_views.sql
-  Finished 'parse' target 'dev' with 38 errors in 332ms
+error: dbt0102: Deprecated test configs: ["enabled"] at top-level detected. Please migrate under the 'config' field.
+  --> ../snowplow_dbt-snowplow-unified/models/sessions/sessions.yml:45:24
+error: dbt0102: Deprecated test configs: ["enabled"] at top-level detected. Please migrate under the 'config' field.
+  --> ../snowplow_dbt-snowplow-unified/models/sessions/scratch/sessions_scratch.yml:45:24
+error: dbt0102: Deprecated test configs: ["enabled"] at top-level detected. Please migrate under the 'config' field.
+  --> ../snowplow_dbt-snowplow-unified/models/users/users.yml:44:24
+error: dbt0102: Deprecated test configs: ["enabled"] at top-level detected. Please migrate under the 'config' field.
+  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:42:24
+error: dbt0102: Deprecated test configs: ["enabled"] at top-level detected. Please migrate under the 'config' field.
+  --> ../snowplow_dbt-snowplow-unified/models/views/views.yml:71:24
+error: dbt0102: Deprecated test configs: ["enabled"] at top-level detected. Please migrate under the 'config' field.
+  --> ../snowplow_dbt-snowplow-unified/models/views/scratch/views_scratch.yml:71:24
+  Finished 'parse' target 'dev' with 45 errors in 330ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
