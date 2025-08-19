@@ -8,5 +8,7 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/quickbooks_source/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1065: Package `quickbooks_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-  Finished 'parse' target 'dev' with 1 error and 1 warning in 313ms 515us 799ns
+error: dbt1502: Failed to parse macro SQL syntax error: unexpected identifier, expected end of block
+(in models/docs.md:1:1)
+  --> models/docs.md:1:1
+  Finished 'parse'  with 1 error and 1 warning in 63ms 304us 654ns
