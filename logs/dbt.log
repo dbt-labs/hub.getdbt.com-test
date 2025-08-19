@@ -1,9 +1,14 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:67:20
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.databricks.enabled'.
-  --> <unknown>
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.snowflake.enabled'.
-  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:71:20
+error: dbt1060: Ignored unexpected key 'scratch'. Try '+scratch' instead. YAML path: 'snowplow_normalize.base.scratch'.
+  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:72:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-normalize/models/base/manifest/base_manifest.yml:9:9
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `base_create_snowplow_incremental_manifest` is unknown
+(in models/base/manifest/snowplow_normalize_incremental_manifest.sql:18:1)
+  --> models/base/manifest/snowplow_normalize_incremental_manifest.sql:18:1
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[6].tags`.
+  --> ../snowplow_dbt-snowplow-normalize/models/base/scratch/base_scratch.yml:28:9
+  Finished 'parse' target 'dev' with 4 errors in 177ms
+New version available 2.0.0-preview.2 (run `dbt system update`)
