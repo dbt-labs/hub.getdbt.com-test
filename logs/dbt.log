@@ -2,60 +2,23 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'recharge_source.tmp.materialized'.
-  --> ../fivetran_dbt_recharge_source/dbt_project.yml:39:21
+Installing packages
+Installing fivetran_utils: 0.4.10
+Installing dbt_utils: 1.3.0
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
+  --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
+  --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
+  --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
+  --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
+  --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
+  --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
+  --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:44:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:61:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:155:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:178:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:225:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:243:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:265:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:482:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:580:13
-  Finished 'parse' target 'dev' with 28 errors and 1 warning in 226ms
+  --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
+  Finished 'parse' target 'dev' with 8 errors and 1 warning in 465ms
