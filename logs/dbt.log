@@ -2,6 +2,8 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1065: Package `recurly_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1005: dbt found two resources with the database relation "postgres"."public_recurly_source"."stg_recurly__account_balance_history". Nodes: model.recurly_source.stg_recurly__account_balance_history, model.recurly.stg_recurly__account_balance_history
-  Finished 'parse'  with 2 errors and 1 warning in 189ms
+Installing packages
+Installing dbt_utils: 1.3.0
+Installing fivetran_utils: 0.4.10
+Installing spark_utils: 0.3.0
+  Finished 'parse' target 'dev' with 1 warning in 413ms
