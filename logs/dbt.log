@@ -2,8 +2,13 @@ dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+Installing dbt_date
+warning: dbt1065: Updated version available for dbt_utils@0.6.6: 0.7.0
+Installing dbt_utils: 0.6.6
    Loading dbt_project.yml
    Loading dbt_packages/dbt_date/dbt_project.yml
+   Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 warning in 98ms 170us 106ns
+  Finished 'parse' target 'dev' with 2 warnings in 973ms 311us 559ns
