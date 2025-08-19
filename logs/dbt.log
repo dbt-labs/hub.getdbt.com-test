@@ -1,6 +1,4 @@
 dbt-fusion 2.0.0-preview.1
-   Loading profiles.yml
-  Fetching packages.yml
-error: dbt1005: Could not find package godatadriven/dbt_date in the package lookup map
-  Finished 'parse'  with 1 error in 90ms
+error: dbt1005: 'data-paths' cannot be specified in dbt_project.yml
+  Finished 'parse'  with 1 error in 958μs
 New version available 2.0.0-preview.2 (run `dbt system update`)
