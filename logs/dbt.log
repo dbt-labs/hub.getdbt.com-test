@@ -1,6 +1,8 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
+error: dbt1059: Duplicate key `description`. This key overwrites a previous definition of the same key at line 160 column 9. YAML path: `models[0].columns[67].description`.
+  --> ../snowplow_dbt-snowplow-unified/models/sessions/sessions.yml:161:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-unified/models/base/manifest/base_manifest.yml:41:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
@@ -89,5 +91,5 @@ error: dbt0102: Deprecated test configs: ["enabled"] at top-level detected. Plea
   --> ../snowplow_dbt-snowplow-unified/models/views/views.yml:71:24
 error: dbt0102: Deprecated test configs: ["enabled"] at top-level detected. Please migrate under the 'config' field.
   --> ../snowplow_dbt-snowplow-unified/models/views/scratch/views_scratch.yml:71:24
-  Finished 'parse' target 'dev' with 44 errors in 317ms
+  Finished 'parse' target 'dev' with 45 errors in 349ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
