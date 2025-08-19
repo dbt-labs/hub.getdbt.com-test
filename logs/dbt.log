@@ -1,8 +1,16 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for spark_utils@0.1.0: 0.2.1
+Installing spark_utils: 0.1.0
+warning: dbt1065: Updated version available for dbt_utils@0.6.6: 0.7.0
+Installing dbt_utils: 0.6.6
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
+   Loading dbt_packages/spark_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' in 108ms 500us 785ns
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'dbt_date.example_models.enabled'.
+  --> ../godatadriven_dbt-date/dbt_project.yml:24:22
+  Finished 'parse' target 'dev' with 1 error and 2 warnings in 265ms 388us 686ns
