@@ -44,4 +44,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:166:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_tiktok_ads_source/models/stg_tiktok_ads.yml:355:13
-  Finished 'parse' target 'dev' with 21 errors and 1 warning in 133ms
+  Finished 'parse' target 'dev' with 21 errors and 1 warning in 132ms
