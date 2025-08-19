@@ -2,11 +2,6 @@ dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing fivetran_utils: 0.4.10
-Installing dbt_utils: 1.3.0
-Installing youtube_analytics_source: 0.5.0
-Installing spark_utils: 0.3.0
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
@@ -15,14 +10,5 @@ Installing spark_utils: 0.3.0
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1065: Package `youtube_analytics_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_youtube_analytics/models/youtube.yml:66:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_youtube_analytics/models/youtube.yml:106:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_youtube_analytics/models/youtube.yml:147:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_youtube_analytics/models/youtube.yml:179:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_youtube_analytics/models/youtube.yml:9:13
-  Finished 'parse' target 'dev' with 6 errors and 1 warning in 467ms 175us 527ns
+error: dbt1005: dbt found two resources with the database relation "postgres"."public_youtube_source"."stg_youtube__channel_basic". Nodes: model.youtube_analytics_source.stg_youtube__channel_basic, model.youtube_analytics.stg_youtube__channel_basic
+  Finished 'parse'  with 2 errors and 1 warning in 134ms 533us 988ns
