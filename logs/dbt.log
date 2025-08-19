@@ -7,4 +7,46 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 warning in 150ms 460us 679ns
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:178:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/jira_staging/src_rag_jira.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/jira_staging/src_rag_jira.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/jira_staging/src_rag_jira.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/jira_staging/src_rag_jira.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/jira_staging/src_rag_jira.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:16:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:74:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:100:9
+  Finished 'parse' target 'dev' with 21 errors and 1 warning in 140ms 988us 339ns
