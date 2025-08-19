@@ -2,5 +2,4 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1005: Could not find package dbt-labs/dbt_utils in the package lookup map
-  Finished 'parse'  with 1 error and 1 warning in 75ms
+  Finished 'parse' target 'dev' with 1 warning in 170ms
