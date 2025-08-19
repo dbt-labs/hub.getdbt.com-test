@@ -2,50 +2,96 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing fivetran_utils: 0.4.10
-Installing dbt_utils: 1.3.0
-Installing spark_utils: 0.3.0
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:17:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:16:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:375:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:516:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:123:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:664:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:122:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:778:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:860:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:966:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:1030:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:202:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:340:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:18:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:94:9
+  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:17:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:173:9
-  Finished 'parse' target 'dev' with 21 errors and 1 warning in 629ms
+  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:93:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:172:9
+  Finished 'parse' target 'dev' with 46 errors and 1 warning in 262ms
