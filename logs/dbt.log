@@ -64,4 +64,4 @@ error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_d
   --> models/transactions/snowplow_ecommerce_transaction_interactions.sql
 error: dbt1005: Found duplicate model 'snowplow_ecommerce_product_interactions_this_run'
   --> models/products/scratch/default/snowplow_ecommerce_product_interactions_this_run.sql
-  Finished 'parse'  with 29 errors in 143ms 172us 132ns
+  Finished 'parse'  with 29 errors in 142ms 617us 228ns
