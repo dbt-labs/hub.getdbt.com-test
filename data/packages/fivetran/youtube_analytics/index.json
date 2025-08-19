@@ -2,7 +2,8 @@
     "name": "youtube_analytics",
     "namespace": "fivetran",
     "description": "dbt models for dbt_youtube_analytics",
-    "latest": "0.4.0",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
