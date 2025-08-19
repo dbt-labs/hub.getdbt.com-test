@@ -1,0 +1,10 @@
+{
+    "name": "tasman_dbt_mta",
+    "namespace": "TasmanAnalytics",
+    "description": "dbt models for tasman-dbt-mta",
+    "latest": "1.0.2",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
