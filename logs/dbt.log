@@ -5,4 +5,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
 error: dbt1065: Package `twilio_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_twilio/models/twilio.yml:112:13
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 161ms
+  Finished 'parse' target 'dev' with 2 errors and 1 warning in 160ms
