@@ -4,62 +4,42 @@ warning: dbt1005: No profile specified in dbt_project.yml
   Fetching packages.yml
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_search_ads_source/models/src_apple_search_ads.yml:11:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:43:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:77:13
+  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:83:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:109:13
+  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:115:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:150:13
+  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:162:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:182:13
+  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:194:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:217:13
+  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:235:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:253:13
+  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:271:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:287:13
+  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:311:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:310:13
-  Finished 'parse' target 'dev' with 30 errors and 1 warning in 223ms
+  --> ../fivetran_dbt_apple_search_ads_source/models/stg_apple_search_ads.yml:334:13
+  Finished 'parse' target 'dev' with 20 errors and 1 warning in 226ms
