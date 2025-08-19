@@ -2,7 +2,8 @@
     "name": "dbt_linreg",
     "namespace": "dwreeves",
     "description": "dbt models for dbt_linreg",
-    "latest": "0.2.3",
+    "latest": "0.3.1",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
