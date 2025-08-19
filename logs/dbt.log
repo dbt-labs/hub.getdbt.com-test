@@ -1,10 +1,5 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1501: Failed to render SQL unknown function: In dispatch: No macro named 'channel_classification' found within namespace: 'snowplow_fractribution'
-    Searched for: 'snowplow_fractribution.postgres__channel_classification', 'snowplow_fractribution.default__channel_classification', 'snowplow_fractribution.postgres__channel_classification', 'snowplow_fractribution.default__channel_classification'
-(in models/snowflake/snowplow_fractribution_sessions_by_customer_id.sql:16:5)
-(in macros/channel_classification.sql:2:31)
-  --> macros/channel_classification.sql:2:31
-  Finished 'parse' target 'dev' with 1 error in 163ms
+  Finished 'parse' target 'dev' in 211ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
