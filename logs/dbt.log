@@ -1,6 +1,8 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
-   Loading dbt_project.yml
-   Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
-   Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' in 56ms 314us 64ns
+  Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for dbt_utils@0.9.6: 1.3.0
+Installing dbt_utils: 0.9.6
+error: dbt1001: Failed to open tar file: No such file or directory (os error 2)
+  Finished 'parse'  with 1 error and 1 warning in 778ms 978us 975ns
