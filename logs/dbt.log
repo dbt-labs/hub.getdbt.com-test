@@ -6,8 +6,7 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: While parsing config: Ignored unexpected key `"name"`. YAML path: `columns[0].data_tests[0].dbt_utils.accepted_range.config.name`.
-  --> ../dbt-labs_dbt-project-evaluator/models/marts/documentation/documentation.yml:16:15
-error: dbt1060: While parsing config: Ignored unexpected key `"name"`. YAML path: `columns[1].data_tests[0].dbt_utils.accepted_range.config.name`.
-  --> ../dbt-labs_dbt-project-evaluator/models/marts/tests/testing.yml:20:15
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 138ms 635us 100ns
+error: dbt1501: Failed to add template invalid operation: return() is called in a non-block context
+(in dbt_project_evaluator.default__calculate_number_lines:11:12)
+  --> dbt_project_evaluator.default__calculate_number_lines:11:12
+  Finished 'parse'  with 1 error and 1 warning in 46ms 842us 954ns
