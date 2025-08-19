@@ -1,8 +1,17 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: dq_tools
-(in :1:2)
-  --> ../infinitelambda_dq-tools/models/01_lake/source_dq_tools.yml:5:13
-  Finished 'parse'  with 1 error and 1 warning in 47ms
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../infinitelambda_dq-tools/models/03_mart/data-quality-score/bi_column_analysis.yml:50:17
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../infinitelambda_dq-tools/models/03_mart/data-quality-score/bi_column_analysis.yml:37:17
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../infinitelambda_dq-tools/models/03_mart/data-quality-score/bi_dq_metrics.yml:50:17
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../infinitelambda_dq-tools/models/03_mart/data-quality-score/bi_dq_metrics.yml:35:17
+error: dbt0102: Deprecated test arguments: ["expression"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../infinitelambda_dq-tools/models/03_mart/data-quality-score/bi_dq_metrics.yml:72:27
+error: dbt0102: Deprecated test arguments: ["expression"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../infinitelambda_dq-tools/models/03_mart/data-quality-score/bi_dq_metrics.yml:66:27
+  Finished 'parse' target 'dev' with 6 errors and 1 warning in 88ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
