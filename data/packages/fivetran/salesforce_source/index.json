@@ -2,8 +2,7 @@
     "name": "salesforce_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_salesforce_source",
-    "latest": "1.2.0",
-    "latest-fusion-schema-compat": false,
+    "latest": "1.0.0",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

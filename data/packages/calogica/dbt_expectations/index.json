@@ -2,8 +2,7 @@
     "name": "dbt_expectations",
     "namespace": "calogica",
     "description": "dbt models for dbt-expectations",
-    "latest": "0.10.4",
-    "latest-fusion-schema-compat": true,
+    "latest": "0.10.3",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

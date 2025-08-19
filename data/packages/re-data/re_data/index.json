@@ -2,8 +2,7 @@
     "name": "re_data",
     "namespace": "re-data",
     "description": "dbt models for dbt-re-data",
-    "latest": "0.11.0",
-    "latest-fusion-schema-compat": true,
+    "latest": "0.10.6",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

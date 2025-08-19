@@ -2,8 +2,7 @@
     "name": "snowplow_web",
     "namespace": "snowplow",
     "description": "dbt models for dbt-snowplow-web",
-    "latest": "1.0.1",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.9.3",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

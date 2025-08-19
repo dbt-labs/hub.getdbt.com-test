@@ -2,8 +2,7 @@
     "name": "netsuite_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_netsuite_source",
-    "latest": "0.13.1",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.9.0",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

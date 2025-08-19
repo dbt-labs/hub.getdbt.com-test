@@ -2,8 +2,7 @@
     "name": "facebook_ads_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_facebook_ads_source",
-    "latest": "0.10.0",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.7.1",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

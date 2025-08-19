@@ -2,8 +2,7 @@
     "name": "zendesk",
     "namespace": "fivetran",
     "description": "dbt models for dbt_zendesk",
-    "latest": "1.0.0",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.13.1",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

@@ -2,8 +2,7 @@
     "name": "github_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_github_source",
-    "latest": "0.9.1",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.5.0",
     "assets": {
         "logo": "logos/placeholder.svg"
     }
