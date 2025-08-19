@@ -6,4 +6,4 @@ error: dbt1065: Package `stripe_source` issued one or more compatibility warning
 error: dbt1501: Failed to render the Jinja str invalid operation: doc: doc 'convert_values' not found for package 'stripe'
 (in :1:35)
   --> ../fivetran_dbt_stripe/models/stripe.yml:36:20
-  Finished 'parse'  with 2 errors and 1 warning in 198ms
+  Finished 'parse'  with 2 errors and 1 warning in 202ms
