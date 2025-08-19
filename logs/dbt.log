@@ -83,5 +83,5 @@ error: dbt1005: Found duplicate model 'snowplow_ecommerce_base_sessions_lifecycl
   --> models/base/manifest/default/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
 error: dbt1005: Found duplicate model 'snowplow_ecommerce_base_events_this_run'
   --> models/base/scratch/default/snowplow_ecommerce_base_events_this_run.sql
-  Finished 'parse'  with 41 errors in 173ms
+  Finished 'parse'  with 41 errors in 158ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
