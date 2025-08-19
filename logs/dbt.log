@@ -7,8 +7,8 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:67:20
+  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:70:20
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.databricks.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.snowflake.enabled'.
-  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:71:20
+  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:74:20
