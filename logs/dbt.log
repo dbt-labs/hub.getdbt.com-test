@@ -2,7 +2,7 @@ dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
 warning: dbt1005: Package dbt_utils does not contain a dbt_project.yml file
-error: dbt1502: Failed to parse macro SQL syntax error: unexpected end of variable block, expected `,`
-(in macros/calendar_date/convert_timezone.sql:1:1)
-  --> macros/calendar_date/convert_timezone.sql:1:1
-  Finished 'parse'  with 1 error and 1 warning in 30ms
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'dbt_date.example_models.enabled'.
+  --> ../godatadriven_dbt-date/dbt_project.yml:24:22
+error: dbt1005: Encountered unexpected package not found in project: dbt_utils
+  Finished 'parse'  with 2 errors and 1 warning in 62ms
