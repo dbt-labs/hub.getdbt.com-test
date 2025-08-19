@@ -17,11 +17,7 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_tiktok_ads/models/tiktok_ads.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_tiktok_ads/models/tiktok_ads.yml:457:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_tiktok_ads/models/tiktok_ads.yml:263:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_tiktok_ads/models/tiktok_ads.yml:339:13
-error: dbt1005: Ref 'stg_tiktok_ads__campaign_country_report' not found in project. Searched for 'tiktok_ads.stg_tiktok_ads__campaign_country_report, stg_tiktok_ads__campaign_country_report'
-  --> models/tiktok_ads__campaign_country_report.sql:1:1
-  Finished 'parse' target 'dev' with 8 errors and 1 warning in 199ms 680us 859ns
+  Finished 'parse' target 'dev' with 6 errors and 1 warning in 201ms 193us 140ns
