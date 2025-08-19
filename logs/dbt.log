@@ -75,4 +75,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_iterable_source/models/stg_iterable.yml:300:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_iterable_source/models/stg_iterable.yml:329:13
-  Finished 'parse' target 'dev' with 34 errors and 1 warning in 135ms 654us 321ns
+  Finished 'parse' target 'dev' with 34 errors and 1 warning in 143ms 341us 515ns
