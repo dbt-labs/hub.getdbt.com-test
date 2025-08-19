@@ -1,19 +1,14 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-warning: dbt1065: Updated version available for snowplow_utils@0.16.8: 0.17.4
-Installing snowplow_utils: 0.16.8
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/snowplow_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key 'scratch'. Try '+scratch' instead. YAML path: 'snowplow_normalize.base.scratch'.
-  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:68:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-normalize/models/base/manifest/base_manifest.yml:9:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[6].tags`.
-  --> ../snowplow_dbt-snowplow-normalize/models/base/scratch/base_scratch.yml:28:9
-  Finished 'parse' target 'dev' with 3 errors and 1 warning in 338ms 626us 235ns
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.bigquery.enabled'.
+  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:67:20
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.databricks.enabled'.
+  --> <unknown>
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.snowflake.enabled'.
+  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:71:20
