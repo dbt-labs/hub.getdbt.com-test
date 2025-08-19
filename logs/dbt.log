@@ -5,4 +5,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
 error: dbt1501: Failed to add template invalid operation: return() is called in a non-block context
 (in dbt_project_evaluator.default__calculate_number_lines:11:12)
   --> dbt_project_evaluator.default__calculate_number_lines:11:12
-  Finished 'parse'  with 1 error and 1 warning in 49ms
+  Finished 'parse'  with 1 error and 1 warning in 46ms
