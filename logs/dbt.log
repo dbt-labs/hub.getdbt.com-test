@@ -1,10 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-warning: dbt1065: Updated version available for edu_edfi_source@0.4.10: 0.5.0
-Installing edu_edfi_source: 0.4.10
-Installing dbt_utils: 1.3.0
 error: dbt1065: Package `edu_edfi_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("base_ef3__student_education_organization_responsibility_associations")' is longer than 63 characters
   --> models/staging/edfi_3/base/base_ef3__student_education_organization_responsibility_associations.sql
@@ -483,9 +479,9 @@ error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Sear
 error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
   --> models/build/edfi_3/bld_ef3__wide_school_network_assoc.sql:45:34
 error: dbt1005: Ref 'xwalk_calendar_events' not found in project. Searched for 'edu_wh.xwalk_calendar_events, xwalk_calendar_events'
-  --> models/core_warehouse/dim_calendar_date.sql:23:19
+  --> models/core_warehouse/dim_calendar_date.sql:21:19
 error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
-  --> models/core_warehouse/dim_school.sql:50:34
+  --> models/core_warehouse/dim_school.sql:48:34
 error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
   --> models/core_warehouse/dim_school.sql:2:34
 error: dbt1005: Ref 'xwalk_subgroup_value_display_names' not found in project. Searched for 'edu_wh.xwalk_subgroup_value_display_names, xwalk_subgroup_value_display_names'
@@ -519,7 +515,7 @@ error: dbt1005: Ref 'xwalk_objective_assessment_scores' not found in project. Se
 error: dbt1005: Ref 'xwalk_grade_levels' not found in project. Searched for 'edu_wh.xwalk_grade_levels, xwalk_grade_levels'
   --> models/core_warehouse/fct_student_school_association.sql:30:19
 error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
-  --> models/core_warehouse/fct_student_school_attendance_event.sql:43:19
+  --> models/core_warehouse/fct_student_school_attendance_event.sql:51:19
 error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
   --> models/core_warehouse/fct_student_section_attendance_event.sql:21:19
 error: dbt1005: Ref 'absentee_categories' not found in project. Searched for 'edu_wh.absentee_categories, absentee_categories'
@@ -530,8 +526,6 @@ error: dbt1005: Ref 'stg_ef3__survey_response_education_organization_target_asso
   --> generic_tests/relationships_stg_ef3__survey__b6031ed86e6a48c7d08953f5d930efdc.sql:2:108
 error: dbt1005: Ref 'xwalk_assessment_school_year_dates' not found in project. Searched for 'edu_wh.xwalk_assessment_school_year_dates, xwalk_assessment_school_year_dates'
   --> tests/config_tests/cfg_assess_school_year_overlapping_dates.sql:20:20
-error: dbt1005: Ref 'xwalk_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_assessment_scores, xwalk_assessment_scores'
-  --> tests/config_tests/cfg_assessment_scores.sql:17:19
 error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
   --> tests/config_tests/cfg_attendance_codes_valid_range.sql:8:6
 error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
@@ -544,10 +538,8 @@ error: dbt1005: Ref 'xwalk_discipline_actions' not found in project. Searched fo
   --> tests/config_tests/cfg_discipline_actions.sql:11:19
 error: dbt1005: Ref 'xwalk_letter_grades' not found in project. Searched for 'edu_wh.xwalk_letter_grades, xwalk_letter_grades'
   --> tests/config_tests/cfg_letter_grades.sql:11:19
-error: dbt1005: Ref 'xwalk_objective_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_objective_assessment_scores, xwalk_objective_assessment_scores'
-  --> tests/config_tests/cfg_objective_assessment_scores.sql:17:19
 error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
   --> tests/config_tests/cfg_section_attendance_event_codes.sql:11:19
 error: dbt1005: Ref 'xwalk_student_programs' not found in project. Searched for 'edu_wh.xwalk_student_programs, xwalk_student_programs'
   --> tests/config_tests/cfg_student_programs_consistent_agg_types.sql:13:19
-  Finished 'parse' target 'dev' with 273 errors and 1 warning in 955ms
+  Finished 'parse' target 'dev' with 271 errors in 527ms
