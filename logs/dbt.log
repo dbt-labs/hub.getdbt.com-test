@@ -2,93 +2,94 @@ dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+Installing fivetran_utils: 0.4.10
+Installing dbt_utils: 1.3.0
    Loading dbt_project.yml
-   Loading dbt_packages/dbt_date/dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
-   Loading dbt_packages/spark_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:579:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1525:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1584:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:742:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:718:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:9:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:793:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1721:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1755:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1850:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1901:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1952:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:2003:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:819:13
-error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:863:23
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:886:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:945:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:976:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1004:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1060:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1081:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1113:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:158:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:548:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1555:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:93:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:60:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1152:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1176:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1217:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1247:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1271:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:331:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1295:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1335:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:371:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:519:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1361:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1697:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1481:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:444:13
-  Finished 'parse' target 'dev' with 41 errors and 1 warning in 298ms 704us 345ns
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:16:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:30:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:68:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:88:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:108:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:144:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:164:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:182:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:234:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:268:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:286:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:312:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:298:9
+error: dbt1060: While parsing config: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/stg_intercom.yml:54:5
+error: dbt1060: While parsing config: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/stg_intercom.yml:133:5
+  Finished 'parse' target 'dev' with 41 errors and 1 warning in 499ms 610us 371ns
