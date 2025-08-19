@@ -11,5 +11,12 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1065: Package `zendesk_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1005: dbt found two resources with the database relation "postgres"."public_zendesk_source"."stg_zendesk__brand". Nodes: model.zendesk_source.stg_zendesk__brand, model.zendesk.stg_zendesk__brand
-  Finished 'parse'  with 2 errors and 1 warning in 217ms 176us 175ns
+error: dbt1060: While parsing config: Ignored unexpected key `"dev_snowflake"`. YAML path: `columns[109].dev_snowflake`.
+  --> ../fivetran_dbt_zendesk/models/zendesk.yml:471:9
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_zendesk/models/zendesk.yml:190:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_zendesk/models/zendesk.yml:9:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_zendesk/models/zendesk.yml:247:13
+  Finished 'parse' target 'dev' with 5 errors and 1 warning in 1s 510ms 969us 959ns
