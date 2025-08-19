@@ -1,0 +1,10 @@
+{
+    "name": "snowplow_fractribution",
+    "namespace": "snowplow",
+    "description": "dbt models for dbt-snowplow-fractribution",
+    "latest": "0.3.7",
+    "latest-fusion-schema-compat": true,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
