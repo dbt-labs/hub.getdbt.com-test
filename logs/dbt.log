@@ -1,12 +1,9 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-error: dbt1060: Ignored unexpected key 'camunda'. Try '+camunda' instead. YAML path: 'camunda'.
-  --> ../metaops-solutions_dbt-camunda/dbt_project.yml:35:11
-error: dbt1060: Ignored unexpected key `"type"`. YAML path: `columns[0].type`.
-  --> ../metaops-solutions_dbt-camunda/models/staging/schema.yml:191:13
-error: dbt1060: Ignored unexpected key `"type"`. YAML path: `columns[2].type`.
-  --> ../metaops-solutions_dbt-camunda/models/staging/schema.yml:201:13
-error: dbt1060: Ignored unexpected key `"type"`. YAML path: `columns[8].type`.
-  --> ../metaops-solutions_dbt-camunda/models/staging/schema.yml:223:13
-  Finished 'parse' target 'dev' with 4 errors in 82ms
+  Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for audit_helper@0.7.0: 0.12.1
+Installing audit_helper: 0.7.0
+Installing dbt_utils: 1.3.0
+  Finished 'parse' target 'dev' with 1 warning in 393ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
