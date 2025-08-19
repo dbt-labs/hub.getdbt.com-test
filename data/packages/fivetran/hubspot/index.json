@@ -2,7 +2,8 @@
     "name": "hubspot",
     "namespace": "fivetran",
     "description": "dbt models for dbt_hubspot",
-    "latest": "0.6.3",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
