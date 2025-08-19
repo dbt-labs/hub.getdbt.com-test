@@ -1,15 +1,13 @@
 dbt-fusion 2.0.0-preview.1
-warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-  Fetching packages.yml
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.marts.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:27:21
+  --> ../grafana_dbt_leaner_query/dbt_project.yml:21:21
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.reports.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:30:21
+  --> ../grafana_dbt_leaner_query/dbt_project.yml:24:21
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.staging.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:33:21
+  --> ../grafana_dbt_leaner_query/dbt_project.yml:27:21
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.utils.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:39:21
+  --> ../grafana_dbt_leaner_query/dbt_project.yml:33:21
 error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
   --> models/reports/rpt_bigquery_dbt_metrics_daily.sql
 error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
@@ -20,9 +18,13 @@ error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
   --> models/reports/rpt_bigquery_usage_cost_daily.sql
 error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
   --> models/reports/rpt_bigquery_user_metrics_daily.sql
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../grafana_dbt_leaner_query/models/marts/bigquery_audit_log.yml:77:13
+warning: dbt1005: Unused schema.yml entry for model 'dim_query_statement'
+  --> models/marts/bigquery_audit_log.yml
 warning: dbt1005: Unused schema.yml entry for model 'int_dbt_execution_info'
   --> models/intermediate/int_bigquery_audit_log.yml
 warning: dbt1005: Unused schema.yml entry for model 'int_importance_calculation'
   --> models/intermediate/int_bigquery_audit_log.yml
-  Finished 'parse' target 'dev' with 9 errors and 3 warnings in 140ms
+  Finished 'parse' target 'dev' with 10 errors and 3 warnings in 104ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
