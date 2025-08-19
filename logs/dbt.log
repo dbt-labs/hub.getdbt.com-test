@@ -3,9 +3,9 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'quickbooks_source.materialized'.
-  --> ../fivetran_dbt_quickbooks_source/dbt_project.yml:11:19
+  --> ../fivetran_dbt_quickbooks_source/dbt_project.yml:10:19
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'quickbooks_source.tmp.materialized'.
-  --> ../fivetran_dbt_quickbooks_source/dbt_project.yml:13:21
+  --> ../fivetran_dbt_quickbooks_source/dbt_project.yml:12:21
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_quickbooks_source/models/src_quickbooks.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -166,156 +166,72 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_quickbooks_source/models/src_quickbooks.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_quickbooks_source/models/src_quickbooks.yml:9:5
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__invoice_line_bundle.sql:23:33)
-(in macros/get_invoice_line_bundle_columns.sql:4:55)
-  --> macros/get_invoice_line_bundle_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__account.sql:19:33)
-(in macros/get_account_columns.sql:4:55)
-  --> macros/get_account_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__invoice_linked_txn.sql:24:33)
-(in macros/get_invoice_linked_txn_columns.sql:4:55)
-  --> macros/get_invoice_linked_txn_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__address.sql:24:33)
-(in macros/get_address_columns.sql:4:55)
-  --> macros/get_address_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__bill.sql:24:33)
-(in macros/get_bill_columns.sql:5:55)
-  --> macros/get_bill_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__item.sql:21:33)
-(in macros/get_item_columns.sql:4:55)
-  --> macros/get_item_columns.sql:4:55
-error: dbt1060: While parsing config: Ignored unexpected key `"descrition"`. YAML path: `descrition`.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:69:5
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__bill_line.sql:24:33)
-(in macros/get_bill_line_columns.sql:4:55)
-  --> macros/get_bill_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__journal_entry.sql:24:33)
-(in macros/get_journal_entry_columns.sql:5:55)
-  --> macros/get_journal_entry_columns.sql:5:55
-error: dbt1060: While parsing config: Ignored unexpected key `"descrition"`. YAML path: `descrition`.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:99:5
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__bill_linked_txn.sql:24:33)
-(in macros/get_bill_linked_txn_columns.sql:4:55)
-  --> macros/get_bill_linked_txn_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__journal_entry_line.sql:24:33)
-(in macros/get_journal_entry_line_columns.sql:4:55)
-  --> macros/get_journal_entry_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__payment.sql:24:33)
-(in macros/get_payment_columns.sql:5:55)
-  --> macros/get_payment_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__bill_payment.sql:24:33)
-(in macros/get_bill_payment_columns.sql:5:55)
-  --> macros/get_bill_payment_columns.sql:5:55
-error: dbt1060: While parsing config: Ignored unexpected key `"descrition"`. YAML path: `descrition`.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:113:5
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__payment_line.sql:24:33)
-(in macros/get_payment_line_columns.sql:4:55)
-  --> macros/get_payment_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__bill_payment_line.sql:24:33)
-(in macros/get_bill_payment_line_columns.sql:4:55)
-  --> macros/get_bill_payment_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__bundle.sql:23:33)
-(in macros/get_bundle_columns.sql:4:55)
-  --> macros/get_bundle_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__purchase.sql:21:33)
-(in macros/get_purchase_columns.sql:5:55)
-  --> macros/get_purchase_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__bundle_item.sql:23:33)
-(in macros/get_bundle_item_columns.sql:4:55)
-  --> macros/get_bundle_item_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__purchase_line.sql:21:33)
-(in macros/get_purchase_line_columns.sql:4:55)
-  --> macros/get_purchase_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__credit_memo.sql:24:33)
-(in macros/get_credit_memo_columns.sql:5:55)
-  --> macros/get_credit_memo_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__credit_memo_line.sql:24:33)
-(in macros/get_credit_memo_line_columns.sql:4:55)
-  --> macros/get_credit_memo_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__refund_receipt.sql:24:33)
-(in macros/get_refund_receipt_columns.sql:5:55)
-  --> macros/get_refund_receipt_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__customer.sql:21:33)
-(in macros/get_customer_columns.sql:4:55)
-  --> macros/get_customer_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__department.sql:24:33)
-(in macros/get_department_columns.sql:4:55)
-  --> macros/get_department_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__refund_receipt_line.sql:24:33)
-(in macros/get_refund_receipt_line_columns.sql:4:55)
-  --> macros/get_refund_receipt_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__deposit.sql:24:33)
-(in macros/get_deposit_columns.sql:5:55)
-  --> macros/get_deposit_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__sales_receipt.sql:23:33)
-(in macros/get_sales_receipt_columns.sql:5:55)
-  --> macros/get_sales_receipt_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__deposit_line.sql:24:33)
-(in macros/get_deposit_line_columns.sql:4:55)
-  --> macros/get_deposit_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__sales_receipt_line.sql:23:33)
-(in macros/get_sales_receipt_line_columns.sql:4:55)
-  --> macros/get_sales_receipt_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__estimate.sql:24:33)
-(in macros/get_estimate_columns.sql:5:55)
-  --> macros/get_estimate_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__transfer.sql:24:33)
-(in macros/get_transfer_columns.sql:5:55)
-  --> macros/get_transfer_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__vendor.sql:21:33)
-(in macros/get_vendor_columns.sql:4:55)
-  --> macros/get_vendor_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__estimate_line.sql:24:33)
-(in macros/get_estimate_line_columns.sql:4:55)
-  --> macros/get_estimate_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__vendor_credit.sql:24:33)
-(in macros/get_vendor_credit_columns.sql:5:55)
-  --> macros/get_vendor_credit_columns.sql:5:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__invoice.sql:24:33)
-(in macros/get_invoice_columns.sql:5:55)
-  --> macros/get_invoice_columns.sql:5:55
 error: dbt1060: While parsing config: Ignored unexpected key `"test"`. YAML path: `columns[0].test`.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1011:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__vendor_credit_line.sql:24:33)
-(in macros/get_vendor_credit_line_columns.sql:4:55)
-  --> macros/get_vendor_credit_line_columns.sql:4:55
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_timestamp` is unknown
-(in models/stg_quickbooks__invoice_line.sql:24:33)
-(in macros/get_invoice_line_columns.sql:4:55)
-  --> macros/get_invoice_line_columns.sql:4:55
-  Finished 'parse' target 'dev' with 122 errors and 1 warning in 164ms
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1175:9
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:9:13
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:34:23
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:55:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:193:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:78:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:158:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:128:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:242:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:321:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:287:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:354:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:433:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:407:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:462:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:495:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:628:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:547:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:591:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:671:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:708:13
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:736:23
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:797:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:771:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:866:13
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:897:23
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:828:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1036:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1000:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1109:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1073:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1146:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1243:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1169:13
+  Finished 'parse' target 'dev' with 116 errors and 1 warning in 249ms
