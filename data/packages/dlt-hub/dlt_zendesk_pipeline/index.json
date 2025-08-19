@@ -1,0 +1,10 @@
+{
+    "name": "dlt_zendesk_pipeline",
+    "namespace": "dlt-hub",
+    "description": "dbt models for dlt-dbt-zendesk",
+    "latest": "0.1.0",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
