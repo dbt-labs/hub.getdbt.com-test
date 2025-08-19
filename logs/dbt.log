@@ -9,4 +9,5 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/spark_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 warning in 240ms 683us 780ns
+error: dbt1005: dbt found two resources with the database relation "postgres"."public_marketo_source"."stg_marketo__activity_change_data_value". Nodes: model.marketo_source.stg_marketo__activity_change_data_value, model.marketo.stg_marketo__activity_change_data_value
+  Finished 'parse'  with 1 error and 1 warning in 204ms 403us 980ns
