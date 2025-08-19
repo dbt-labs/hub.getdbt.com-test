@@ -45,9 +45,9 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:347:13
+  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:335:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:261:13
+  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:257:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:302:13
-  Finished 'parse' target 'dev' with 24 errors and 1 warning in 142ms
+  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:294:13
+  Finished 'parse' target 'dev' with 24 errors and 1 warning in 145ms
