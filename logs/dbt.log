@@ -4,24 +4,12 @@ warning: dbt1005: No profile specified in dbt_project.yml
   Fetching packages.yml
 Installing packages
 Installing dbt_utils: 1.3.0
-Installing fivetran_utils: 0.4.10
 Installing spark_utils: 0.3.0
+Installing fivetran_utils: 0.4.10
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
    Loading dbt_packages/spark_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_youtube_analytics_source/models/src_youtube.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_youtube_analytics_source/models/src_youtube.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_youtube_analytics_source/models/src_youtube.yml:8:5
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_youtube_analytics_source/models/stg_youtube.yml:9:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_youtube_analytics_source/models/stg_youtube.yml:52:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_youtube_analytics_source/models/stg_youtube.yml:88:13
-  Finished 'parse' target 'dev' with 6 errors and 1 warning in 312ms 858us 410ns
+  Finished 'parse' target 'dev' with 1 warning in 273ms 847us 560ns
