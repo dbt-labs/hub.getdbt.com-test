@@ -2,14 +2,8 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing fivetran_utils: 0.4.10
-Installing dbt_utils: 1.3.0
-Installing spark_utils: 0.3.0
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'recharge_source.tmp.materialized'.
+  --> ../fivetran_dbt_recharge_source/dbt_project.yml:35:21
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_recharge_source/models/src_recharge.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
@@ -47,17 +41,17 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:61:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:157:13
+  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:155:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:180:13
+  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:178:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:227:13
+  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:225:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:245:13
+  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:243:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:267:13
+  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:265:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:500:13
+  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:438:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:598:13
-  Finished 'parse' target 'dev' with 27 errors and 1 warning in 449ms
+  --> ../fivetran_dbt_recharge_source/models/stg_recharge.yml:536:13
+  Finished 'parse' target 'dev' with 26 errors and 1 warning in 180ms
