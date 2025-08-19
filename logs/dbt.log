@@ -6,4 +6,4 @@ warning: dbt1041: Found package-lock.yml file with out of date formatting, ignor
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 warning in 74ms 570us 891ns
+  Finished 'parse' target 'dev' with 1 warning in 69ms 906us 274ns
