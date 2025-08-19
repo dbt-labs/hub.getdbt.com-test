@@ -1,57 +1,28 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-   Loading packages.yml
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
+  Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for pinterest_source@0.12.0: 0.13.0
+Installing pinterest_source: 0.12.0
+Installing dbt_utils: 1.3.0
+Installing spark_utils: 0.3.0
+Installing fivetran_utils: 0.4.10
+error: dbt1065: Package `pinterest_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:329:13
+  --> ../fivetran_dbt_pinterest/models/pinterest.yml:95:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:50:13
+  --> ../fivetran_dbt_pinterest/models/pinterest.yml:190:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:10:13
+  --> ../fivetran_dbt_pinterest/models/pinterest.yml:345:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:275:13
+  --> ../fivetran_dbt_pinterest/models/pinterest.yml:409:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:151:13
+  --> ../fivetran_dbt_pinterest/models/pinterest.yml:149:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:379:13
+  --> ../fivetran_dbt_pinterest/models/pinterest.yml:228:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:396:13
+  --> ../fivetran_dbt_pinterest/models/pinterest.yml:281:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:429:13
-  Finished 'parse' target 'dev' with 26 errors and 1 warning in 132ms
+  --> ../fivetran_dbt_pinterest/models/pinterest.yml:9:13
+  Finished 'parse' target 'dev' with 9 errors and 2 warnings in 1s 63ms
