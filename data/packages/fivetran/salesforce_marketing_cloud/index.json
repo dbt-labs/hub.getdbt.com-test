@@ -2,7 +2,8 @@
     "name": "salesforce_marketing_cloud",
     "namespace": "fivetran",
     "description": "dbt models for dbt_salesforce_marketing_cloud",
-    "latest": "0.1.0",
+    "latest": "0.3.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
