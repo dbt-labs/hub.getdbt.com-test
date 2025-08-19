@@ -6,21 +6,21 @@ error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML p
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.base.manifest.redshift_postgres.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.base.scratch.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-mobile/dbt_project.yml:93:20
+  --> ../snowplow_dbt-snowplow-mobile/dbt_project.yml:90:20
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.base.scratch.databricks.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.base.scratch.redshift_postgres.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.base.scratch.snowflake.enabled'.
-  --> ../snowplow_dbt-snowplow-mobile/dbt_project.yml:99:20
+  --> ../snowplow_dbt-snowplow-mobile/dbt_project.yml:96:20
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.optional_modules.app_errors.scratch.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-mobile/dbt_project.yml:108:22
+  --> ../snowplow_dbt-snowplow-mobile/dbt_project.yml:105:22
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.optional_modules.app_errors.scratch.databricks.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.optional_modules.app_errors.scratch.redshift_postgres.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.optional_modules.app_errors.scratch.snowflake.enabled'.
-  --> ../snowplow_dbt-snowplow-mobile/dbt_project.yml:114:22
+  --> ../snowplow_dbt-snowplow-mobile/dbt_project.yml:111:22
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.screen_views.scratch.default.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_mobile.screen_views.scratch.redshift_postgres.enabled'.
