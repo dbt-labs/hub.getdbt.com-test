@@ -1,0 +1,10 @@
+{
+    "name": "dbt_alert",
+    "namespace": "infinitelambda",
+    "description": "dbt models for dbt-alert",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": true,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
