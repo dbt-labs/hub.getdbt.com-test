@@ -3,85 +3,77 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:579:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:581:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1523:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1586:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1585:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1645:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:742:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:744:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:718:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:720:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:9:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:793:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:795:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1722:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:821:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1756:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1851:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1902:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1953:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:2004:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:819:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:850:13
 error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:863:23
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:894:23
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:886:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:917:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:945:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:976:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:976:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1007:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1004:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1035:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1060:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1093:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1081:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:158:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1111:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:550:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:158:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1616:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:548:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:93:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1556:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:60:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:93:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1132:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:60:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1156:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1150:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1197:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1174:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1227:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1215:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1251:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1245:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1277:13
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1326:23
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1347:23
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1269:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:331:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:331:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1358:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1293:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1396:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1333:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:371:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:371:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:521:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:519:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1422:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1359:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1758:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1698:13
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:1542:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:1479:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_shopify_source/models/rest/stg_shopify.yml:444:13
-  Finished 'parse' target 'dev' with 41 errors and 1 warning in 447ms
+  --> ../fivetran_dbt_shopify_source/models/stg_shopify.yml:446:13
+  Finished 'parse' target 'dev' with 37 errors and 1 warning in 323ms
