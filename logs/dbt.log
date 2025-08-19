@@ -21,4 +21,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_stripe/models/stripe.yml:936:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe/models/stripe.yml:434:13
-  Finished 'parse' target 'dev' with 10 errors and 1 warning in 309ms
+  Finished 'parse' target 'dev' with 10 errors and 1 warning in 324ms
