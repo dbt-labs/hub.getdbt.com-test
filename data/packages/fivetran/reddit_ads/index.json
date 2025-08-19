@@ -1,9 +1,0 @@
-{
-    "name": "reddit_ads",
-    "namespace": "fivetran",
-    "description": "dbt models for dbt_reddit_ads",
-    "latest": "1.0.0",
-    "assets": {
-        "logo": "logos/placeholder.svg"
-    }
-}
