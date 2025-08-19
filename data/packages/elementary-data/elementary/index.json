@@ -2,8 +2,7 @@
     "name": "elementary",
     "namespace": "elementary-data",
     "description": "dbt models for dbt-data-reliability",
-    "latest": "0.19.2",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.13.2",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

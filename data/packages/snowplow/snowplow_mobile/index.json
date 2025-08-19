@@ -2,8 +2,7 @@
     "name": "snowplow_mobile",
     "namespace": "snowplow",
     "description": "dbt models for dbt-snowplow-mobile",
-    "latest": "1.0.0",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.5.5",
     "assets": {
         "logo": "logos/placeholder.svg"
     }
