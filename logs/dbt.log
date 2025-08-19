@@ -4,9 +4,9 @@ warning: dbt1005: No profile specified in dbt_project.yml
   Fetching packages.yml
 error: dbt1065: Package `sage_intacct_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_sage_intacct/models/sage_intacct.yml:257:13
+  --> ../fivetran_dbt_sage_intacct/models/sage_intacct.yml:262:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_sage_intacct/models/sage_intacct.yml:182:13
+  --> ../fivetran_dbt_sage_intacct/models/sage_intacct.yml:185:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_sage_intacct/models/sage_intacct.yml:224:13
-  Finished 'parse' target 'dev' with 4 errors and 1 warning in 214ms
+  --> ../fivetran_dbt_sage_intacct/models/sage_intacct.yml:228:13
+  Finished 'parse' target 'dev' with 4 errors and 1 warning in 252ms
