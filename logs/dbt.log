@@ -1,11 +1,15 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-error: dbt1501: Failed to render SQL unknown function: In dispatch: No macro named 'generate_uuid' found within namespace: 'tasman_dbt_mta'
-    Searched for: 'tasman_dbt_mta.postgres__generate_uuid', 'tasman_dbt_mta.default__generate_uuid', 'tasman_dbt_mta.postgres__generate_uuid', 'tasman_dbt_mta.default__generate_uuid'
-(in models/prs_tasman_mta__attribution_performance_history.sql:129:9)
-(in macros/generate_uuid.sql:2:29)
-  --> macros/generate_uuid.sql:2:29
+  Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for dbt_utils@0.8.6: 1.3.0
+Installing dbt_utils: 0.8.6
+error: dbt1501: Failed to render SQL unknown function: In dispatch: No macro named 'current_utc_time' found within namespace: 'tasman_dbt_mta'
+    Searched for: 'tasman_dbt_mta.postgres__current_utc_time', 'tasman_dbt_mta.default__current_utc_time', 'tasman_dbt_mta.postgres__current_utc_time', 'tasman_dbt_mta.default__current_utc_time'
+(in models/prs_tasman_mta__attribution_performance_history.sql:15:13)
+(in macros/current_utc_time.sql:2:29)
+  --> macros/current_utc_time.sql:2:29
 error: dbt1501: Failed to render SQL unknown function: In dispatch: No macro named 'current_utc_time' found within namespace: 'tasman_dbt_mta'
     Searched for: 'tasman_dbt_mta.postgres__current_utc_time', 'tasman_dbt_mta.default__current_utc_time', 'tasman_dbt_mta.postgres__current_utc_time', 'tasman_dbt_mta.default__current_utc_time'
 (in target/generic_tests/in_past_int_tasman_mta__attrib_34d0cada600b459e7e380d4804c7c638.sql:1:1)
@@ -42,5 +46,5 @@ error: dbt1501: Failed to render SQL unknown function: In dispatch: No macro nam
 (in macros/test_in_past.sql:5:52)
 (in macros/current_utc_time.sql:2:29)
   --> macros/current_utc_time.sql:2:29
-  Finished 'parse' target 'dev' with 7 errors and 1 warning in 84ms
+  Finished 'parse' target 'dev' with 7 errors and 2 warnings in 376ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
