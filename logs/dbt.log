@@ -4,5 +4,5 @@ warning: dbt1005: No profile specified in dbt_project.yml
 error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: tasman_dbt_revenuecat
 (in :1:2)
   --> ../TasmanAnalytics_tasman-dbt-revenuecat/models/sources.yml:9:21
-  Finished 'parse'  with 1 error and 1 warning in 60ms
+  Finished 'parse'  with 1 error and 1 warning in 53ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
