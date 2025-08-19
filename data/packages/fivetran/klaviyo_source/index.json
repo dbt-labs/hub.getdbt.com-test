@@ -2,7 +2,8 @@
     "name": "klaviyo_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_klaviyo_source",
-    "latest": "0.7.0",
+    "latest": "0.8.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
