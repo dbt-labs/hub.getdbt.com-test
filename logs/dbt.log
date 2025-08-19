@@ -1,0 +1,5 @@
+dbt-fusion 2.0.0-preview.1
+   Loading profiles.yml
+  Fetching packages.yml
+error: dbt1005: Package not found in hub registry: '1997mahadi/dbt-dlt-ingestion-pipeline'
+  Finished 'parse'  with 1 error in 108ms
