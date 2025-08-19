@@ -1,7 +1,7 @@
 dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-  Fetching packages.yml
+   Loading packages.yml
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
@@ -18,4 +18,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_netsuite/models/netsuite.yml:165:13
 error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_netsuite/models/netsuite.yml:206:21
-  Finished 'parse' target 'dev' with 5 errors and 1 warning in 276ms 696us 371ns
+  Finished 'parse' target 'dev' with 5 errors and 1 warning in 244ms 130us 623ns
