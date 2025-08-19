@@ -6,4 +6,4 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_mixpanel/models/staging/src_mixpanel.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_mixpanel/models/staging/src_mixpanel.yml:14:5
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 184ms
+  Finished 'parse' target 'dev' with 2 errors and 1 warning in 157ms
