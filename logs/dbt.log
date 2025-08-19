@@ -7,9 +7,9 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_ecommerce.products.scratch.databricks'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:136:11
-error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_ecommerce.products.scratch.default'.
   --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:138:11
+error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_ecommerce.products.scratch.default'.
+  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:140:11
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:41:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
@@ -64,4 +64,4 @@ error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_d
   --> models/transactions/snowplow_ecommerce_transaction_interactions.sql
 error: dbt1005: Found duplicate model 'snowplow_ecommerce_product_interactions_this_run'
   --> models/products/scratch/default/snowplow_ecommerce_product_interactions_this_run.sql
-  Finished 'parse'  with 29 errors in 145ms 937us 350ns
+  Finished 'parse'  with 29 errors in 144ms 465us 162ns
