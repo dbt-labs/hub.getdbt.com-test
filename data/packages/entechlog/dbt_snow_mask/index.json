@@ -2,7 +2,8 @@
     "name": "dbt_snow_mask",
     "namespace": "entechlog",
     "description": "dbt models for dbt-snow-mask",
-    "latest": "0.2.4",
+    "latest": "0.2.7",
+    "latest-fusion-schema-compat": true,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
