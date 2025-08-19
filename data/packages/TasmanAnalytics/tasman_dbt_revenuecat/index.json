@@ -1,0 +1,10 @@
+{
+    "name": "tasman_dbt_revenuecat",
+    "namespace": "TasmanAnalytics",
+    "description": "dbt models for tasman-dbt-revenuecat",
+    "latest": "1.2.3",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
