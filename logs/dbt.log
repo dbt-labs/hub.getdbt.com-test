@@ -45,9 +45,11 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_workday/models/staging/stg_workday.yml:1522:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_workday/models/workday.yml:182:13
+  --> ../fivetran_dbt_workday/models/workday.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_workday/models/workday.yml:300:13
+  --> ../fivetran_dbt_workday/models/workday.yml:188:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_workday/models/workday.yml:226:13
-  Finished 'parse' target 'dev' with 24 errors and 1 warning in 214ms
+  --> ../fivetran_dbt_workday/models/workday.yml:306:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_workday/models/workday.yml:232:13
+  Finished 'parse' target 'dev' with 25 errors and 1 warning in 220ms
