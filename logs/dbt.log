@@ -2,13 +2,9 @@ dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
 Installing packages
-warning: dbt1065: Updated version available for dbt_utils@0.2.5: 0.7.0
-Installing dbt_utils: 0.2.5
-error: dbt1060: Ignored unexpected key 'dbt_date:time_zone'. Try '+dbt_date:time_zone' instead. YAML path: 'vars.dbt_date:time_zone'.
-  --> ../godatadriven_dbt-date/dbt_project.yml:17:31
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `adapter_macro` is unknown
-(in models/examples/dim_date.sql:6:1)
-(in macros/get_date_dimension.sql:2:1)
-  --> macros/get_date_dimension.sql:2:1
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 355ms
+warning: dbt1065: Updated version available for dbt_utils@0.6.6: 0.7.0
+Installing dbt_utils: 0.6.6
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'dbt_date.example_models.enabled'.
+  --> ../godatadriven_dbt-date/dbt_project.yml:24:22
+  Finished 'parse' target 'dev' with 1 error and 1 warning in 323ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
