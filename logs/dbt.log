@@ -7,4 +7,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_mailchimp/models/mailchimp.yml:133:13
 error: dbt1005: Ref 'stg_mailchimp_campaign_activities' not found in project. Searched for 'mailchimp_source.stg_mailchimp_campaign_activities, mailchimp.stg_mailchimp_campaign_activities, stg_mailchimp_campaign_activities'
   --> models/tmp/stg_mailchimp__campaign_activities_tmp.sql:1:1
-  Finished 'parse' target 'dev' with 3 errors and 1 warning in 232ms
+  Finished 'parse' target 'dev' with 3 errors and 1 warning in 261ms
