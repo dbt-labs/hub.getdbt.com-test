@@ -2,21 +2,6 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-warning: dbt1065: Updated version available for google_play_source@0.4.0: 0.5.0
-Installing google_play_source: 0.4.0
-Installing fivetran_utils: 0.4.10
-Installing dbt_utils: 1.3.0
-Installing spark_utils: 0.3.0
 error: dbt1065: Package `google_play_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_play/models/google_play.yml:202:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_play/models/google_play.yml:60:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_play/models/google_play.yml:11:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_play/models/google_play.yml:255:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_google_play/models/google_play.yml:307:13
-  Finished 'parse' target 'dev' with 6 errors and 2 warnings in 839ms
+error: dbt1005: dbt found two resources with the database relation "postgres"."public_google_play_source"."stg_google_play__stats_crashes_app_version". Nodes: model.google_play_source.stg_google_play__stats_crashes_app_version, model.google_play.stg_google_play__stats_crashes_app_version
+  Finished 'parse'  with 2 errors and 1 warning in 161ms
