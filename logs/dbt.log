@@ -13,4 +13,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_reddit_ads/models/reddit_ads.yml:141:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_reddit_ads/models/reddit_ads.yml:176:13
-  Finished 'parse' target 'dev' with 6 errors and 1 warning in 267ms
+  Finished 'parse' target 'dev' with 6 errors and 1 warning in 236ms
