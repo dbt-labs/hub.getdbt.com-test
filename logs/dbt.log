@@ -2,16 +2,7 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1065: Package `quickbooks_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks/models/quickbooks.yml:131:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks/models/quickbooks.yml:479:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks/models/quickbooks.yml:244:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks/models/quickbooks.yml:378:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks/models/quickbooks.yml:433:13
-error: dbt1005: dbt found two resources with the database relation "postgres"."public_quickbooks"."quickbooks__balance_sheet". Nodes: analysis.quickbooks.quickbooks__balance_sheet, model.quickbooks.quickbooks__balance_sheet
-  Finished 'parse'  with 7 errors and 1 warning in 332ms
+error: dbt1502: Failed to parse macro SQL syntax error: unexpected identifier, expected end of block
+(in models/docs.md:1:1)
+  --> models/docs.md:1:1
+  Finished 'parse'  with 1 error and 1 warning in 95ms
