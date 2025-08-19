@@ -1,7 +1,7 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
-  Fetching dependencies.yml
+  Fetching packages.yml
    Loading dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' in 65ms 222us 61ns
+  Finished 'parse' target 'dev' in 120ms 887us 58ns
