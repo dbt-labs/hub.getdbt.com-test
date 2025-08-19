@@ -15,5 +15,19 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/twitter_organic/dbt_project.yml
    Loading dbt_packages/twitter_organic_source/dbt_project.yml
    Loading dbt_packages/youtube_analytics/dbt_project.yml
-error: dbt1005: Could not find package fivetran/youtube_analytics_source in the package lookup map
-  Finished 'parse'  with 1 error and 1 warning in 127ms 875us 285ns
+   Loading dbt_packages/youtube_analytics_source/dbt_project.yml
+   Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
+   Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
+error: dbt1065: Package `instagram_business_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `facebook_pages_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `linkedin_pages_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `twitter_organic_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `youtube_analytics_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `instagram_business` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `facebook_pages` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `linkedin_pages` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `twitter_organic` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `youtube_analytics` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_social_media_reporting/models/social_media_reporting.yml:9:13
+  Finished 'parse' target 'dev' with 11 errors and 1 warning in 308ms 671us 775ns
