@@ -2,12 +2,7 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-warning: dbt1065: Updated version available for quickbooks_source@0.12.1: 0.14.0
-Installing quickbooks_source: 0.12.1
-Installing dbt_utils: 1.3.0
-Installing fivetran_utils: 0.4.10
 error: dbt1502: Failed to parse macro SQL syntax error: unexpected identifier, expected end of block
 (in models/docs.md:1:1)
   --> models/docs.md:1:1
-  Finished 'parse'  with 1 error and 2 warnings in 554ms
+  Finished 'parse'  with 1 error and 1 warning in 50ms
