@@ -1,10 +1,7 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-  Fetching packages.yml
-Installing packages
-Installing fivetran_utils: 0.4.10
-Installing dbt_utils: 1.3.0
+   Loading packages.yml
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
@@ -49,4 +46,4 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:100:9
-  Finished 'parse' target 'dev' with 22 errors and 1 warning in 470ms
+  Finished 'parse' target 'dev' with 22 errors and 1 warning in 142ms
