@@ -1,5 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-  Finished 'parse' target 'dev' in 112ms
+warning: dbt1005: Package dbt_utils does not contain a dbt_project.yml file
+  Finished 'parse' target 'dev' with 1 warning in 100ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
