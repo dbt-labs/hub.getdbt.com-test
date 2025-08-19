@@ -6,86 +6,68 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_packages/snowplow_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_ecommerce.base.scratch.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:76:20
+error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_ecommerce.base.scratch.databricks'.
+  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:93:11
+error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_ecommerce.base.scratch.default'.
+  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:95:11
+error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_ecommerce.products.scratch.databricks'.
+  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:119:11
+error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_ecommerce.products.scratch.default'.
+  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:121:11
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:41:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_string` is unknown
-(in models/base/manifest/snowplow_ecommerce_base_quarantined_sessions.sql:23:18)
-  --> models/base/manifest/snowplow_ecommerce_base_quarantined_sessions.sql:23:18
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:9:9
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/base/manifest/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
   --> models/base/manifest/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `snowplow_is_incremental` is unknown
-(in models/base/manifest/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql:48:21)
-  --> models/base/manifest/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql:48:21
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:29:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `type_string` is unknown
-(in models/base/manifest/snowplow_ecommerce_incremental_manifest.sql:13:18)
-  --> models/base/manifest/snowplow_ecommerce_incremental_manifest.sql:13:18
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/base/scratch/base_scratch.yml:16:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/carts/scratch/carts_scratch.yml:9:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/carts/carts.yml:9:9
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/carts/snowplow_ecommerce_cart_interactions.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
   --> models/carts/snowplow_ecommerce_cart_interactions.sql
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/checkouts/scratch/checkouts_scratch.yml:9:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/checkouts/checkouts.yml:9:9
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/checkouts/snowplow_ecommerce_checkout_interactions.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
   --> models/checkouts/snowplow_ecommerce_checkout_interactions.sql
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/products/scratch/products_scratch.yml:9:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The snowplow_ecommerce.snowplow_ecommerce_product_interactions_this_run model triggered this warning. 
-
-(in models/products/scratch/snowplow_ecommerce_product_interactions_this_run.sql:9:5)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/products/scratch/snowplow_ecommerce_product_interactions_this_run.sql:9:5
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/products/products.yml:9:9
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/products/snowplow_ecommerce_product_interactions.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
   --> models/products/snowplow_ecommerce_product_interactions.sql
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/sessions/scratch/ecommerce_sessions_scratch.yml:9:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/sessions/ecommerce_sessions.yml:9:9
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/sessions/snowplow_ecommerce_sessions.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
   --> models/sessions/snowplow_ecommerce_sessions.sql
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/transactions/scratch/transactions_scratch.yml:9:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/transactions/transactions.yml:9:9
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/transactions/snowplow_ecommerce_transaction_interactions.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
   --> models/transactions/snowplow_ecommerce_transaction_interactions.sql
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
-warning: dbt1000: Warning: the `get_partition_by` macro is deprecated and will be removed in a future version of the package, please use `get_value_by_target_type` instead.
-warning: dbt0255: Custom materialization macros are not supported. Found custom materializations in the following nodes:
-  - model.snowplow_ecommerce.snowplow_ecommerce_cart_interactions (materialization: snowplow_incremental)
-  - model.snowplow_ecommerce.snowplow_ecommerce_checkout_interactions (materialization: snowplow_incremental)
-  - model.snowplow_ecommerce.snowplow_ecommerce_product_interactions (materialization: snowplow_incremental)
-  - model.snowplow_ecommerce.snowplow_ecommerce_sessions (materialization: snowplow_incremental)
-  - model.snowplow_ecommerce.snowplow_ecommerce_transaction_interactions (materialization: snowplow_incremental)
-
-  Finished 'parse' target 'dev' with 25 errors and 12 warnings in 174ms 953us 637ns
+error: dbt1005: Found duplicate model 'snowplow_ecommerce_product_interactions_this_run'
+  --> models/products/scratch/default/snowplow_ecommerce_product_interactions_this_run.sql
+error: dbt1005: Found duplicate model 'snowplow_ecommerce_base_events_this_run'
+  --> models/base/scratch/default/snowplow_ecommerce_base_events_this_run.sql
+  Finished 'parse'  with 32 errors in 139ms 535us 900ns
