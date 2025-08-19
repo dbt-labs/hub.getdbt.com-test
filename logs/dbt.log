@@ -2,13 +2,5 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1065: Package `jira_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:227:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:479:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:501:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:240:13
-  Finished 'parse' target 'dev' with 5 errors and 1 warning in 227ms
+error: dbt1005: Could not find package dbt-labs/spark_utils in the package lookup map
+  Finished 'parse'  with 1 error and 1 warning in 33ms
