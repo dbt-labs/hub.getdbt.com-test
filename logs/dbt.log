@@ -3,5 +3,7 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1065: Package `twitter_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1005: dbt found two resources with the database relation "postgres"."public_twitter_ads_source"."stg_twitter_ads__account_history". Nodes: model.twitter_ads_source.stg_twitter_ads__account_history, model.twitter_ads.stg_twitter_ads__account_history
-  Finished 'parse'  with 2 errors and 1 warning in 210ms
+error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: doc: doc 'country' not found for package 'twitter_ads'
+(in :1:2)
+  --> ../fivetran_dbt_twitter/models/twitter.yml:522:22
+  Finished 'parse'  with 2 errors and 1 warning in 264ms
