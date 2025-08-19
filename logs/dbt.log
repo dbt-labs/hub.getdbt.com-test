@@ -7,4 +7,4 @@ error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' inste
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'salesforce.materialized'.
   --> ../fivetran_dbt_salesforce/dbt_project.yml:7:19
 error: dbt1065: Package `salesforce_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-  Finished 'parse' target 'dev' with 3 errors and 1 warning in 231ms
+  Finished 'parse' target 'dev' with 3 errors and 1 warning in 232ms
