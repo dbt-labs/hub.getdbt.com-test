@@ -1,4 +1,4 @@
 dbt-fusion 2.0.0-preview.1
 error: dbt1005: 'data-paths' cannot be specified in dbt_project.yml
-  Finished 'parse'  with 1 error in 1ms
+  Finished 'parse'  with 1 error in 974μs
 New version available 2.0.0-preview.2 (run `dbt system update`)
