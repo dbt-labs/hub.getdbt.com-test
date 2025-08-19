@@ -1,11 +1,10 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
-warning: dbt1041: Found package-lock.yml file with out of date formatting, ignoring...
-   Loading packages.yml
+  Fetching packages.yml
    Loading dbt_project.yml
 warning: dbt1005: Package dbt_utils does not contain a dbt_project.yml file
    Loading dbt_packages/elementary/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1005: Encountered unexpected package not found in project: dbt_utils
-  Finished 'parse'  with 1 error and 2 warnings in 115ms 993us 590ns
+  Finished 'parse'  with 1 error and 1 warning in 128ms 543us 56ns
