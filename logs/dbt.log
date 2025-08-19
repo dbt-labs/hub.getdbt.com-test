@@ -52,4 +52,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_facebook_ads_source/models/stg_facebook_ads.yml:119:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_facebook_ads_source/models/stg_facebook_ads.yml:159:13
-  Finished 'parse' target 'dev' with 25 errors and 1 warning in 146ms
+  Finished 'parse' target 'dev' with 25 errors and 1 warning in 150ms
