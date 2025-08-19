@@ -1,5 +1,11 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-   Loading packages.yml
-  Finished 'parse' target 'dev' with 1 warning in 171ms
+  Fetching packages.yml
+error: dbt1062: Attempted to use disabled ref 'stg_marketo__campaigns'
+  --> models/marketo__campaigns.sql:1:1
+error: dbt1062: Attempted to use disabled ref 'stg_marketo__campaigns'
+  --> models/marketo__email_sends.sql:1:1
+error: dbt1062: Attempted to use disabled ref 'stg_marketo__program'
+  --> models/marketo__programs.sql:1:1
+  Finished 'parse' target 'dev' with 3 errors and 1 warning in 274ms
