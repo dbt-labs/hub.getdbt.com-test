@@ -1,9 +1,0 @@
-{
-    "name": "salesforce",
-    "namespace": "dlt-hub",
-    "description": "dbt models for dlt-dbt-salesforce",
-    "latest": "0.2.2",
-    "assets": {
-        "logo": "logos/placeholder.svg"
-    }
-}
