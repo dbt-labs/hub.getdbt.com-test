@@ -1,5 +1,3 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-warning: dbt1041: Found package-lock.yml file with out of date formatting, ignoring...
-   Loading packages.yml
-  Finished 'parse' target 'dev' with 1 warning in 74ms
+  Finished 'parse' target 'dev' in 71ms
