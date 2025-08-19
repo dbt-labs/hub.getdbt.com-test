@@ -5,5 +5,23 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_project.yml
    Loading dbt_packages/dbt_date/dbt_project.yml
    Loading dbt_packages/dbt_expectations/dbt_project.yml
-error: dbt1005: Could not find package calogica/dbt_date in the package lookup map
-  Finished 'parse'  with 1 error and 1 warning in 57ms 541us 635ns
+   Loading dbt_packages/dbt_utils/dbt_project.yml
+   Loading dbt_packages/fivetran_utils/dbt_project.yml
+   Loading dbt_packages/google_ads_source/dbt_project.yml
+   Loading dbt_packages/spark_utils/dbt_project.yml
+   Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
+   Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
+error: dbt1065: Package `google_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_ads/models/google_ads.yml:67:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_ads/models/google_ads.yml:96:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_ads/models/google_ads.yml:133:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_ads/models/google_ads.yml:177:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_ads/models/google_ads.yml:214:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_ads/models/google_ads.yml:9:13
+  Finished 'parse' target 'dev' with 7 errors and 1 warning in 235ms 436us 745ns
