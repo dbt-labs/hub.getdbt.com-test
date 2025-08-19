@@ -13,4 +13,5 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_quickbooks/models/quickbooks.yml:378:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_quickbooks/models/quickbooks.yml:433:13
-  Finished 'parse' target 'dev' with 6 errors and 1 warning in 382ms
+error: dbt1005: dbt found two resources with the database relation "postgres"."public_quickbooks"."quickbooks__balance_sheet". Nodes: analysis.quickbooks.quickbooks__balance_sheet, model.quickbooks.quickbooks__balance_sheet
+  Finished 'parse'  with 7 errors and 1 warning in 332ms
