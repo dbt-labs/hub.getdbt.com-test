@@ -13,15 +13,15 @@ error: dbt1065: Package `microsoft_ads_source` issued one or more compatibility 
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:11:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:53:13
+  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:59:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:103:13
+  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:117:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:161:13
+  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:183:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:213:13
+  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:242:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:275:13
+  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:312:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:338:13
-  Finished 'parse' target 'dev' with 8 errors and 1 warning in 232ms 84us 439ns
+  --> ../fivetran_dbt_microsoft_ads/models/microsoft_ads.yml:383:13
+  Finished 'parse' target 'dev' with 8 errors and 1 warning in 207ms 633us 158ns
