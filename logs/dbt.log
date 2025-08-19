@@ -5,5 +5,5 @@ error: dbt1060: Ignored unexpected key `"install_prerelease"`. YAML path: `packa
   Fetching packages.yml
 error: dbt1060: Ignored unexpected key `"install_prerelease"`. YAML path: `packages[1].install_prerelease`.
   --> ../tuva-health_the_tuva_project/packages.yml:6:5
-  Finished 'parse' target 'dev' with 2 errors in 925ms
+  Finished 'parse' target 'dev' with 2 errors in 913ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
