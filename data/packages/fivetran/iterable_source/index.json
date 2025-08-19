@@ -2,7 +2,8 @@
     "name": "iterable_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_iterable_source",
-    "latest": "0.8.0",
+    "latest": "0.10.2",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
