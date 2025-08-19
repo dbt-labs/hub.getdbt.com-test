@@ -1,10 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-warning: dbt1065: Updated version available for snowplow_utils@0.13.2: 0.17.4
-Installing snowplow_utils: 0.13.2
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.bigquery.enabled'.
   --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:67:20
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_normalize.base.scratch.databricks.enabled'.
