@@ -11,21 +11,25 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1065: Package `stripe_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:569:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:613:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:686:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:730:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe/models/stripe.yml:24:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:493:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:527:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:811:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:855:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:267:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:305:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:350:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:384:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:936:13
+  --> ../fivetran_dbt_stripe/models/standardized_models/stripe__standardized_models.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:434:13
-  Finished 'parse' target 'dev' with 10 errors and 1 warning in 279ms 589us 357ns
+  --> ../fivetran_dbt_stripe/models/stripe.yml:980:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_stripe/models/stripe.yml:468:13
+error: dbt1005: Ref 'stg_stripe__payout_balance_transaction' not found in project. Searched for 'stripe.stg_stripe__payout_balance_transaction, stg_stripe__payout_balance_transaction'
+  --> models/stripe__balance_transactions.sql:1:1
+  Finished 'parse' target 'dev' with 12 errors and 1 warning in 311ms 756us 282ns
