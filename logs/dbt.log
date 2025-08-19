@@ -1,4 +1,32 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-  Finished 'parse' target 'dev' in 128ms
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in examples/public/get_missing_dates/get_missing_dates_ex1.sql:18:1)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in examples/public/get_missing_dates/get_missing_dates_ex2.sql:18:1)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in examples/public/get_missing_dates/get_missing_dates_ex3.sql:18:1)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in examples/public/get_missing_dates/get_missing_dates_ex4.sql:18:1)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+  Finished 'parse' target 'dev' with 4 errors in 141ms
