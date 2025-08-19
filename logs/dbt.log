@@ -7,4 +7,4 @@ error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' inste
 error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: shopify
 (in :1:2)
   --> ../dlt-hub_dlt-dbt-shopify/models/sources.yml:4:13
-  Finished 'parse'  with 3 errors in 46ms
+  Finished 'parse'  with 3 errors in 44ms
