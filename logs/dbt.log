@@ -1,9 +1,3 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-error: dbt1060: Ignored unexpected key 'dbt_facebook_ads'. Try '+dbt_facebook_ads' instead. YAML path: 'dbt_facebook_ads'.
-  --> ../windsor-ai_dbt_facebook_ads/dbt_project.yml:35:20
-error: dbt1005: Ref 'report' not found in project. Searched for 'dbt_facebook_ads.report, report'
-  --> models/facebook_ads_ad_report.sql:1:1
-error: dbt1005: Ref 'ad' not found in project. Searched for 'dbt_facebook_ads.ad, ad'
-  --> models/facebook_ads_ad_report.sql:1:1
-  Finished 'parse' target 'dev' with 3 errors in 55ms
+  Finished 'parse' target 'dev' in 56ms
