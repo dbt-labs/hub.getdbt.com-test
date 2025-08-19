@@ -1,15 +1,8 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-error: dbt1060: Ignored unexpected key 'tasman_dbt_package'. Try '+tasman_dbt_package' instead. YAML path: 'tasman_dbt_package'.
-  --> ../TasmanAnalytics_tasman-identity-graph/dbt_project.yml:12:22
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../TasmanAnalytics_tasman-identity-graph/models/core/_core.yml:9:13
-error: dbt0102: Deprecated test arguments: ["compare_model"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../TasmanAnalytics_tasman-identity-graph/models/core/_core.yml:43:26
-error: dbt1005: Ref 'identifies_events' not found in project. Searched for 'tasman_dbt_package.identifies_events, identifies_events'
-  --> models/core/base_table.sql:11:9
-error: dbt1005: Ref 'expected_output' not found in project. Searched for 'tasman_dbt_package.expected_output, expected_output'
-  --> generic_tests/dbt_utils_equality_profiles_ref_expected_output.sql:1:42
-  Finished 'parse' target 'dev' with 5 errors and 1 warning in 64ms
+error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: tasman_dbt_revenuecat
+(in :1:2)
+  --> ../TasmanAnalytics_tasman-dbt-revenuecat/models/sources.yml:9:21
+  Finished 'parse'  with 1 error and 1 warning in 44ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
