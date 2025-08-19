@@ -1,7 +1,7 @@
 dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-   Loading packages.yml
+  Fetching packages.yml
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
@@ -15,4 +15,14 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_xero/models/xero.yml:119:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_xero/models/xero.yml:37:13
-  Finished 'parse' target 'dev' with 4 errors and 1 warning in 126ms 674us 537ns
+error: dbt1005: Ref 'stg_xero__invoice_line_item_has_tracking_category' not found in project. Searched for 'xero.stg_xero__invoice_line_item_has_tracking_category, stg_xero__invoice_line_item_has_tracking_category'
+  --> models/intermediate/int_xero__invoice_line_item_pivoted_tracking_categories.sql:1:1
+error: dbt1005: Ref 'stg_xero__journal_line_has_tracking_category' not found in project. Searched for 'xero.stg_xero__journal_line_has_tracking_category, stg_xero__journal_line_has_tracking_category'
+  --> models/intermediate/int_xero__journal_line_pivoted_tracking_categories.sql:1:1
+error: dbt1005: Ref 'stg_xero__tracking_category' not found in project. Searched for 'xero.stg_xero__tracking_category, stg_xero__tracking_category'
+  --> models/intermediate/int_xero__tracking_categories_with_options.sql:1:1
+error: dbt1005: Ref 'stg_xero__tracking_category_has_option' not found in project. Searched for 'xero.stg_xero__tracking_category_has_option, stg_xero__tracking_category_has_option'
+  --> models/intermediate/int_xero__tracking_categories_with_options.sql:1:1
+error: dbt1005: Ref 'stg_xero__tracking_category_option' not found in project. Searched for 'xero.stg_xero__tracking_category_option, stg_xero__tracking_category_option'
+  --> models/intermediate/int_xero__tracking_categories_with_options.sql:1:1
+  Finished 'parse' target 'dev' with 9 errors and 1 warning in 181ms 718us 448ns
