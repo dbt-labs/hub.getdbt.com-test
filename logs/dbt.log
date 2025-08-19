@@ -2,42 +2,22 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'apple_store_source.materialized'.
-  --> ../fivetran_dbt_apple_store_source/dbt_project.yml:23:19
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'apple_store_source.tmp.materialized'.
-  --> ../fivetran_dbt_apple_store_source/dbt_project.yml:26:21
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:10:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:10:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:10:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:10:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:10:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:10:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:10:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_apple_store_source/models/src_apple_store.yml:10:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:187:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -45,10 +25,10 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:347:13
+  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:335:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:261:13
+  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:257:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:302:13
-  Finished 'parse' target 'dev' with 24 errors and 1 warning in 195ms
+  --> ../fivetran_dbt_apple_store_source/models/stg_apple_store.yml:294:13
+  Finished 'parse' target 'dev' with 14 errors and 1 warning in 195ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
