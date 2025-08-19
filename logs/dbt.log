@@ -5,107 +5,173 @@ warning: dbt1005: No profile specified in dbt_project.yml
 Installing packages
 Installing fivetran_utils: 0.4.10
 Installing dbt_utils: 1.3.0
+Installing spark_utils: 0.3.0
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
+   Loading dbt_packages/spark_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_sap/models/staging/src_sap.yml:9:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:9:13
+  --> ../fivetran_dbt_sap/models/extractor_reports/extractor_reports.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:73:13
+  --> ../fivetran_dbt_sap/models/extractor_reports/extractor_reports.yml:36:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:92:13
+  --> ../fivetran_dbt_sap/models/extractor_reports/extractor_reports.yml:53:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:146:13
+  --> ../fivetran_dbt_sap/models/extractor_reports/extractor_reports.yml:68:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:207:13
+  --> ../fivetran_dbt_sap/models/extractor_reports/extractor_reports.yml:137:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:226:13
+  --> ../fivetran_dbt_sap/models/extractor_reports/extractor_reports.yml:617:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:290:13
+  --> ../fivetran_dbt_sap/models/extractor_reports/extractor_reports.yml:661:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:305:13
+  --> ../fivetran_dbt_sap/models/extractor_reports/extractor_reports.yml:922:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:320:13
+  --> ../fivetran_dbt_sap/models/extractor_reports/extractor_reports.yml:987:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:335:13
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:439:13
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:60:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:655:13
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:310:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:485:13
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:338:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:531:13
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:373:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:554:13
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:569:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:626:13
-  Finished 'parse' target 'dev' with 49 errors and 1 warning in 535ms 655us 535ns
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:737:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:1033:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:1820:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:1924:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:2164:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:2567:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:2860:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:2884:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:3383:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:3454:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:3573:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:3676:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:4259:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:4360:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:4411:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:4584:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:4882:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:4917:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:4956:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:5048:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:5072:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:5203:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:5230:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:5278:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:5335:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:5368:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:5392:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:5723:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:6511:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_sap/models/staging/stg_sap.yml:6699:13
+  Finished 'parse' target 'dev' with 81 errors and 1 warning in 1s 16ms 518us 900ns
