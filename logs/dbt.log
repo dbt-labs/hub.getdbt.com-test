@@ -2,176 +2,105 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+Installing dbt_utils: 1.3.0
+Installing fivetran_utils: 0.4.10
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite/src_netsuite.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_netsuite_source/models/netsuite2/src_netsuite2.yml:11:5
+  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_netsuite_source/models/stg_netsuite.yml:22:11
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_netsuite_source/models/stg_netsuite.yml:266:13
-  Finished 'parse' target 'dev' with 86 errors and 1 warning in 231ms
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:73:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:92:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:146:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:207:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:226:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:290:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:305:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:320:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:335:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:439:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:655:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:485:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:531:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:554:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:626:13
+  Finished 'parse' target 'dev' with 49 errors and 1 warning in 381ms
