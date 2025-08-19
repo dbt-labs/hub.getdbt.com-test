@@ -1,6 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-   Loading packages.yml
+  Fetching packages.yml
 error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
   --> models/manifest/snowplow_attribution_incremental_manifest.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
@@ -17,5 +17,5 @@ error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowpl
   --> models/snowplow_attribution_paths_to_conversion.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
   --> models/snowplow_attribution_paths_to_conversion.sql
-  Finished 'parse' target 'dev' with 8 errors in 99ms
+  Finished 'parse' target 'dev' with 8 errors in 165ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
