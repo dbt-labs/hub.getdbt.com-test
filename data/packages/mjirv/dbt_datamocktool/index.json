@@ -2,8 +2,7 @@
     "name": "dbt_datamocktool",
     "namespace": "mjirv",
     "description": "dbt models for dbt-datamocktool",
-    "latest": "0.3.5",
-    "latest-fusion-schema-compat": true,
+    "latest": "0.2.1",
     "assets": {
         "logo": "logos/placeholder.svg"
     }
