@@ -2,25 +2,10 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing spark_utils: 0.3.0
-warning: dbt1065: Updated version available for apple_store_source@0.3.2: 0.6.0
-Installing apple_store_source: 0.3.2
-Installing dbt_utils: 1.3.0
-Installing fivetran_utils: 0.4.10
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'apple_store.materialized'.
   --> ../fivetran_dbt_apple_store/dbt_project.yml:31:19
 error: dbt1065: Package `apple_store_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store/models/apple_store.yml:268:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store/models/apple_store.yml:103:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store/models/apple_store.yml:186:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store/models/apple_store.yml:221:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store/models/apple_store.yml:150:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_apple_store/models/apple_store.yml:52:13
-  Finished 'parse' target 'dev' with 8 errors and 2 warnings in 913ms
+error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: doc: doc 'source_relation' not found for package 'apple_store'
+(in :1:2)
+  --> ../fivetran_dbt_apple_store/models/apple_store.yml:293:22
+  Finished 'parse'  with 3 errors and 1 warning in 201ms
