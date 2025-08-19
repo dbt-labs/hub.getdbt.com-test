@@ -1,8 +1,4 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-warning: dbt1065: Updated version available for dbt_snowflake_query_tags@1.1.3: 2.5.3
-Installing dbt_snowflake_query_tags: 1.1.3
-Installing dbt_utils: 1.3.0
-  Finished 'parse' target 'dev' with 1 warning in 434ms
+  Finished 'parse' target 'dev' in 122ms
