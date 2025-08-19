@@ -1,5 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-  Fetching packages.yml
-  Finished 'parse' target 'dev' in 105ms
+error: dbt1060: Ignored unexpected key `"tag"`. YAML path: `tag`.
+  --> tmp/snow/lineitemdb.sql
+  Finished 'parse' target 'dev' with 1 error in 75ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
