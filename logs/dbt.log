@@ -5,4 +5,4 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1060: Ignored unexpected key `"tag"`. YAML path: `tag`.
   --> tmp/snow/lineitemdb.sql
-  Finished 'parse' target 'dev' with 1 error in 78ms 860us 489ns
+  Finished 'parse' target 'dev' with 1 error in 77ms 467us 606ns
