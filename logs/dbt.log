@@ -3,5 +3,10 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1065: Package `recharge_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1005: dbt found two resources with the database relation "postgres"."public_recharge_source"."stg_recharge__address". Nodes: model.recharge_source.stg_recharge__address, model.recharge.stg_recharge__address
-  Finished 'parse'  with 2 errors and 1 warning in 215ms
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_recharge/models/recharge.yml:104:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_recharge/models/recharge.yml:133:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_recharge/models/recharge.yml:305:13
+  Finished 'parse' target 'dev' with 4 errors and 1 warning in 270ms
