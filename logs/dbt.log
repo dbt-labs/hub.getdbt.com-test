@@ -1,19 +1,28 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-   Loading packages.yml
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:8:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:8:5
-  Finished 'parse' target 'dev' with 7 errors and 1 warning in 129ms
+  Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for klaviyo_source@0.7.1: 0.8.0
+Installing klaviyo_source: 0.7.1
+Installing dbt_utils: 1.3.0
+Installing fivetran_utils: 0.4.10
+Installing spark_utils: 0.3.0
+error: dbt1065: Package `klaviyo_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_klaviyo/models/intermediate/int_klaviyo.yml:102:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_klaviyo/models/intermediate/int_klaviyo.yml:25:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_klaviyo/models/intermediate/int_klaviyo.yml:142:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_klaviyo/models/klaviyo.yml:155:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_klaviyo/models/klaviyo.yml:14:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_klaviyo/models/klaviyo.yml:223:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_klaviyo/models/klaviyo.yml:115:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_klaviyo/models/klaviyo.yml:273:13
+  Finished 'parse' target 'dev' with 9 errors and 2 warnings in 1s 82ms
