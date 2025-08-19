@@ -1,5 +1,6 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-   Loading packages.yml
-  Finished 'parse' target 'dev' with 1 warning in 171ms
+  Fetching packages.yml
+error: dbt1005: dbt found two resources with the database relation "postgres"."public_marketo_source"."stg_marketo__activity_change_data_value". Nodes: model.marketo_source.stg_marketo__activity_change_data_value, model.marketo.stg_marketo__activity_change_data_value
+  Finished 'parse'  with 1 error and 1 warning in 169ms
