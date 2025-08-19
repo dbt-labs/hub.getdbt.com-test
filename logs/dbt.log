@@ -17,6 +17,10 @@ error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
 error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:39:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:27:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
@@ -29,9 +33,13 @@ error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
 error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
-  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:39:9
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:47:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:51:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
 error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:43:9
-  Finished 'parse' target 'dev' with 16 errors and 1 warning in 80ms
+  Finished 'parse' target 'dev' with 20 errors and 1 warning in 83ms
