@@ -1,6 +1,10 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'tap_googleads.base.materialized'.
+  --> ../Matatika_dbt-tap-googleads/dbt_project.yml:22:21
+error: dbt1059: Duplicate key `tables`. This key overwrites a previous definition of the same key at line 7 column 5. YAML path: `sources[0].tables`.
+  --> ../Matatika_dbt-tap-googleads/models/googleads_source.yml:8:5
 error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: 'env_var': environment variable 'DBT_SOURCE_SCHEMA' not found
 (in :1:2)
-  --> ../Matatika_dbt-tap-trello/models/trello_source.yml:4:13
-  Finished 'parse'  with 1 error in 42ms
+  --> ../Matatika_dbt-tap-googleads/models/googleads_source.yml:6:13
+  Finished 'parse'  with 3 errors in 42ms
