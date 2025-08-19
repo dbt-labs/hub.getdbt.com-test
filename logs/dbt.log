@@ -27,13 +27,13 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_linkedin_source/models/src_linkedin.yml:10:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:329:13
+  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:328:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:50:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:10:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:275:13
+  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:274:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:151:13
-  Finished 'parse' target 'dev' with 17 errors and 1 warning in 125ms
+  --> ../fivetran_dbt_linkedin_source/models/stg_linkedin.yml:150:13
+  Finished 'parse' target 'dev' with 17 errors and 1 warning in 117ms
