@@ -1,5 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-  Fetching packages.yml
+warning: dbt1041: Found package-lock.yml file with out of date formatting, ignoring...
+   Loading packages.yml
 error: dbt1005: Could not find package godatadriven/dbt_date in the package lookup map
-  Finished 'parse'  with 1 error in 33ms
+  Finished 'parse'  with 1 error and 1 warning in 22ms
