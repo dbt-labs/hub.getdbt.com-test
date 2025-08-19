@@ -7,8 +7,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_mixpanel/models/staging/src_mixpanel.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_mixpanel/models/staging/src_mixpanel.yml:11:5
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 130ms 952us 102ns
+  Finished 'parse' target 'dev' with 1 warning in 136ms 578us 889ns
