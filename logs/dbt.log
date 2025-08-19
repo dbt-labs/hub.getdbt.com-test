@@ -2,6 +2,10 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'zuora_source.materialized'.
+  --> ../fivetran_dbt_zuora_source/dbt_project.yml:40:19
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'zuora_source.tmp.materialized'.
+  --> ../fivetran_dbt_zuora_source/dbt_project.yml:42:21
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_zuora_source/models/src_zuora.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
@@ -40,5 +44,5 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_zuora_source/models/src_zuora.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_zuora_source/models/src_zuora.yml:8:5
-  Finished 'parse' target 'dev' with 19 errors and 1 warning in 253ms
+  Finished 'parse' target 'dev' with 21 errors and 1 warning in 292ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
