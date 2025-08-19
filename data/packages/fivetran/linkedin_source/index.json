@@ -2,7 +2,8 @@
     "name": "linkedin_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_linkedin_source",
-    "latest": "0.8.2",
+    "latest": "0.12.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
