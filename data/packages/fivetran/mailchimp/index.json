@@ -2,7 +2,8 @@
     "name": "mailchimp",
     "namespace": "fivetran",
     "description": "dbt models for dbt_mailchimp",
-    "latest": "0.9.0",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
