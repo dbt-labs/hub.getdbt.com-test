@@ -3,4 +3,4 @@ dbt-fusion 2.0.0-preview.1
 error: dbt1502: Failed to parse macro SQL syntax error: unexpected 'endmacro' end of block identifier
 (in macros/upload_results/insert_into_metadata_table.sql:1:1)
   --> macros/upload_results/insert_into_metadata_table.sql:1:1
-  Finished 'parse'  with 1 error in 17ms
+  Finished 'parse'  with 1 error in 16ms
