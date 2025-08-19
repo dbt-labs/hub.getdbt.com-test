@@ -1,77 +1,42 @@
 dbt-fusion 2.0.0-beta.66
-warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-   Loading packages.yml
+  Fetching packages.yml
+Installing packages
+Installing dbt_utils: 1.3.0
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
-   Loading dbt_packages/fivetran_utils/dbt_project.yml
-   Loading dbt_packages/spark_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:37:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:10:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:232:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:123:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:92:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:189:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:332:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:301:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:430:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:401:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:502:13
-  Finished 'parse' target 'dev' with 33 errors and 1 warning in 139ms 692us 587ns
+error: dbt1060: Ignored unexpected key `"session_cols"`. YAML path: `session_cols`.
+  --> ../fullstorydev_dbt_fullstory/models/sessions.yml:3:1
+error: dbt1060: Ignored unexpected key `"user_cols"`. YAML path: `user_cols`.
+  --> ../fullstorydev_dbt_fullstory/models/users.yml:3:1
+error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML path: `access`.
+  --> ../fullstorydev_dbt_fullstory/models/anonymous_users.yml:3:5
+error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
+  --> ../fullstorydev_dbt_fullstory/models/anonymous_users.yml:8:5
+error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML path: `access`.
+  --> ../fullstorydev_dbt_fullstory/models/devices.yml:3:5
+error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
+  --> ../fullstorydev_dbt_fullstory/models/devices.yml:8:5
+error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML path: `access`.
+  --> ../fullstorydev_dbt_fullstory/models/events.yml:3:5
+error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
+  --> ../fullstorydev_dbt_fullstory/models/events.yml:8:5
+error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML path: `access`.
+  --> ../fullstorydev_dbt_fullstory/models/identified_users.yml:3:5
+error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
+  --> ../fullstorydev_dbt_fullstory/models/identified_users.yml:8:5
+error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML path: `access`.
+  --> ../fullstorydev_dbt_fullstory/models/identifies.yml:3:5
+error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
+  --> ../fullstorydev_dbt_fullstory/models/identifies.yml:8:5
+error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML path: `access`.
+  --> ../fullstorydev_dbt_fullstory/models/sessions.yml:424:5
+error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
+  --> ../fullstorydev_dbt_fullstory/models/sessions.yml:429:5
+error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML path: `access`.
+  --> ../fullstorydev_dbt_fullstory/models/users.yml:377:5
+error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
+  --> ../fullstorydev_dbt_fullstory/models/users.yml:382:5
+  Finished 'parse' target 'dev' with 16 errors in 223ms 351us 246ns
