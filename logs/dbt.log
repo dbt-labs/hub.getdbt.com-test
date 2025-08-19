@@ -1,3 +1,406 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-  Finished 'parse' target 'dev' in 62ms
+  Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for edu_edfi_source@0.3.6: 0.5.0
+Installing edu_edfi_source: 0.3.6
+warning: dbt1065: Updated version available for dbt_utils@0.9.6: 1.3.0
+Installing dbt_utils: 0.9.6
+error: dbt1065: Package `edu_edfi_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("base_ef3__student_education_organization_responsibility_associations")' is longer than 63 characters
+  --> models/staging/edfi_3/base/base_ef3__student_education_organization_responsibility_associations.sql
+error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__discipline_actions__student_discipline_incident_behaviors")' is longer than 63 characters
+  --> models/staging/edfi_3/stage/stg_ef3__discipline_actions__student_discipline_incident_behaviors.sql
+error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_discipline_incident_behavior_associations__participation_codes")' is longer than 63 characters
+  --> models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_behavior_associations__participation_codes.sql
+error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_discipline_incident_non_offender_associations__participation_codes")' is longer than 63 characters
+  --> models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_non_offender_associations__participation_codes.sql
+error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_education_organization_responsibility_associations")' is longer than 63 characters
+  --> models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql
+error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("bld_ef3__student_program__language_instruction__program_services")' is longer than 63 characters
+  --> models/build/edfi_3/students/bld_ef3__student_program__language_instruction__program_services.sql
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/dim_school.yml:19:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_course_transcripts.yml:45:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_cohort_association.yml:18:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_daily_attendance.yml:29:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_actions.yml:124:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_actions_summary.yml:23:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_incident_behaviors.yml:17:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_incident_non_offenders.yml:17:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_incident_summary.yml:23:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_grades.yml:28:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_homeless_program_association.yml:19:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_language_instruction_program_association.yml:19:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_learning_standard_grades.yml:39:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_parent_association.yml:18:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_program_association.yml:15:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_program_service.yml:78:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_school_association.yml:59:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_school_attendance_event.yml:20:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_special_education_program_association.yml:18:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_subgroup.yml:84:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_title_i_part_a_program_association.yml:19:13
+error: dbt1005: Source 'raw_edfi_3.assessments' not found in project. Searched for 'assessments'
+  --> models/staging/edfi_3/base/base_ef3__assessments.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__assessments.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.bell_schedules' not found in project. Searched for 'bell_schedules'
+  --> models/staging/edfi_3/base/base_ef3__bell_schedules.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__bell_schedules.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.calendar_dates' not found in project. Searched for 'calendar_dates'
+  --> models/staging/edfi_3/base/base_ef3__calendar_dates.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__calendar_dates.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.calendars' not found in project. Searched for 'calendars'
+  --> models/staging/edfi_3/base/base_ef3__calendars.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__calendars.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.class_periods' not found in project. Searched for 'class_periods'
+  --> models/staging/edfi_3/base/base_ef3__class_periods.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__class_periods.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.cohorts' not found in project. Searched for 'cohorts'
+  --> models/staging/edfi_3/base/base_ef3__cohorts.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__cohorts.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.course_offerings' not found in project. Searched for 'course_offerings'
+  --> models/staging/edfi_3/base/base_ef3__course_offerings.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__course_offerings.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.course_transcripts' not found in project. Searched for 'course_transcripts'
+  --> models/staging/edfi_3/base/base_ef3__course_transcripts.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__course_transcripts.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.courses' not found in project. Searched for 'courses'
+  --> models/staging/edfi_3/base/base_ef3__courses.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__courses.sql:11:23
+error: dbt1005: Source 'raw_edfi_3._descriptors' not found in project. Searched for '_descriptors'
+  --> models/staging/edfi_3/base/base_ef3__descriptors.sql:21:14
+error: dbt1005: Source 'raw_edfi_3.discipline_actions' not found in project. Searched for 'discipline_actions'
+  --> models/staging/edfi_3/base/base_ef3__discipline_actions.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__discipline_actions.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.discipline_incidents' not found in project. Searched for 'discipline_incidents'
+  --> models/staging/edfi_3/base/base_ef3__discipline_incidents.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__discipline_incidents.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.education_organization_network_associations' not found in project. Searched for 'education_organization_network_associations'
+  --> models/staging/edfi_3/base/base_ef3__education_organization_network_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__education_organization_network_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.education_organization_networks' not found in project. Searched for 'education_organization_networks'
+  --> models/staging/edfi_3/base/base_ef3__education_organization_networks.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__education_organization_networks.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.education_service_centers' not found in project. Searched for 'education_service_centers'
+  --> models/staging/edfi_3/base/base_ef3__education_service_centers.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__education_service_centers.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.grades' not found in project. Searched for 'grades'
+  --> models/staging/edfi_3/base/base_ef3__grades.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__grades.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.grading_periods' not found in project. Searched for 'grading_periods'
+  --> models/staging/edfi_3/base/base_ef3__grading_periods.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__grading_periods.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.graduation_plans' not found in project. Searched for 'graduation_plans'
+  --> models/staging/edfi_3/base/base_ef3__graduation_plans.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__graduation_plans.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.learning_standards' not found in project. Searched for 'learning_standards'
+  --> models/staging/edfi_3/base/base_ef3__learning_standards.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__learning_standards.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.local_education_agencies' not found in project. Searched for 'local_education_agencies'
+  --> models/staging/edfi_3/base/base_ef3__local_education_agencies.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__local_education_agencies.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.locations' not found in project. Searched for 'locations'
+  --> models/staging/edfi_3/base/base_ef3__locations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__locations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.objective_assessments' not found in project. Searched for 'objective_assessments'
+  --> models/staging/edfi_3/base/base_ef3__objective_assessments.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__objective_assessments.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.parents' not found in project. Searched for 'parents'
+  --> models/staging/edfi_3/base/base_ef3__parents.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__parents.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.programs' not found in project. Searched for 'programs'
+  --> models/staging/edfi_3/base/base_ef3__programs.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__programs.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.schools' not found in project. Searched for 'schools'
+  --> models/staging/edfi_3/base/base_ef3__schools.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__schools.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.sections' not found in project. Searched for 'sections'
+  --> models/staging/edfi_3/base/base_ef3__sections.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__sections.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.sessions' not found in project. Searched for 'sessions'
+  --> models/staging/edfi_3/base/base_ef3__sessions.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__sessions.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.staff_education_organization_assignment_associations' not found in project. Searched for 'staff_education_organization_assignment_associations'
+  --> models/staging/edfi_3/base/base_ef3__staff_education_organization_assignment_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__staff_education_organization_assignment_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.staff_education_organization_employment_associations' not found in project. Searched for 'staff_education_organization_employment_associations'
+  --> models/staging/edfi_3/base/base_ef3__staff_education_organization_employment_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__staff_education_organization_employment_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.staff_school_associations' not found in project. Searched for 'staff_school_associations'
+  --> models/staging/edfi_3/base/base_ef3__staff_school_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__staff_school_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.staff_section_associations' not found in project. Searched for 'staff_section_associations'
+  --> models/staging/edfi_3/base/base_ef3__staff_section_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__staff_section_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.staffs' not found in project. Searched for 'staffs'
+  --> models/staging/edfi_3/base/base_ef3__staffs.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__staffs.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.state_education_agencies' not found in project. Searched for 'state_education_agencies'
+  --> models/staging/edfi_3/base/base_ef3__state_education_agencies.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__state_education_agencies.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_academic_records' not found in project. Searched for 'student_academic_records'
+  --> models/staging/edfi_3/base/base_ef3__student_academic_records.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_academic_records.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_assessments' not found in project. Searched for 'student_assessments'
+  --> models/staging/edfi_3/base/base_ef3__student_assessments.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_assessments.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_cohort_associations' not found in project. Searched for 'student_cohort_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_cohort_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_cohort_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_discipline_incident_associations' not found in project. Searched for 'student_discipline_incident_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_discipline_incident_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_discipline_incident_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_discipline_incident_behavior_associations' not found in project. Searched for 'student_discipline_incident_behavior_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_discipline_incident_behavior_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_discipline_incident_behavior_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_discipline_incident_non_offender_associations' not found in project. Searched for 'student_discipline_incident_non_offender_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_discipline_incident_non_offender_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_discipline_incident_non_offender_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_education_organization_associations' not found in project. Searched for 'student_education_organization_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_education_organization_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_education_organization_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_education_organization_responsibility_associations' not found in project. Searched for 'student_education_organization_responsibility_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_education_organization_responsibility_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_education_organization_responsibility_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_homeless_program_associations' not found in project. Searched for 'student_homeless_program_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_homeless_program_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_homeless_program_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_language_instruction_program_associations' not found in project. Searched for 'student_language_instruction_program_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_language_instruction_program_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_language_instruction_program_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_parent_associations' not found in project. Searched for 'student_parent_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_parent_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_parent_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_program_associations' not found in project. Searched for 'student_program_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_program_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_program_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_school_associations' not found in project. Searched for 'student_school_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_school_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_school_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_school_attendance_events' not found in project. Searched for 'student_school_attendance_events'
+  --> models/staging/edfi_3/base/base_ef3__student_school_attendance_events.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_school_attendance_events.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_section_associations' not found in project. Searched for 'student_section_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_section_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_section_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_section_attendance_events' not found in project. Searched for 'student_section_attendance_events'
+  --> models/staging/edfi_3/base/base_ef3__student_section_attendance_events.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_section_attendance_events.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_special_education_program_associations' not found in project. Searched for 'student_special_education_program_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_special_education_program_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_special_education_program_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.student_title_i_part_a_program_associations' not found in project. Searched for 'student_title_i_part_a_program_associations'
+  --> models/staging/edfi_3/base/base_ef3__student_title_i_part_a_program_associations.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__student_title_i_part_a_program_associations.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.students' not found in project. Searched for 'students'
+  --> models/staging/edfi_3/base/base_ef3__students.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__students.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.survey_question_responses' not found in project. Searched for 'survey_question_responses'
+  --> models/staging/edfi_3/base/base_ef3__survey_question_responses.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__survey_question_responses.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.survey_questions' not found in project. Searched for 'survey_questions'
+  --> models/staging/edfi_3/base/base_ef3__survey_questions.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__survey_questions.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.survey_responses' not found in project. Searched for 'survey_responses'
+  --> models/staging/edfi_3/base/base_ef3__survey_responses.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__survey_responses.sql:11:23
+error: dbt1005: Source 'raw_edfi_3.surveys' not found in project. Searched for 'surveys'
+  --> models/staging/edfi_3/base/base_ef3__surveys.sql:9:14
+error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
+  --> models/staging/edfi_3/base/base_ef3__surveys.sql:11:23
+error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, edu_wh.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
+  --> models/staging/edfi_3/intermediate/int_ef3__student_assessments__identify_subject.sql:18:19
+error: dbt1005: Ref 'base_ef3__student_education_organization_responsibility_associations' not found in project. Searched for 'edu_edfi_source.base_ef3__student_education_organization_responsibility_associations, edu_wh.base_ef3__student_education_organization_responsibility_associations, base_ef3__student_education_organization_responsibility_associations'
+  --> models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql:2:19
+error: dbt1005: Ref 'xwalk_course_level_characteristics' not found in project. Searched for 'edu_wh.xwalk_course_level_characteristics, xwalk_course_level_characteristics'
+  --> models/build/edfi_3/courses/bld_ef3__course_char__combined_wide.sql:4:26
+error: dbt1005: Ref 'xwalk_parent_email_types' not found in project. Searched for 'edu_wh.xwalk_parent_email_types, xwalk_parent_email_types'
+  --> models/build/edfi_3/parents/bld_ef3__parent_wide_emails.sql:5:19
+error: dbt1005: Ref 'xwalk_parent_email_types' not found in project. Searched for 'edu_wh.xwalk_parent_email_types, xwalk_parent_email_types'
+  --> models/build/edfi_3/parents/bld_ef3__parent_wide_emails.sql:4:26
+error: dbt1005: Ref 'xwalk_parent_phone_number_types' not found in project. Searched for 'edu_wh.xwalk_parent_phone_number_types, xwalk_parent_phone_number_types'
+  --> models/build/edfi_3/parents/bld_ef3__parent_wide_phone_numbers.sql:5:19
+error: dbt1005: Ref 'xwalk_parent_phone_number_types' not found in project. Searched for 'edu_wh.xwalk_parent_phone_number_types, xwalk_parent_phone_number_types'
+  --> models/build/edfi_3/parents/bld_ef3__parent_wide_phone_numbers.sql:4:26
+error: dbt1005: Ref 'stg_ef3__discipline_actions__student_discipline_incident_behaviors' not found in project. Searched for 'edu_wh.stg_ef3__discipline_actions__student_discipline_incident_behaviors, stg_ef3__discipline_actions__student_discipline_incident_behaviors'
+  --> models/build/edfi_3/discipline/bld_ef3__stu_discipline_action__stu_incident_behavior.sql:2:19
+error: dbt1005: Ref 'xwalk_grade_levels' not found in project. Searched for 'edu_wh.xwalk_grade_levels, xwalk_grade_levels'
+  --> models/build/edfi_3/students/bld_ef3__stu_grade_level.sql:5:19
+error: dbt1005: Ref 'xwalk_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_assessment_scores, xwalk_assessment_scores'
+  --> models/build/edfi_3/assessments/bld_ef3__student_assessments_long_results.sql:5:19
+error: dbt1005: Ref 'xwalk_student_characteristics' not found in project. Searched for 'edu_wh.xwalk_student_characteristics, xwalk_student_characteristics'
+  --> models/build/edfi_3/students/bld_ef3__student_characteristics.sql:5:19
+error: dbt1005: Ref 'xwalk_student_characteristics' not found in project. Searched for 'edu_wh.xwalk_student_characteristics, xwalk_student_characteristics'
+  --> models/build/edfi_3/students/bld_ef3__student_characteristics.sql:4:26
+error: dbt1005: Ref 'xwalk_student_indicators' not found in project. Searched for 'edu_wh.xwalk_student_indicators, xwalk_student_indicators'
+  --> models/build/edfi_3/students/bld_ef3__student_indicators.sql:5:10
+error: dbt1005: Ref 'xwalk_student_indicators' not found in project. Searched for 'edu_wh.xwalk_student_indicators, xwalk_student_indicators'
+  --> models/build/edfi_3/students/bld_ef3__student_indicators.sql:13:19
+error: dbt1005: Ref 'xwalk_student_indicators' not found in project. Searched for 'edu_wh.xwalk_student_indicators, xwalk_student_indicators'
+  --> models/build/edfi_3/students/bld_ef3__student_indicators.sql:4:26
+error: dbt1005: Ref 'xwalk_objective_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_objective_assessment_scores, xwalk_objective_assessment_scores'
+  --> models/build/edfi_3/assessments/bld_ef3__student_objective_assessments_long_results.sql:5:19
+error: dbt1005: Ref 'xwalk_student_programs' not found in project. Searched for 'edu_wh.xwalk_student_programs, xwalk_student_programs'
+  --> models/build/edfi_3/students/bld_ef3__student_programs.sql:8:10
+error: dbt1005: Ref 'xwalk_student_programs' not found in project. Searched for 'edu_wh.xwalk_student_programs, xwalk_student_programs'
+  --> models/build/edfi_3/students/bld_ef3__student_programs.sql:28:19
+error: dbt1005: Ref 'xwalk_id_types_course' not found in project. Searched for 'edu_wh.xwalk_id_types_course, xwalk_id_types_course'
+  --> models/build/edfi_3/courses/bld_ef3__wide_ids_course.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_course' not found in project. Searched for 'edu_wh.xwalk_id_types_course, xwalk_id_types_course'
+  --> models/build/edfi_3/courses/bld_ef3__wide_ids_course.sql:13:34
+error: dbt1005: Ref 'xwalk_id_types_ed_org' not found in project. Searched for 'edu_wh.xwalk_id_types_ed_org, xwalk_id_types_ed_org'
+  --> models/build/edfi_3/bld_ef3__wide_ids_lea.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_ed_org' not found in project. Searched for 'edu_wh.xwalk_id_types_ed_org, xwalk_id_types_ed_org'
+  --> models/build/edfi_3/bld_ef3__wide_ids_lea.sql:13:34
+error: dbt1005: Ref 'xwalk_id_types_ed_org' not found in project. Searched for 'edu_wh.xwalk_id_types_ed_org, xwalk_id_types_ed_org'
+  --> models/build/edfi_3/bld_ef3__wide_ids_school.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_ed_org' not found in project. Searched for 'edu_wh.xwalk_id_types_ed_org, xwalk_id_types_ed_org'
+  --> models/build/edfi_3/bld_ef3__wide_ids_school.sql:12:34
+error: dbt1005: Ref 'xwalk_id_types_staff' not found in project. Searched for 'edu_wh.xwalk_id_types_staff, xwalk_id_types_staff'
+  --> models/build/edfi_3/staffs/bld_ef3__wide_ids_staff.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_staff' not found in project. Searched for 'edu_wh.xwalk_id_types_staff, xwalk_id_types_staff'
+  --> models/build/edfi_3/staffs/bld_ef3__wide_ids_staff.sql:13:34
+error: dbt1005: Ref 'xwalk_id_types_student' not found in project. Searched for 'edu_wh.xwalk_id_types_student, xwalk_id_types_student'
+  --> models/build/edfi_3/students/bld_ef3__wide_ids_student.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_student' not found in project. Searched for 'edu_wh.xwalk_id_types_student, xwalk_id_types_student'
+  --> models/build/edfi_3/students/bld_ef3__wide_ids_student.sql:15:34
+error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
+  --> models/build/edfi_3/bld_ef3__wide_school_network_assoc.sql:6:17
+error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
+  --> models/build/edfi_3/bld_ef3__wide_school_network_assoc.sql:46:34
+error: dbt1005: Ref 'xwalk_calendar_events' not found in project. Searched for 'edu_wh.xwalk_calendar_events, xwalk_calendar_events'
+  --> models/core_warehouse/dim_calendar_date.sql:21:19
+error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
+  --> models/core_warehouse/dim_school.sql:48:34
+error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
+  --> models/core_warehouse/dim_school.sql:2:34
+error: dbt1005: Ref 'xwalk_subgroup_value_display_names' not found in project. Searched for 'edu_wh.xwalk_subgroup_value_display_names, xwalk_subgroup_value_display_names'
+  --> models/core_warehouse/dim_subgroup.sql:10:19
+error: dbt1005: Ref 'xwalk_subgroup_category_display_names' not found in project. Searched for 'edu_wh.xwalk_subgroup_category_display_names, xwalk_subgroup_category_display_names'
+  --> models/core_warehouse/dim_subgroup.sql:13:19
+error: dbt1005: Ref 'xwalk_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_assessment_scores, xwalk_assessment_scores'
+  --> models/core_warehouse/fct_student_assessment.sql:4:26
+error: dbt1005: Ref 'absentee_categories' not found in project. Searched for 'edu_wh.absentee_categories, absentee_categories'
+  --> models/core_warehouse/fct_student_daily_attendance.sql:25:19
+error: dbt1005: Ref 'xwalk_discipline_actions' not found in project. Searched for 'edu_wh.xwalk_discipline_actions, xwalk_discipline_actions'
+  --> models/core_warehouse/fct_student_discipline_actions.sql:23:19
+error: dbt1005: Ref 'xwalk_discipline_actions' not found in project. Searched for 'edu_wh.xwalk_discipline_actions, xwalk_discipline_actions'
+  --> models/core_warehouse/fct_student_discipline_actions.sql:6:5
+error: dbt1005: Ref 'stg_ef3__discipline_actions__student_discipline_incident_behaviors' not found in project. Searched for 'edu_wh.stg_ef3__discipline_actions__student_discipline_incident_behaviors, stg_ef3__discipline_actions__student_discipline_incident_behaviors'
+  --> models/core_warehouse/fct_student_discipline_actions_summary.sql:11:19
+error: dbt1005: Ref 'xwalk_discipline_behaviors' not found in project. Searched for 'edu_wh.xwalk_discipline_behaviors, xwalk_discipline_behaviors'
+  --> models/core_warehouse/fct_student_discipline_incident_behaviors.sql:24:19
+error: dbt1005: Ref 'stg_ef3__student_discipline_incident_behavior_associations__participation_codes' not found in project. Searched for 'edu_wh.stg_ef3__student_discipline_incident_behavior_associations__participation_codes, stg_ef3__student_discipline_incident_behavior_associations__participation_codes'
+  --> models/core_warehouse/fct_student_discipline_incident_behaviors.sql:32:10
+error: dbt1005: Ref 'xwalk_discipline_behaviors' not found in project. Searched for 'edu_wh.xwalk_discipline_behaviors, xwalk_discipline_behaviors'
+  --> models/core_warehouse/fct_student_discipline_incident_behaviors.sql:6:5
+error: dbt1005: Ref 'stg_ef3__student_discipline_incident_non_offender_associations__participation_codes' not found in project. Searched for 'edu_wh.stg_ef3__student_discipline_incident_non_offender_associations__participation_codes, stg_ef3__student_discipline_incident_non_offender_associations__participation_codes'
+  --> models/core_warehouse/fct_student_discipline_incident_non_offenders.sql:29:10
+error: dbt1005: Ref 'stg_ef3__discipline_actions__student_discipline_incident_behaviors' not found in project. Searched for 'edu_wh.stg_ef3__discipline_actions__student_discipline_incident_behaviors, stg_ef3__discipline_actions__student_discipline_incident_behaviors'
+  --> models/core_warehouse/fct_student_discipline_incident_summary.sql:12:19
+error: dbt1005: Ref 'xwalk_letter_grades' not found in project. Searched for 'edu_wh.xwalk_letter_grades, xwalk_letter_grades'
+  --> models/core_warehouse/fct_student_grades.sql:29:19
+error: dbt1005: Ref 'xwalk_objective_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_objective_assessment_scores, xwalk_objective_assessment_scores'
+  --> models/core_warehouse/fct_student_objective_assessment.sql:4:26
+error: dbt1005: Ref 'xwalk_grade_levels' not found in project. Searched for 'edu_wh.xwalk_grade_levels, xwalk_grade_levels'
+  --> models/core_warehouse/fct_student_school_association.sql:30:19
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> models/core_warehouse/fct_student_school_attendance_event.sql:51:19
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> models/core_warehouse/fct_student_section_attendance_event.sql:21:19
+error: dbt1005: Ref 'absentee_categories' not found in project. Searched for 'edu_wh.absentee_categories, absentee_categories'
+  --> models/core_warehouse/msr_student_cumulative_attendance.sql:18:19
+error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, edu_wh.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
+  --> tests/config_tests/cfg_student_assessment_subjects.sql:16:10
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> tests/config_tests/cfg_attendance_codes_valid_range.sql:8:6
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> tests/config_tests/cfg_attendance_event_codes.sql:11:19
+error: dbt1005: Ref 'xwalk_discipline_behaviors' not found in project. Searched for 'edu_wh.xwalk_discipline_behaviors, xwalk_discipline_behaviors'
+  --> tests/config_tests/cfg_behavior_types.sql:11:19
+error: dbt1005: Ref 'xwalk_calendar_events' not found in project. Searched for 'edu_wh.xwalk_calendar_events, xwalk_calendar_events'
+  --> tests/config_tests/cfg_calendar_event_codes.sql:17:19
+error: dbt1005: Ref 'xwalk_discipline_actions' not found in project. Searched for 'edu_wh.xwalk_discipline_actions, xwalk_discipline_actions'
+  --> tests/config_tests/cfg_discipline_actions.sql:11:19
+error: dbt1005: Ref 'xwalk_letter_grades' not found in project. Searched for 'edu_wh.xwalk_letter_grades, xwalk_letter_grades'
+  --> tests/config_tests/cfg_letter_grades.sql:11:19
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> tests/config_tests/cfg_section_attendance_event_codes.sql:11:19
+error: dbt1005: Ref 'xwalk_student_programs' not found in project. Searched for 'edu_wh.xwalk_student_programs, xwalk_student_programs'
+  --> tests/config_tests/cfg_student_programs_consistent_agg_types.sql:13:19
+  Finished 'parse' target 'dev' with 199 errors and 2 warnings in 873ms
