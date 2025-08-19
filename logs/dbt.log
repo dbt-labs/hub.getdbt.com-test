@@ -1,17 +1,7 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-warning: dbt1065: Updated version available for snowplow_web@0.12.4: 1.0.1
-Installing snowplow_web: 0.12.4
-warning: dbt1065: Updated version available for snowplow_utils@0.13.2: 0.17.4
-Installing snowplow_utils: 0.13.2
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:55:22
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.databricks.enabled'.
-  --> <unknown>
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.redshift_postgres.enabled'.
-  --> <unknown>
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.snowflake.enabled'.
-  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:61:22
+error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_media_player.base.scratch.databricks'.
+  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:124:11
+error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_media_player.base.scratch.default'.
+  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:126:11
