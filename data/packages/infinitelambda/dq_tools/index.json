@@ -1,0 +1,10 @@
+{
+    "name": "dq_tools",
+    "namespace": "infinitelambda",
+    "description": "dbt models for dq-tools",
+    "latest": "1.10.3",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
