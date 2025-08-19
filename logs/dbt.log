@@ -6,15 +6,15 @@ error: dbt1065: Package `amazon_ads_source` issued one or more compatibility war
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:38:13
+  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:41:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:85:13
+  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:91:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:140:13
+  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:149:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:230:13
+  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:245:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:183:13
+  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:195:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:283:13
-  Finished 'parse' target 'dev' with 8 errors and 1 warning in 225ms
+  --> ../fivetran_dbt_amazon_ads/models/amazon_ads.yml:301:13
+  Finished 'parse' target 'dev' with 8 errors and 1 warning in 227ms
