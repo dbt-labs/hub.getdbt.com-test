@@ -2,8 +2,7 @@
     "name": "xero_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_xero_source",
-    "latest": "0.7.0",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.4.1",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

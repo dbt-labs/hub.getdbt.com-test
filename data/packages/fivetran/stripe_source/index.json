@@ -2,8 +2,7 @@
     "name": "stripe_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_stripe_source",
-    "latest": "0.15.1",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.10.0",
     "assets": {
         "logo": "logos/placeholder.svg"
     }

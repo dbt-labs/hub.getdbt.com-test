@@ -2,8 +2,7 @@
     "name": "zuora_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_zuora_source",
-    "latest": "0.2.3",
-    "latest-fusion-schema-compat": false,
+    "latest": "0.2.1",
     "assets": {
         "logo": "logos/placeholder.svg"
     }
