@@ -2,18 +2,8 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'amplitude_source.materialized'.
-  --> ../fivetran_dbt_amplitude_source/dbt_project.yml:8:19
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'amplitude_source.tmp.materialized'.
-  --> ../fivetran_dbt_amplitude_source/dbt_project.yml:10:21
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:11:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:19:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:11:5
-  Finished 'parse' target 'dev' with 7 errors and 1 warning in 170ms
+  Finished 'parse' target 'dev' with 2 errors and 1 warning in 120ms
