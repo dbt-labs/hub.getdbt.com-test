@@ -7,237 +7,140 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1060: Ignored unexpected key `"referential_integrity_tests"`. YAML path: `referential_integrity_tests`.
   --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:3:1
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__education_organization_networks.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__education_organization_networks.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__education_service_centers.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__education_service_centers.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__grades.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__grades__learning_standards.sql:13:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__grading_periods.sql:10:10)
-  --> models/staging/edfi_3/stage/stg_ef3__grading_periods.sql:10:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__graduation_plans.sql:7:10)
-  --> models/staging/edfi_3/stage/stg_ef3__graduation_plans.sql:7:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__learning_standards.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__learning_standards.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_academic_records.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__student_academic_records.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__local_education_agencies.sql:7:10)
-  --> models/staging/edfi_3/stage/stg_ef3__local_education_agencies.sql:7:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_assessments.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__student_assessments.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__locations.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__locations.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__objective_assessments.sql:36:9)
-  --> models/staging/edfi_3/stage/stg_ef3__objective_assessments.sql:36:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__assessments.sql:16:9)
-  --> models/staging/edfi_3/stage/stg_ef3__assessments.sql:16:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_cohort_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__parents.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__parents.sql:7:9
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:646:20
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_contact_associations.sql:23:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__bell_schedules.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__bell_schedules.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__bell_schedules__class_periods.sql:10:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_behavior_associations.sql:51:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__calendar_dates.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__calendar_dates.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_non_offender_associations.sql:46:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__calendars.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__calendars.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_education_organization_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__class_periods.sql:7:10)
-  --> models/staging/edfi_3/stage/stg_ef3__class_periods.sql:7:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sections.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__sections.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__cohorts.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__cohorts.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sections__class_periods.sql:9:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_homeless_program_associations.sql:8:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__contacts.sql:18:9)
-  --> models/staging/edfi_3/stage/stg_ef3__contacts.sql:18:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_language_instruction_program_associations.sql:8:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9)
-  --> models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sessions__grading_periods.sql:9:9)
-(in macros/gen_skey.sql:235:22)
-  --> macros/gen_skey.sql:235:22
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__course_offerings.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__course_offerings.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staff_education_organization_assignment_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_parent_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staff_education_organization_employment_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__course_transcripts.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_program_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staff_school_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_school_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staff_section_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_school_attendance_events.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_section_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__discipline_actions.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_section_attendance_events.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10)
-  --> models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__discipline_actions__staffs.sql:12:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_special_education_program_associations.sql:8:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_title_i_part_a_program_associations.sql:8:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__students.sql:8:9)
-  --> models/staging/edfi_3/stage/stg_ef3__students.sql:8:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__education_organization_network_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__survey_question_responses.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__survey_questions.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__survey_questions.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__survey_responses.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__survey_responses.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__surveys.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__surveys.sql:7:9
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("base_ef3__student_education_organization_responsibility_associations")' is longer than 63 characters
   --> models/staging/edfi_3/base/base_ef3__student_education_organization_responsibility_associations.sql
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:85:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:19:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:91:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:19:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:109:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:97:16
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__discipline_actions__student_discipline_incident_behaviors")' is longer than 63 characters
   --> models/staging/edfi_3/stage/stg_ef3__discipline_actions__student_discipline_incident_behaviors.sql
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:31:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:43:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:49:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:25:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:97:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:97:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:31:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:97:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:7:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:13:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:37:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_discipline_incident_behavior_associations__participation_codes")' is longer than 63 characters
   --> models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_behavior_associations__participation_codes.sql
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:37:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_discipline_incident_non_offender_associations__participation_codes")' is longer than 63 characters
   --> models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_non_offender_associations__participation_codes.sql
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_education_organization_responsibility_associations")' is longer than 63 characters
   --> models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:73:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:73:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:61:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:67:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:73:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:79:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:91:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:31:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:31:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:73:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:73:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:103:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:120:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:125:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:115:16
+error: dbt0102: Deprecated test configs: ["tags"] and arguments: ["field", "to"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:115:16
 error: dbt1005: Source 'raw_edfi_3.assessments' not found in project. Searched for 'assessments'
   --> models/staging/edfi_3/base/base_ef3__assessments.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
@@ -262,10 +165,6 @@ error: dbt1005: Source 'raw_edfi_3.cohorts' not found in project. Searched for '
   --> models/staging/edfi_3/base/base_ef3__cohorts.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
   --> models/staging/edfi_3/base/base_ef3__cohorts.sql:11:23
-error: dbt1005: Source 'raw_edfi_3.contacts' not found in project. Searched for 'contacts'
-  --> models/staging/edfi_3/base/base_ef3__contacts.sql:9:14
-error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
-  --> models/staging/edfi_3/base/base_ef3__contacts.sql:11:23
 error: dbt1005: Source 'raw_edfi_3.course_offerings' not found in project. Searched for 'course_offerings'
   --> models/staging/edfi_3/base/base_ef3__course_offerings.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
@@ -384,10 +283,6 @@ error: dbt1005: Source 'raw_edfi_3.student_cohort_associations' not found in pro
   --> models/staging/edfi_3/base/base_ef3__student_cohort_associations.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
   --> models/staging/edfi_3/base/base_ef3__student_cohort_associations.sql:11:23
-error: dbt1005: Source 'raw_edfi_3.student_contact_associations' not found in project. Searched for 'student_contact_associations'
-  --> models/staging/edfi_3/base/base_ef3__student_contact_associations.sql:9:14
-error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
-  --> models/staging/edfi_3/base/base_ef3__student_contact_associations.sql:11:23
 error: dbt1005: Source 'raw_edfi_3.student_discipline_incident_associations' not found in project. Searched for 'student_discipline_incident_associations'
   --> models/staging/edfi_3/base/base_ef3__student_discipline_incident_associations.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
@@ -470,6 +365,8 @@ error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for 
   --> models/staging/edfi_3/base/base_ef3__surveys.sql:11:23
 error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
   --> models/staging/edfi_3/intermediate/int_ef3__student_assessments__identify_subject.sql:18:19
+error: dbt1005: Ref 'base_ef3__student_education_organization_responsibility_associations' not found in project. Searched for 'edu_edfi_source.base_ef3__student_education_organization_responsibility_associations, base_ef3__student_education_organization_responsibility_associations'
+  --> models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql:2:19
 error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
   --> tests/config_tests/cfg_student_assessment_subjects.sql:16:10
-  Finished 'parse' target 'dev' with 187 errors in 198ms 85us 785ns
+  Finished 'parse' target 'dev' with 182 errors in 275ms 421us 963ns
