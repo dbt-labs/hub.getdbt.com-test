@@ -65,6 +65,9 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in models/staging/edfi_3/stage/stg_ef3__bell_schedules.sql:7:9)
   --> models/staging/edfi_3/stage/stg_ef3__bell_schedules.sql:7:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9)
+  --> models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__bell_schedules__class_periods.sql:10:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
@@ -72,9 +75,6 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_behavior_associations.sql:51:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9)
   --> models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9
@@ -89,26 +89,26 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in models/staging/edfi_3/stage/stg_ef3__calendars.sql:7:9)
   --> models/staging/edfi_3/stage/stg_ef3__calendars.sql:7:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__sections.sql:7:9)
+  --> models/staging/edfi_3/stage/stg_ef3__sections.sql:7:9
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__student_education_organization_associations.sql:7:9)
+(in macros/gen_skey.sql:241:13)
+  --> macros/gen_skey.sql:241:13
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__sections__class_periods.sql:9:9)
+(in macros/gen_skey.sql:241:13)
+  --> macros/gen_skey.sql:241:13
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql:7:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__class_periods.sql:7:10)
   --> models/staging/edfi_3/stage/stg_ef3__class_periods.sql:7:10
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sections.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__sections.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__cohorts.sql:7:9)
   --> models/staging/edfi_3/stage/stg_ef3__cohorts.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sections__class_periods.sql:9:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__student_homeless_program_associations.sql:8:9)
 (in macros/gen_skey.sql:241:13)
@@ -117,28 +117,28 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in models/staging/edfi_3/stage/stg_ef3__contacts.sql:18:9)
   --> models/staging/edfi_3/stage/stg_ef3__contacts.sql:18:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9)
+  --> models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__student_language_instruction_program_associations.sql:8:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9)
-  --> models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__sessions__grading_periods.sql:9:9)
 (in macros/gen_skey.sql:235:22)
   --> macros/gen_skey.sql:235:22
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9)
+  --> models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__course_offerings.sql:7:9)
   --> models/staging/edfi_3/stage/stg_ef3__course_offerings.sql:7:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_parent_associations.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__staff_education_organization_assignment_associations.sql:7:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staff_education_organization_assignment_associations.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__student_parent_associations.sql:7:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
@@ -146,11 +146,14 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_program_associations.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__course_transcripts.sql:7:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__course_transcripts.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9)
+  --> models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__student_program_associations.sql:7:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
@@ -162,8 +165,8 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9
+(in models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9)
+  --> models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__staff_section_associations.sql:7:9)
 (in macros/gen_skey.sql:241:13)
@@ -176,14 +179,22 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9)
   --> models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__discipline_actions.sql:7:9)
+(in macros/gen_skey.sql:241:13)
+  --> macros/gen_skey.sql:241:13
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__student_section_associations.sql:7:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__student_section_attendance_events.sql:7:9)
+(in macros/gen_skey.sql:241:13)
+  --> macros/gen_skey.sql:241:13
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10)
+  --> models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
+(in models/staging/edfi_3/stage/stg_ef3__discipline_actions__staffs.sql:12:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
@@ -191,12 +202,8 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__discipline_actions.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10)
-  --> models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10
+(in models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9)
+  --> models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__student_title_i_part_a_program_associations.sql:8:9)
 (in macros/gen_skey.sql:241:13)
@@ -205,7 +212,7 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in models/staging/edfi_3/stage/stg_ef3__students.sql:8:9)
   --> models/staging/edfi_3/stage/stg_ef3__students.sql:8:9
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__discipline_actions__staffs.sql:12:9)
+(in models/staging/edfi_3/stage/stg_ef3__education_organization_network_associations.sql:7:9)
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
@@ -213,15 +220,8 @@ error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `
 (in macros/gen_skey.sql:241:13)
   --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__survey_questions.sql:7:9)
   --> models/staging/edfi_3/stage/stg_ef3__survey_questions.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__education_organization_network_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
 (in models/staging/edfi_3/stage/stg_ef3__survey_responses.sql:7:9)
   --> models/staging/edfi_3/stage/stg_ef3__survey_responses.sql:7:9
@@ -472,4 +472,4 @@ error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Sea
   --> models/staging/edfi_3/intermediate/int_ef3__student_assessments__identify_subject.sql:18:19
 error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
   --> tests/config_tests/cfg_student_assessment_subjects.sql:16:10
-  Finished 'parse' target 'dev' with 187 errors in 199ms 118us 490ns
+  Finished 'parse' target 'dev' with 187 errors in 197ms 796us 99ns
