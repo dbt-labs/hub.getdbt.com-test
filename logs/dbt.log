@@ -1,6 +1,4 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-  Finished 'parse' target 'dev' in 462ms
+  Finished 'parse' target 'dev' in 220ms
