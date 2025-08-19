@@ -2,7 +2,8 @@
     "name": "audit_helper",
     "namespace": "dbt-labs",
     "description": "dbt models for dbt-audit-helper",
-    "latest": "0.11.0",
+    "latest": "0.12.1",
+    "latest-fusion-schema-compat": true,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
