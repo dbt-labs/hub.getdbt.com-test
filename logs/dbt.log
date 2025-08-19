@@ -1,4 +1,7 @@
 dbt-fusion 2.0.0-preview.1
+warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-  Finished 'parse' target 'dev' in 96ms
+error: dbt1060: Ignored unexpected key 'dbt_date:time_zone'. Try '+dbt_date:time_zone' instead. YAML path: 'vars.dbt_date:time_zone'.
+  --> ../godatadriven_dbt-date/dbt_project.yml:17:31
+  Finished 'parse' target 'dev' with 1 error and 1 warning in 84ms
