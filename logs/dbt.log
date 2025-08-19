@@ -6,8 +6,8 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:178:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_unified_rag/models/staging/hubspot_staging/src_rag_hubspot.yml:6:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
@@ -42,4 +42,6 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:74:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:8:5
-  Finished 'parse' target 'dev' with 20 errors and 1 warning in 160ms
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_unified_rag/models/staging/zendesk_staging/src_rag_zendesk.yml:100:9
+  Finished 'parse' target 'dev' with 21 errors and 1 warning in 142ms
