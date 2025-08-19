@@ -1,15 +1,7 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-  Fetching packages.yml
-Installing packages
-Installing spark_utils: 0.3.0
-Installing dbt_utils: 1.3.0
-Installing fivetran_utils: 0.4.10
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'sage_intacct_source.materialized'.
-  --> ../fivetran_dbt_sage_intacct_source/dbt_project.yml:8:19
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'sage_intacct_source.tmp.materialized'.
-  --> ../fivetran_dbt_sage_intacct_source/dbt_project.yml:10:21
+   Loading packages.yml
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -40,4 +32,4 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_sage_intacct_source/models/src_sage_intacct.yml:9:5
-  Finished 'parse' target 'dev' with 17 errors and 1 warning in 412ms
+  Finished 'parse' target 'dev' with 15 errors and 1 warning in 135ms
