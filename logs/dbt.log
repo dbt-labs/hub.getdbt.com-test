@@ -8,5 +8,5 @@ error: dbt1060: Ignored unexpected key `"type"`. YAML path: `columns[2].type`.
   --> ../metaops-solutions_dbt-camunda/models/staging/schema.yml:201:13
 error: dbt1060: Ignored unexpected key `"type"`. YAML path: `columns[8].type`.
   --> ../metaops-solutions_dbt-camunda/models/staging/schema.yml:223:13
-  Finished 'parse' target 'dev' with 4 errors in 83ms
+  Finished 'parse' target 'dev' with 4 errors in 82ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
