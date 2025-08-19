@@ -19,7 +19,5 @@ error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
 error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
   --> models/reports/rpt_bigquery_user_metrics_daily.sql
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../grafana_dbt_leaner_query/models/marts/bigquery_audit_log.yml:77:13
-warning: dbt1005: Unused schema.yml entry for model 'dim_query_statement'
-  --> models/marts/bigquery_audit_log.yml
-  Finished 'parse' target 'dev' with 10 errors and 1 warning in 107ms
+  --> ../grafana_dbt_leaner_query/models/marts/bigquery_audit_log.yml:80:13
+  Finished 'parse' target 'dev' with 10 errors in 110ms
