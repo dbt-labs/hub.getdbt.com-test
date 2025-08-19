@@ -2,6 +2,10 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'zendesk_source.materialized'.
+  --> ../fivetran_dbt_zendesk_source/dbt_project.yml:8:19
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'zendesk_source.tmp.materialized'.
+  --> ../fivetran_dbt_zendesk_source/dbt_project.yml:11:21
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -56,18 +60,6 @@ error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:13:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:53:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:13:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:420:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:13:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:454:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_zendesk_source/models/src_zendesk.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -128,4 +120,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_zendesk_source/models/stg_zendesk.yml:221:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_zendesk_source/models/stg_zendesk.yml:429:13
-  Finished 'parse' target 'dev' with 63 errors and 1 warning in 219ms
+  Finished 'parse' target 'dev' with 59 errors and 1 warning in 220ms
