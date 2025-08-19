@@ -1,13 +1,9 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-warning: dbt1065: Updated version available for audit_helper@0.7.0: 0.12.1
-Installing audit_helper: 0.7.0
    Loading dbt_project.yml
    Loading dbt_packages/audit_helper/dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 warning in 492ms 82us 284ns
+  Finished 'parse' target 'dev' in 89ms 142us 237ns
