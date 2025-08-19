@@ -1,63 +1,7 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_ecommerce.products.scratch.databricks'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:136:11
-error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_ecommerce.products.scratch.default'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:138:11
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:41:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:9:9
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/base/manifest/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/base/manifest/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:29:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/base/scratch/base_scratch.yml:16:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/carts/scratch/carts_scratch.yml:9:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/carts/carts.yml:9:9
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/carts/snowplow_ecommerce_cart_interactions.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/carts/snowplow_ecommerce_cart_interactions.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/checkouts/scratch/checkouts_scratch.yml:9:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/checkouts/checkouts.yml:9:9
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/checkouts/snowplow_ecommerce_checkout_interactions.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/checkouts/snowplow_ecommerce_checkout_interactions.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/products/scratch/products_scratch.yml:9:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/products/products.yml:9:9
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/products/snowplow_ecommerce_product_interactions.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/products/snowplow_ecommerce_product_interactions.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/sessions/scratch/ecommerce_sessions_scratch.yml:9:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/sessions/ecommerce_sessions.yml:9:9
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/sessions/snowplow_ecommerce_sessions.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/sessions/snowplow_ecommerce_sessions.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/transactions/scratch/transactions_scratch.yml:9:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/transactions/transactions.yml:9:9
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/transactions/snowplow_ecommerce_transaction_interactions.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/transactions/snowplow_ecommerce_transaction_interactions.sql
-error: dbt1005: Found duplicate model 'snowplow_ecommerce_product_interactions_this_run'
-  --> models/products/scratch/default/snowplow_ecommerce_product_interactions_this_run.sql
-  Finished 'parse'  with 29 errors in 170ms
+error: dbt1059: Duplicate key `snowplow__query_tag`. This key overwrites a previous definition of the same key at line 44 column 5. YAML path: `vars.snowplow_ecommerce.snowplow__query_tag`.
+  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:48:5
+  Finished 'parse' target 'dev' with 1 error in 94ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
