@@ -5,4 +5,4 @@ dbt-fusion 2.0.0-beta.66
 warning: dbt1005: Package dbt_utils does not contain a dbt_project.yml file
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 warning in 80ms 871us 300ns
+  Finished 'parse' target 'dev' with 1 warning in 82ms 71us 889ns
