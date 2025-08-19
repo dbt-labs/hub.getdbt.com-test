@@ -1,10 +1,10 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'salesforce.materialized'.
-  --> ../dlt-hub_dlt-dbt-salesforce/dbt_project.yml:23:19
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'salesforce.staging.materialized'.
-  --> ../dlt-hub_dlt-dbt-salesforce/dbt_project.yml:25:21
-error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: salesforce
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'github_events.materialized'.
+  --> ../dlt-hub_dlt-dbt-github/dbt_project.yml:23:19
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'github_events.staging.materialized'.
+  --> ../dlt-hub_dlt-dbt-github/dbt_project.yml:25:21
+error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: github_events
 (in :1:2)
-  --> ../dlt-hub_dlt-dbt-salesforce/models/sources.yml:4:13
-  Finished 'parse'  with 3 errors in 46ms
+  --> ../dlt-hub_dlt-dbt-github/models/sources.yml:4:13
+  Finished 'parse'  with 3 errors in 55ms
