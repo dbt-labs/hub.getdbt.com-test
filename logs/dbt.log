@@ -3,4 +3,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1065: Package `amplitude_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-  Finished 'parse' target 'dev' with 1 error and 1 warning in 204ms
+  Finished 'parse' target 'dev' with 1 error and 1 warning in 221ms
