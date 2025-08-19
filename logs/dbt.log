@@ -1,8 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `meta`.
   --> ../elementary-data_dbt-data-reliability/models/run_results.yml:139:5
-  Finished 'parse' target 'dev' with 1 error in 398ms
+  Finished 'parse' target 'dev' with 1 error in 223ms
