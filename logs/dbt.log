@@ -7,28 +7,20 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.base.scratch.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:89:20
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:87:20
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.base.scratch.databricks.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.base.scratch.default.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.base.scratch.snowflake.enabled'.
-  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:95:20
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:93:20
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.optional_modules.consent.enabled'.
-  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:98:18
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:96:18
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.page_views.scratch.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:107:20
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:106:20
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.page_views.scratch.databricks.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.page_views.scratch.default.enabled'.
   --> <unknown>
 error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.page_views.scratch.snowflake.enabled'.
-  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:113:20
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.sessions.scratch.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:121:20
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.sessions.scratch.databricks.enabled'.
-  --> <unknown>
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.sessions.scratch.default.enabled'.
-  --> <unknown>
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.sessions.scratch.snowflake.enabled'.
-  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:127:20
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:112:20
