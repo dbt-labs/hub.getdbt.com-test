@@ -5,359 +5,476 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/seeds/terminology/terminology_seeds.yml:316:7
-error: dbt1060: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/seeds/terminology/terminology_seeds.yml:395:7
 error: dbt1060: Ignored unexpected key `"target_schema"`. YAML path: `target_schema`.
   --> target/snapshots/cms_hcc__patient_risk_factors_snapshot.sql
 error: dbt1060: Ignored unexpected key `"target_schema"`. YAML path: `target_schema`.
   --> target/snapshots/cms_hcc__patient_risk_scores_snapshot.sql
-error: dbt1060: Ignored unexpected key `"target_schema"`. YAML path: `target_schema`.
-  --> target/snapshots/quality_measures__summary_counts_snapshot.sql
-error: dbt1060: Ignored unexpected key `"target_schema"`. YAML path: `target_schema`.
-  --> target/snapshots/quality_measures__summary_long_snapshot.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[3].meta`.
-  --> ../tuva-health_the_tuva_project/models/ccsr/ccsr_models.yml:103:9
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:14:7
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:31:7
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/ccsr/ccsr_models.yml:201:9
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:61:7
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:79:7
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:96:7
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:116:7
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:138:7
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[3].meta`.
-  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:286:11
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:160:7
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
-  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:291:11
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:297:11
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:183:7
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../tuva-health_the_tuva_project/models/insights/insights_models.yml:218:7
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[0].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:16:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:20:9
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:29:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:33:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:41:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:45:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:49:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:53:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:57:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[14].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:61:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:65:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:69:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:73:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[18].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:77:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[19].meta`.
+  --> ../tuva-health_the_tuva_project/models/acute_inpatient/acute_inpatient_models.yml:81:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:285:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:289:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:298:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:24:9
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:408:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[3].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:412:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:429:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:433:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:437:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:156:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:164:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:170:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:176:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:182:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:186:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:190:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[14].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:194:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:200:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:25:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:45:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:49:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:53:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[14].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:57:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:61:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:65:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:69:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[18].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:73:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[20].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:80:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[21].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:84:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[22].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:88:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[23].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:92:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[24].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:96:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[25].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:100:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[26].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:104:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[27].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:108:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[28].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:112:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[36].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:130:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[37].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:133:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:232:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:236:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:363:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:367:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[3].meta`.
+  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:283:11
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
+  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:288:11
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
+  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:294:11
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:326:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:330:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:336:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[0].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:469:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
   --> ../tuva-health_the_tuva_project/models/chronic_conditions/tuva_chronic_conditions_models.yml:31:11
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
   --> ../tuva-health_the_tuva_project/models/chronic_conditions/tuva_chronic_conditions_models.yml:36:11
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:95:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:99:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:103:9
-error: dbt1502: Failed to render SQL syntax error: unexpected `+`
-(in models/quality_measures/intermediate/nqf0034_colorectal_cancer_screening/quality_measures__int_nqf0034__performance_period.sql:1:1)
-  --> models/quality_measures/intermediate/nqf0034_colorectal_cancer_screening/quality_measures__int_nqf0034__performance_period.sql:1:1
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:31:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:35:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:45:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:51:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:55:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:61:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:67:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[19].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:73:9
-error: dbt1502: Failed to render SQL syntax error: unexpected `+`
-(in models/quality_measures/intermediate/nqf0059_diabetes_hemoglobin_a1c/quality_measures__int_nqf0059__performance_period.sql:1:1)
-  --> models/quality_measures/intermediate/nqf0059_diabetes_hemoglobin_a1c/quality_measures__int_nqf0059__performance_period.sql:1:1
-error: dbt1502: Failed to render SQL syntax error: unexpected `+`
-(in models/quality_measures/intermediate/nqf2372_breast_cancer_screening/quality_measures__int_nqf2372__performance_period.sql:1:1)
-  --> models/quality_measures/intermediate/nqf2372_breast_cancer_screening/quality_measures__int_nqf2372__performance_period.sql:1:1
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:266:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:270:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:280:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:284:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:288:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:292:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[14].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:296:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:300:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:304:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:308:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[18].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:312:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[19].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:316:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[20].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:320:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
-  --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:22:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:26:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:38:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:51:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
-  --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:68:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[21].meta`.
-  --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:80:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:940:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:946:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:952:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:956:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:42:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:47:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:54:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:58:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:72:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:118:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:124:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:130:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:134:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:996:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1025:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[14].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1029:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1035:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1039:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1043:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[18].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1047:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[19].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1051:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[20].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1057:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:167:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:179:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[22].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1064:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[8].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:185:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[23].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1068:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:191:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[24].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1072:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:198:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[25].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1076:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:205:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[14].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:212:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[26].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1080:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[27].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1084:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:218:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[28].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1090:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:225:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[29].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1097:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[19].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:231:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[30].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1104:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[41].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1132:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[42].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1135:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
   --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:25:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
   --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:29:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:34:9
+  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:33:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:49:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:56:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1183:9
+  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:48:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:278:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1189:9
+  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:116:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:282:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
-  --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1196:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:290:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[8].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:295:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:121:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:299:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:125:9
+  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:120:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:130:9
+  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:124:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:145:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:306:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:152:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[25].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:338:9
+  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:139:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[22].meta`.
+  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:168:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[23].meta`.
+  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:172:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[24].meta`.
   --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:176:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[23].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:180:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[24].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:185:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[28].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:198:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[30].meta`.
-  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:205:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:367:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:421:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:450:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[14].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:454:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:460:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:464:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:468:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[18].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:472:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[19].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:476:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[20].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:482:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[22].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:489:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[23].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:493:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[24].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:497:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[25].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:501:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[26].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:505:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[27].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:509:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[28].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:515:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[29].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:522:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[30].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:529:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[41].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:557:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[42].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:560:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:25:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:597:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:601:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[8].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:607:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:613:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:52:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:619:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[19].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:636:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:673:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:117:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:122:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:723:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:727:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:798:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:804:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:811:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:861:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:912:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:916:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[8].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:923:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:927:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:932:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:936:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:940:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:944:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[14].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:948:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:952:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:956:9
-  Finished 'parse' target 'dev' with 176 errors in 290ms 966us 430ns
+  --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:189:9
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:383:25
+error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:426:25
+error: dbt0102: Deprecated test configs: ["severity"] at top-level detected. Please migrate under the 'config' field.
+  --> ../tuva-health_the_tuva_project/models/quality_measures_reporting/quality_measures_reporting_models.yml:411:25
+error: dbt0102: Deprecated test configs: ["severity"] at top-level detected. Please migrate under the 'config' field.
+  --> ../tuva-health_the_tuva_project/models/quality_measures_reporting/quality_measures_reporting_models.yml:447:25
+error: dbt0102: Deprecated test configs: ["severity"] at top-level detected. Please migrate under the 'config' field.
+  --> ../tuva-health_the_tuva_project/models/quality_measures_reporting/quality_measures_reporting_models.yml:439:25
+error: dbt0102: Deprecated test configs: ["severity"] and arguments: ["values"] at top-level detected. Please migrate to the new format: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../tuva-health_the_tuva_project/models/quality_measures_reporting/quality_measures_reporting_models.yml:442:25
+error: dbt0102: Deprecated test configs: ["severity"] at top-level detected. Please migrate under the 'config' field.
+  --> ../tuva-health_the_tuva_project/models/quality_measures_reporting/quality_measures_reporting_models.yml:434:25
+error: dbt0102: Deprecated test configs: ["severity"] at top-level detected. Please migrate under the 'config' field.
+  --> ../tuva-health_the_tuva_project/models/quality_measures_reporting/quality_measures_reporting_models.yml:466:25
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/acute_inpatient/staging/acute_inpatient__stg_eligibility.sql:12:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/acute_inpatient/staging/acute_inpatient__stg_medical_claim.sql:26:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/acute_inpatient/final/acute_inpatient__summary.sql:30:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/final/claims_date_profiling__claims_without_enrollment.sql:10:6
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/date_profiling/final/claims_date_profiling__claims_without_enrollment.sql:11:11
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/data_profiling/date_profiling/final/claims_date_profiling__claims_without_enrollment.sql:21:6
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/date_profiling/final/claims_date_profiling__claims_without_enrollment.sql:22:11
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/final/claims_date_profiling__date_issues.sql:10:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/final/claims_date_profiling__date_issues.sql:19:6
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/date_profiling/final/claims_date_profiling__date_issues.sql:28:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/intermediate/claims_date_profiling__duplicate_dates.sql:8:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/intermediate/claims_date_profiling__duplicate_dates.sql:15:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/intermediate/claims_date_profiling__duplicate_dates.sql:22:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/intermediate/claims_date_profiling__duplicate_dates.sql:29:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/intermediate/claims_date_profiling__duplicate_dates.sql:36:6
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/data_profiling/date_profiling/intermediate/claims_date_profiling__duplicate_dates.sql:43:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/intermediate/claims_date_profiling__duplicate_dates.sql:50:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/date_profiling/intermediate/claims_date_profiling__medical_claim_dates.sql:14:6
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/data_profiling/date_profiling/intermediate/claims_date_profiling__pharmacy_claim_dates.sql:11:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/chronic_conditions/staging/cms_chronic_conditions__stg_medical_claim.sql:13:6
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/chronic_conditions/staging/cms_chronic_conditions__stg_pharmacy_claim.sql:13:6
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/cms_hcc/staging/cms_hcc__stg_eligibility.sql:14:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/cms_hcc/staging/cms_hcc__stg_medical_claim.sql:15:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:27:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:47:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:67:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:87:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:107:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:127:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:147:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:167:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:187:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:207:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:227:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:247:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:267:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:287:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:307:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:327:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:347:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:367:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:387:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:407:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:427:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:447:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:467:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:487:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__condition.sql:507:6
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/core/final/core__eligibility.sql:36:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__medical_claim.sql:54:6
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/core/final/core__patient.sql:35:10
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/core/final/core__pharmacy_claim.sql:31:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:23:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:36:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:49:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:62:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:75:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:88:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:101:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:114:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:127:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:140:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:153:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:165:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:178:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:191:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:204:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:217:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:230:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:243:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:256:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:269:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:282:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:295:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:308:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:321:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/core/final/core__procedure.sql:334:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__claim_type_mapping_failures.sql:18:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__claim_type_unmapped.sql:14:6
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_denominators.sql:11:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_denominators.sql:18:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_denominators.sql:26:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_denominators.sql:34:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_denominators.sql:42:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_denominators.sql:50:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_duplicates.sql:14:6
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_invalid_values.sql:17:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_invalid_values.sql:37:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_invalid_values.sql:57:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_invalid_values.sql:77:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_invalid_values.sql:97:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_missing_values.sql:34:46
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_plausibility.sql:15:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_plausibility.sql:29:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_plausibility.sql:43:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_plausibility.sql:57:10
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/intermediate/data_profiling__eligibility_plausibility.sql:71:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__institutional_header_failures.sql:127:8
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__institutional_header_failures.sql:140:12
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:11:8
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:20:8
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:29:8
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:38:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:47:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:56:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:64:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:73:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:82:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:90:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:99:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:107:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:115:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:124:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_denominators.sql:134:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_duplicates.sql:14:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_inst_missing_values.sql:28:48
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:16:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:36:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:55:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:75:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:94:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:113:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:132:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:152:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:171:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:190:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:209:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:228:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_invalid_values.sql:249:10
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_plausibility.sql:16:8
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_plausibility.sql:31:8
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__medical_claim_prof_missing_values.sql:26:48
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/data_profiling/intermediate/data_profiling__pharmacy_claim_duplicates.sql:14:6
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/data_profiling/intermediate/data_profiling__pharmacy_claim_missing_values.sql:28:49
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__professional_header_failures.sql:42:8
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/intermediate/data_profiling__professional_header_failures.sql:55:12
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/data_profiling/intermediate/data_profiling__test_result_stage_pharmacy_claim.sql:11:8
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/final/data_profiling__use_case.sql:11:49
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/final/data_profiling__use_case.sql:44:49
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/final/data_profiling__use_case.sql:71:49
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/final/data_profiling__use_case.sql:106:49
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/data_profiling/final/data_profiling__use_case.sql:127:49
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/data_profiling/final/data_profiling__use_case.sql:148:51
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/data_profiling/final/data_profiling__use_case.sql:170:49
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/data_profiling/final/data_profiling__use_case.sql:218:49
+error: dbt1005: Ref 'eligibility' not found in project. Searched for 'the_tuva_project.eligibility, eligibility'
+  --> models/member_months/staging/member_months__stg_eligibility.sql:12:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/pmpm/staging/pmpm__stg_medical_claim.sql:16:6
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/pmpm/staging/pmpm__stg_pharmacy_claim.sql:13:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/quality_measures_reporting/staging/quality_measures_reporting__stg_medical_claim.sql:13:6
+error: dbt1005: Ref 'pharmacy_claim' not found in project. Searched for 'the_tuva_project.pharmacy_claim, pharmacy_claim'
+  --> models/quality_measures_reporting/staging/quality_measures_reporting__stg_pharmacy_claim.sql:11:6
+error: dbt1005: Ref 'medical_claim' not found in project. Searched for 'the_tuva_project.medical_claim, medical_claim'
+  --> models/service_category/staging/service_category__stg_medical_claim.sql:17:6
+  Finished 'parse' target 'dev' with 236 errors in 311ms 744us 912ns
