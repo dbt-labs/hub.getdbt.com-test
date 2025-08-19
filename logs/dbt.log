@@ -1,4 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-  Finished 'parse' target 'dev' in 72ms
+error: dbt1005: Found duplicate model 'customer'
+  --> models/snow/customer.sql
+  Finished 'parse'  with 1 error in 48ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
