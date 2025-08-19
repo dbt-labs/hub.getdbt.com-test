@@ -16,4 +16,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_sage_intacct/models/sage_intacct.yml:185:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_sage_intacct/models/sage_intacct.yml:228:13
-  Finished 'parse' target 'dev' with 4 errors and 1 warning in 199ms 21us 300ns
+  Finished 'parse' target 'dev' with 4 errors and 1 warning in 198ms 771us 230ns
