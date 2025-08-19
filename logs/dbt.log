@@ -1,3 +1,7 @@
 dbt-fusion 2.0.0-beta.66
-error: dbt1005: 'data-paths' cannot be specified in dbt_project.yml
-  Finished 'parse'  with 1 error in 960us 478ns
+   Loading profiles.yml
+  Fetching dependencies.yml
+   Loading dbt_project.yml
+   Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
+   Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
+  Finished 'parse' target 'dev' in 62ms 704us 840ns
