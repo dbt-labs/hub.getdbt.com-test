@@ -9,17 +9,6 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/spark_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'snapchat_ads.intermediate.materialized'.
-  --> ../fivetran_dbt_snapchat_ads/dbt_project.yml:25:21
 error: dbt1065: Package `snapchat_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_snapchat_ads/models/snapchat.yml:9:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_snapchat_ads/models/snapchat.yml:47:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_snapchat_ads/models/snapchat.yml:127:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_snapchat_ads/models/snapchat.yml:87:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_snapchat_ads/models/snapchat.yml:172:13
-  Finished 'parse' target 'dev' with 7 errors and 1 warning in 208ms 642us 606ns
+error: dbt1005: dbt found two resources with the database relation "postgres"."public_snapchat_ads_source"."stg_snapchat_ads__ad_account_history". Nodes: model.snapchat_ads_source.stg_snapchat_ads__ad_account_history, model.snapchat_ads.stg_snapchat_ads__ad_account_history
+  Finished 'parse'  with 2 errors and 1 warning in 187ms 97us 371ns
