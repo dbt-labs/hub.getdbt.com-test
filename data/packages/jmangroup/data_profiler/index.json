@@ -1,0 +1,10 @@
+{
+    "name": "data_profiler",
+    "namespace": "jmangroup",
+    "description": "dbt models for data_profiler",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
