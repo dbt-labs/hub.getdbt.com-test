@@ -11,7 +11,7 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:886:9
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:871:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -29,13 +29,13 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:766:9
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:751:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:810:9
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:795:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -46,8 +46,6 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:1015:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -56,18 +54,14 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:555:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:570:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:532:9
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:517:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -92,48 +86,38 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:725:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:740:9
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:821:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:836:9
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:487:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:974:9
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:683:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:500:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:698:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:646:9
+  --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:631:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:812:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:796:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -143,15 +127,13 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:202:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:1050:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:867:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:851:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:271:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:554:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:536:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:506:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:486:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:299:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -161,15 +143,11 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:406:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:453:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:673:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:689:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:449:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:1005:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:618:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:469:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:634:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:962:13
-  Finished 'parse' target 'dev' with 85 errors and 1 warning in 230ms
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:946:13
+  Finished 'parse' target 'dev' with 74 errors and 1 warning in 214ms
