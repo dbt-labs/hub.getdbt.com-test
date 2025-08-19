@@ -6,4 +6,4 @@ warning: dbt1005: Package dbt_utils does not contain a dbt_project.yml file
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1005: Encountered unexpected package not found in project: dbt_utils
-  Finished 'parse'  with 1 error and 1 warning in 80ms 688us 404ns
+  Finished 'parse'  with 1 error and 1 warning in 77ms 278us 758ns
