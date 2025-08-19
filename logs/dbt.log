@@ -1,7 +1,34 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1502: Failed to parse macro SQL syntax error: unexpected 'endmacro' end of block identifier
-(in macros/internal/metadata_processing/concat_ws.sql:1:1)
-  --> macros/internal/metadata_processing/concat_ws.sql:1:1
-  Finished 'parse'  with 1 error in 70ms
+Installing packages
+Installing dbt_utils: 1.3.0
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in examples/public/get_missing_dates/get_missing_dates_ex1.sql:18:1)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in examples/public/get_missing_dates/get_missing_dates_ex2.sql:18:1)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in examples/public/get_missing_dates/get_missing_dates_ex3.sql:18:1)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsupported datepart for macro datediff in postgres: {!r}
+(in examples/public/get_missing_dates/get_missing_dates_ex4.sql:18:1)
+(in macros/get_missing_date.sql:2:31)
+(in macros/get_missing_date.sql:54:13)
+(in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
+(in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
+  --> macros/get_missing_date.sql:54:13
+  Finished 'parse' target 'dev' with 4 errors in 309ms
