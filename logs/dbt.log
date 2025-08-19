@@ -9,13 +9,13 @@ error: dbt1065: Package `apple_store` issued one or more compatibility warnings.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:10:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:33:13
+  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:36:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:64:13
+  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:71:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:87:13
+  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:97:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:112:13
+  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:125:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:136:13
-  Finished 'parse' target 'dev' with 10 errors and 1 warning in 359ms
+  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:152:13
+  Finished 'parse' target 'dev' with 10 errors and 1 warning in 266ms
