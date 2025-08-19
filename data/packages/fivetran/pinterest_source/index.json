@@ -2,7 +2,8 @@
     "name": "pinterest_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_pinterest_source",
-    "latest": "0.10.1",
+    "latest": "0.13.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

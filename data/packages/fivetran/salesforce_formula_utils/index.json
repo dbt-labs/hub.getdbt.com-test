@@ -2,7 +2,8 @@
     "name": "salesforce_formula_utils",
     "namespace": "fivetran",
     "description": "dbt models for dbt_salesforce_formula_utils",
-    "latest": "0.9.3",
+    "latest": "0.10.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

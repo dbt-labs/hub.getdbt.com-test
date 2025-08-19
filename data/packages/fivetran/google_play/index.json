@@ -2,7 +2,8 @@
     "name": "google_play",
     "namespace": "fivetran",
     "description": "dbt models for dbt_google_play",
-    "latest": "0.3.0",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

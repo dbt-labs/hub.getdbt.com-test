@@ -2,7 +2,8 @@
     "name": "recharge",
     "namespace": "fivetran",
     "description": "dbt models for dbt_recharge",
-    "latest": "0.1.1",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

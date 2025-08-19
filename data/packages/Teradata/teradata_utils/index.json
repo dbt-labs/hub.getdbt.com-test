@@ -2,7 +2,8 @@
     "name": "teradata_utils",
     "namespace": "Teradata",
     "description": "dbt models for dbt-teradata-utils",
-    "latest": "1.1.1",
+    "latest": "1.3.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

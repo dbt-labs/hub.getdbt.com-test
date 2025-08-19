@@ -1,0 +1,8 @@
+dbt-fusion 2.0.0-preview.1
+warning: dbt1005: No profile specified in dbt_project.yml
+   Loading profiles.yml
+error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: dbt_gcp_billing
+(in :1:2)
+  --> ../yu-iskw_dbt-gcp-billing/models/sources/detailed_usage_cost.yml:19:11
+  Finished 'parse'  with 1 error and 1 warning in 42ms
+New version available 2.0.0-preview.2 (run `dbt system update`)

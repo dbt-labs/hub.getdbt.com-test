@@ -2,7 +2,8 @@
     "name": "qualtrics_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_qualtrics_source",
-    "latest": "0.1.1",
+    "latest": "0.4.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

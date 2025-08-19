@@ -2,7 +2,8 @@
     "name": "dbt_segment",
     "namespace": "Fleetio",
     "description": "dbt models for dbt-segment",
-    "latest": "0.3.1",
+    "latest": "0.4.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

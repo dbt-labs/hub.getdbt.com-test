@@ -2,7 +2,8 @@
     "name": "lever_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_lever_source",
-    "latest": "0.6.0",
+    "latest": "0.8.1",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

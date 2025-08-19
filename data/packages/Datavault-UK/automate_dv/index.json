@@ -2,7 +2,8 @@
     "name": "automate_dv",
     "namespace": "Datavault-UK",
     "description": "dbt models for dbtvault",
-    "latest": "0.10.2",
+    "latest": "0.11.2",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

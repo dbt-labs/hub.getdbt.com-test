@@ -2,7 +2,8 @@
     "name": "mixpanel",
     "namespace": "fivetran",
     "description": "dbt models for dbt_mixpanel",
-    "latest": "0.8.0",
+    "latest": "0.14.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

@@ -1,0 +1,10 @@
+{
+    "name": "dbt_pca",
+    "namespace": "dwreeves",
+    "description": "dbt models for dbt_pca",
+    "latest": "0.0.6",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}

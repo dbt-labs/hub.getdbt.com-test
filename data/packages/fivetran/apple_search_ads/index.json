@@ -2,7 +2,8 @@
     "name": "apple_search_ads",
     "namespace": "fivetran",
     "description": "dbt models for dbt_apple_search_ads",
-    "latest": "0.3.0",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

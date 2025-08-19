@@ -2,7 +2,8 @@
     "name": "ad_reporting",
     "namespace": "fivetran",
     "description": "dbt models for dbt_ad_reporting",
-    "latest": "1.7.0",
+    "latest": "2.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

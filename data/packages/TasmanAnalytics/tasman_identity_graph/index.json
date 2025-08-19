@@ -1,0 +1,10 @@
+{
+    "name": "tasman_identity_graph",
+    "namespace": "TasmanAnalytics",
+    "description": "dbt models for tasman-identity-graph",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}

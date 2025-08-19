@@ -2,7 +2,8 @@
     "name": "edu_edfi_source",
     "namespace": "edanalytics",
     "description": "dbt models for edu_edfi_source",
-    "latest": "0.3.0",
+    "latest": "0.5.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

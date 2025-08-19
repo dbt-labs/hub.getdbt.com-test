@@ -1,0 +1,10 @@
+{
+    "name": "dbt_activity_schema",
+    "namespace": "tnightengale",
+    "description": "dbt models for dbt-activity-schema",
+    "latest": "0.4.1",
+    "latest-fusion-schema-compat": true,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}

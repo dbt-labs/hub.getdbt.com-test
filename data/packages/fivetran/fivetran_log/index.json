@@ -2,7 +2,8 @@
     "name": "fivetran_log",
     "namespace": "fivetran",
     "description": "dbt models for dbt_fivetran_log",
-    "latest": "1.4.3",
+    "latest": "2.3.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }

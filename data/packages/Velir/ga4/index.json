@@ -2,7 +2,8 @@
     "name": "ga4",
     "namespace": "Velir",
     "description": "dbt models for dbt-ga4",
-    "latest": "6.0.2",
+    "latest": "6.1.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
