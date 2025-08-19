@@ -2,7 +2,4 @@ dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
 warning: dbt1041: Found package-lock.yml file with out of date formatting, ignoring...
    Loading packages.yml
-error: dbt1501: Failed to add template invalid operation: return() is called in a non-block context
-(in dbt_tags.default__get_resource_ns:5:8)
-  --> dbt_tags.default__get_resource_ns:5:8
-  Finished 'parse'  with 1 error and 1 warning in 44ms
+  Finished 'parse' target 'dev' with 1 warning in 71ms
