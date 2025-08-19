@@ -3,5 +3,6 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1065: Package `zendesk_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1005: dbt found two resources with the database relation "postgres"."public_zendesk_source"."stg_zendesk__brand". Nodes: model.zendesk_source.stg_zendesk__brand, model.zendesk.stg_zendesk__brand
-  Finished 'parse'  with 2 errors and 1 warning in 195ms
+error: dbt1060: While parsing config: Ignored unexpected key `"dev_snowflake"`. YAML path: `columns[110].dev_snowflake`.
+  --> ../fivetran_dbt_zendesk/models/zendesk.yml:448:9
+  Finished 'parse' target 'dev' with 2 errors and 1 warning in 232ms
