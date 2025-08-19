@@ -387,6 +387,8 @@ error: dbt1005: Ref 'absentee_categories' not found in project. Searched for 'ed
   --> models/core_warehouse/msr_student_cumulative_attendance.sql:18:19
 error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, edu_wh.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
   --> tests/config_tests/cfg_student_assessment_subjects.sql:16:10
+error: dbt1005: Ref 'xwalk_assessment_school_year_dates' not found in project. Searched for 'edu_wh.xwalk_assessment_school_year_dates, xwalk_assessment_school_year_dates'
+  --> tests/config_tests/cfg_assess_school_year_overlapping_dates.sql:20:20
 error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
   --> tests/config_tests/cfg_attendance_codes_valid_range.sql:8:6
 error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
@@ -403,4 +405,4 @@ error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for
   --> tests/config_tests/cfg_section_attendance_event_codes.sql:11:19
 error: dbt1005: Ref 'xwalk_student_programs' not found in project. Searched for 'edu_wh.xwalk_student_programs, xwalk_student_programs'
   --> tests/config_tests/cfg_student_programs_consistent_agg_types.sql:13:19
-  Finished 'parse' target 'dev' with 199 errors in 399ms 60us 551ns
+  Finished 'parse' target 'dev' with 200 errors in 404ms 472us 971ns
