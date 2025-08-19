@@ -11,4 +11,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:501:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:240:13
-  Finished 'parse' target 'dev' with 5 errors and 1 warning in 302ms
+  Finished 'parse' target 'dev' with 5 errors and 1 warning in 270ms
