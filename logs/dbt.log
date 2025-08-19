@@ -283,10 +283,6 @@ error: dbt1005: Source 'raw_edfi_3.staff_education_organization_assignment_assoc
   --> models/staging/edfi_3/base/base_ef3__staff_education_organization_assignment_associations.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
   --> models/staging/edfi_3/base/base_ef3__staff_education_organization_assignment_associations.sql:11:23
-error: dbt1005: Source 'raw_edfi_3.staff_education_organization_contact_associations' not found in project. Searched for 'staff_education_organization_contact_associations'
-  --> models/staging/edfi_3/base/base_ef3__staff_education_organization_contact_associations.sql:9:14
-error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
-  --> models/staging/edfi_3/base/base_ef3__staff_education_organization_contact_associations.sql:11:23
 error: dbt1005: Source 'raw_edfi_3.staff_education_organization_employment_associations' not found in project. Searched for 'staff_education_organization_employment_associations'
   --> models/staging/edfi_3/base/base_ef3__staff_education_organization_employment_associations.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
@@ -425,4 +421,4 @@ error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Sea
   --> tests/config_tests/cfg_student_assessment_subjects.sql:16:10
 error: dbt1005: Ref 'stg_ef3__survey_response_education_organization_target_associations' not found in project. Searched for 'edu_edfi_source.stg_ef3__survey_response_education_organization_target_associations, stg_ef3__survey_response_education_organization_target_associations'
   --> generic_tests/relationships_stg_ef3__survey__b6031ed86e6a48c7d08953f5d930efdc.sql:2:108
-  Finished 'parse' target 'dev' with 212 errors in 349ms
+  Finished 'parse' target 'dev' with 210 errors in 350ms
