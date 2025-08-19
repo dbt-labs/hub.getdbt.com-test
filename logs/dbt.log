@@ -2,5 +2,10 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'amplitude.staging.materialized'.
+  --> ../fivetran_dbt_amplitude/dbt_project.yml:12:21
+error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'amplitude.staging.tmp.materialized'.
+  --> ../fivetran_dbt_amplitude/dbt_project.yml:14:23
 error: dbt1065: Package `amplitude_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-  Finished 'parse' target 'dev' with 1 error and 1 warning in 179ms
+error: dbt1005: dbt found two resources with the database relation "postgres"."public__source_amplitude"."stg_amplitude__event". Nodes: model.amplitude_source.stg_amplitude__event, model.amplitude.stg_amplitude__event
+  Finished 'parse'  with 4 errors and 1 warning in 169ms
