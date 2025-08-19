@@ -1,6 +1,9 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
+error: dbt1060: Ignored unexpected key `"install_prerelease"`. YAML path: `packages[1].install_prerelease`.
+  --> ../tuva-health_the_tuva_project/packages.yml:6:5
   Fetching packages.yml
-error: dbt1005: Could not find package godatadriven/dbt_date in the package lookup map
-  Finished 'parse'  with 1 error in 69ms
+error: dbt1060: Ignored unexpected key `"install_prerelease"`. YAML path: `packages[1].install_prerelease`.
+  --> ../tuva-health_the_tuva_project/packages.yml:6:5
+  Finished 'parse' target 'dev' with 2 errors in 892ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
