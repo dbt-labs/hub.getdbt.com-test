@@ -17,4 +17,4 @@ error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowpl
   --> models/snowplow_attribution_paths_to_conversion.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
   --> models/snowplow_attribution_paths_to_conversion.sql
-  Finished 'parse' target 'dev' with 8 errors in 104ms
+  Finished 'parse' target 'dev' with 8 errors in 105ms
