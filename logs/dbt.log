@@ -1,4 +1,7 @@
 dbt-fusion 2.0.0-preview.1
-error: dbt1005: 'data-paths' cannot be specified in dbt_project.yml
-  Finished 'parse'  with 1 error in 1ms
+   Loading profiles.yml
+  Fetching packages.yml
+Installing packages
+error: dbt1001: Failed to open tar file: No such file or directory (os error 2)
+  Finished 'parse'  with 1 error in 419ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
