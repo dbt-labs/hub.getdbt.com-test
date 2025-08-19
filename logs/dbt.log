@@ -1,8 +1,4 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
-  Fetching packages.yml
-   Loading dbt_project.yml
-   Loading dbt_packages/dbt_utils/dbt_project.yml
-   Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
-   Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' in 107ms 141us 685ns
+error: dbt1005: Unexpected 'config' key in profiles.yml
+  Finished 'parse'  with 1 error in 1ms 262us 174ns
