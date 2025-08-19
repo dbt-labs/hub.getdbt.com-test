@@ -1,10 +1,15 @@
 dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
+  Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for dbt_utils@1.1.1: 1.3.0
+Installing dbt_utils: 1.1.1
    Loading dbt_project.yml
+   Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: tasman_dbt_revenuecat
 (in :1:2)
   --> ../TasmanAnalytics_tasman-dbt-revenuecat/models/sources.yml:9:21
-  Finished 'parse'  with 1 error and 1 warning in 43ms 915us 50ns
+  Finished 'parse'  with 1 error and 2 warnings in 211ms 679us 558ns
