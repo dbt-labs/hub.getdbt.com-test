@@ -10,4 +10,6 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1065: Package `zuora_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-  Finished 'parse' target 'dev' with 1 error and 1 warning in 271ms 498us 530ns
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_zuora/models/standardized_models/zuora__standardized_models.yml:9:13
+  Finished 'parse' target 'dev' with 2 errors and 1 warning in 278ms 741us 285ns
