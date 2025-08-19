@@ -11,11 +11,11 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:33:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:64:13
+  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:65:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:87:13
+  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:88:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:112:13
+  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:113:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:136:13
-  Finished 'parse' target 'dev' with 10 errors and 1 warning in 255ms
+  --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:137:13
+  Finished 'parse' target 'dev' with 10 errors and 1 warning in 263ms
