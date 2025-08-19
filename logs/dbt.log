@@ -1,8 +1,5 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1502: Failed to parse macro SQL syntax error: unexpected end of variable block, expected `,`
-(in macros/calendar_date/convert_timezone.sql:1:1)
-  --> macros/calendar_date/convert_timezone.sql:1:1
-  Finished 'parse'  with 1 error in 66ms
+  Finished 'parse' target 'dev' in 119ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
