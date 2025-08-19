@@ -1,76 +1,18 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_media_player.base.manifest.databricks'.
-  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:110:11
-error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_media_player.base.manifest.default'.
-  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:112:11
-error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_media_player.base.scratch.databricks'.
-  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:121:11
-error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_media_player.base.scratch.default'.
-  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:123:11
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/base/manifest/base_manifest.yml:9:9
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/base/manifest/bigquery/snowplow_media_player_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/base/manifest/bigquery/snowplow_media_player_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/base/manifest/databricks/snowplow_media_player_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/base/manifest/databricks/snowplow_media_player_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/base/manifest/default/snowplow_media_player_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/base/manifest/default/snowplow_media_player_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/base/manifest/snowflake/snowplow_media_player_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/base/manifest/snowflake/snowplow_media_player_base_sessions_lifecycle_manifest.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/base/manifest/base_manifest.yml:41:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/base/manifest/base_manifest.yml:29:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/base/scratch/base_scratch.yml:34:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/base/scratch/base_scratch.yml:17:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/base/scratch/base_scratch.yml:152:9
-error: dbt1060: While parsing config: Ignored unexpected key `"+tags"`. YAML path: `+tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/custom/snowplow_media_player_custom.yml:5:5
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/custom/snowplow_media_player_custom.yml:10:9
-error: dbt1060: While parsing config: Ignored unexpected key `"+tags"`. YAML path: `+tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/custom/snowplow_media_player_custom.yml:48:5
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/custom/snowplow_media_player_custom.yml:53:9
-error: dbt1060: While parsing config: Ignored unexpected key `"+tags"`. YAML path: `+tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/media_ad_views/media_ad_views.yml:5:5
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/media_ad_views/snowplow_media_player_media_ad_views.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/media_ad_views/snowplow_media_player_media_ad_views.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/media_ads/media_ads.yml:9:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/media_base/scratch/base_scratch.yml:9:9
-error: dbt1060: While parsing config: Ignored unexpected key `"+tags"`. YAML path: `+tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/media_base/media_base.yml:5:5
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/media_base/media_base.yml:10:9
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/media_base/snowplow_media_player_base.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/media_base/snowplow_media_player_base.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"+tags"`. YAML path: `+tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/media_plays/media_plays.yml:5:5
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/media_plays/media_plays.yml:10:9
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-media-player/models/media_stats/media_stats.yml:9:9
-error: dbt1005: Found duplicate model 'snowplow_media_player_base_sessions_lifecycle_manifest'
-  --> models/base/manifest/default/snowplow_media_player_base_sessions_lifecycle_manifest.sql
-error: dbt1005: Found duplicate model 'snowplow_media_player_base_events_this_run'
-  --> models/base/scratch/default/snowplow_media_player_base_events_this_run.sql
-  Finished 'parse'  with 36 errors in 655ms
+Installing packages
+warning: dbt1065: Updated version available for snowplow_web@0.11.0: 1.0.1
+Installing snowplow_web: 0.11.0
+warning: dbt1065: Updated version available for dbt_utils@0.9.6: 1.3.0
+Installing dbt_utils: 0.9.6
+warning: dbt1065: Updated version available for snowplow_utils@0.12.3: 0.17.4
+Installing snowplow_utils: 0.12.3
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.bigquery.enabled'.
+  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:52:22
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.databricks.enabled'.
+  --> <unknown>
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.redshift_postgres.enabled'.
+  --> <unknown>
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.snowflake.enabled'.
+  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:58:22
