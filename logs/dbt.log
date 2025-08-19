@@ -1,3 +1,4 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-  Finished 'parse' target 'dev' in 170ms
+  Fetching packages.yml
+  Finished 'parse' target 'dev' in 580ms
