@@ -2,7 +2,8 @@
     "name": "trino_utils",
     "namespace": "starburstdata",
     "description": "dbt models for dbt-trino-utils",
-    "latest": "0.2.0",
+    "latest": "0.6.0",
+    "latest-fusion-schema-compat": true,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
