@@ -90,4 +90,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_netsuite_source/models/stg_netsuite.yml:22:11
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_netsuite_source/models/stg_netsuite.yml:266:13
-  Finished 'parse' target 'dev' with 44 errors and 1 warning in 233ms
+  Finished 'parse' target 'dev' with 44 errors and 1 warning in 242ms
