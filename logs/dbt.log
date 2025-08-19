@@ -2,10 +2,6 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'quickbooks_source.materialized'.
-  --> ../fivetran_dbt_quickbooks_source/dbt_project.yml:11:19
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'quickbooks_source.tmp.materialized'.
-  --> ../fivetran_dbt_quickbooks_source/dbt_project.yml:13:21
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_quickbooks_source/models/src_quickbooks.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -167,7 +163,7 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_quickbooks_source/models/src_quickbooks.yml:9:5
 error: dbt1060: While parsing config: Ignored unexpected key `"test"`. YAML path: `columns[0].test`.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1265:9
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1301:9
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:9:13
 error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -175,7 +171,7 @@ error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Ple
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:59:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:207:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:211:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:84:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -183,55 +179,55 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:138:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:260:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:268:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:347:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:355:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:311:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:319:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:382:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:394:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:471:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:483:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:443:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:455:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:504:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:518:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:541:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:555:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:684:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:698:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:597:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:611:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:645:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:659:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:729:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:747:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:770:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:788:13
 error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:802:23
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:820:23
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:865:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:887:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:837:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:859:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:938:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:964:13
 error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:971:23
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:997:23
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:898:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:924:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1118:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1146:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1080:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1108:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1195:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1225:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1157:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1187:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1234:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1266:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1337:13
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1375:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1259:13
-  Finished 'parse' target 'dev' with 116 errors and 1 warning in 253ms
+  --> ../fivetran_dbt_quickbooks_source/models/stg_quickbooks.yml:1295:13
+  Finished 'parse' target 'dev' with 114 errors and 1 warning in 260ms
