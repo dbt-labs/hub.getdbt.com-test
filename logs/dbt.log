@@ -124,4 +124,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_hubspot_source/models/stg_hubspot__deal.yml:134:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot_source/models/stg_hubspot__property.yml:43:13
-  Finished 'parse' target 'dev' with 61 errors and 1 warning in 247ms
+  Finished 'parse' target 'dev' with 61 errors and 1 warning in 242ms
