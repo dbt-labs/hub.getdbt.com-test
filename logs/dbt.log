@@ -1,5 +1,4 @@
 dbt-fusion 2.0.0-preview.1
-   Loading profiles.yml
-  Fetching packages.yml
-  Finished 'parse' target 'dev' in 178ms
+error: dbt1005: 'data-paths' cannot be specified in dbt_project.yml
+  Finished 'parse'  with 1 error in 985μs
 New version available 2.0.0-preview.2 (run `dbt system update`)
