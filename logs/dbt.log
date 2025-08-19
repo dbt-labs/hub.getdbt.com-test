@@ -8,4 +8,6 @@ Installing dbt_utils: 0.6.6
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 warning in 164ms 992us 960ns
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'dbt_date.example_models.enabled'.
+  --> ../godatadriven_dbt-date/dbt_project.yml:24:22
+  Finished 'parse' target 'dev' with 1 error and 1 warning in 180ms 627us 808ns
