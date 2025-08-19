@@ -1,10 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-warning: dbt1065: Updated version available for snowplow_utils@0.15.2: 0.17.4
-Installing snowplow_utils: 0.15.2
-Installing dbt_utils: 1.3.0
 error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_ecommerce.products.scratch.databricks'.
   --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:136:11
 error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_ecommerce.products.scratch.default'.
@@ -63,4 +59,4 @@ error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_d
   --> models/transactions/snowplow_ecommerce_transaction_interactions.sql
 error: dbt1005: Found duplicate model 'snowplow_ecommerce_product_interactions_this_run'
   --> models/products/scratch/default/snowplow_ecommerce_product_interactions_this_run.sql
-  Finished 'parse'  with 29 errors and 1 warning in 403ms
+  Finished 'parse'  with 29 errors in 124ms
