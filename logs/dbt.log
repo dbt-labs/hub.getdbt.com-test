@@ -6,4 +6,4 @@ error: dbt1065: Package `reddit_ads_source` issued one or more compatibility war
 error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: doc: doc 'country' not found for package 'reddit_ads'
 (in :1:2)
   --> ../fivetran_dbt_reddit_ads/models/reddit_ads.yml:307:22
-  Finished 'parse'  with 2 errors and 1 warning in 123ms
+  Finished 'parse'  with 2 errors and 1 warning in 125ms
