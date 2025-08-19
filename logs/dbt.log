@@ -2,100 +2,74 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'salesforce_source.materialized'.
-  --> ../fivetran_dbt_salesforce_source/dbt_project.yml:9:19
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'salesforce_source.tmp.materialized'.
-  --> ../fivetran_dbt_salesforce_source/dbt_project.yml:8:21
+Installing packages
+Installing fivetran_utils: 0.4.10
+Installing dbt_utils: 1.3.0
+Installing spark_utils: 0.3.0
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:16:9
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:375:9
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:516:9
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:664:9
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:122:9
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:778:9
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:860:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:966:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:1030:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:202:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce/src_salesforce.yml:340:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:17:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:93:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:8:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:172:9
-  Finished 'parse' target 'dev' with 48 errors and 1 warning in 237ms
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:37:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:10:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:206:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:117:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:86:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:175:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:298:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:267:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:388:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:359:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:452:13
+  Finished 'parse' target 'dev' with 33 errors and 1 warning in 575ms
