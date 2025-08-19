@@ -2,4 +2,4 @@ dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1005: Could not find package godatadriven/dbt_date in the package lookup map
-  Finished 'parse'  with 1 error in 31ms
+  Finished 'parse'  with 1 error in 37ms
