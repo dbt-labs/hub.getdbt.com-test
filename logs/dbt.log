@@ -2,11 +2,7 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing fivetran_utils: 0.4.10
-Installing dbt_utils: 1.3.0
-Installing greenhouse_source: 0.9.1
 error: dbt1065: Package `greenhouse_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_greenhouse/models/greenhouse.yml:143:13
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 948ms
+  Finished 'parse' target 'dev' with 2 errors and 1 warning in 281ms
