@@ -2,13 +2,28 @@ dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for google_play_source@0.4.0: 0.5.0
+Installing google_play_source: 0.4.0
+Installing spark_utils: 0.3.0
+Installing fivetran_utils: 0.4.10
+Installing dbt_utils: 1.3.0
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
-   Loading dbt_packages/quickbooks_source/dbt_project.yml
+   Loading dbt_packages/google_play_source/dbt_project.yml
+   Loading dbt_packages/spark_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1502: Failed to parse macro SQL syntax error: unexpected identifier, expected end of block
-(in models/docs.md:1:1)
-  --> models/docs.md:1:1
-  Finished 'parse'  with 1 error and 1 warning in 62ms 526us 138ns
+error: dbt1065: Package `google_play_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_play/models/google_play.yml:202:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_play/models/google_play.yml:60:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_play/models/google_play.yml:11:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_play/models/google_play.yml:255:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_google_play/models/google_play.yml:307:13
+  Finished 'parse' target 'dev' with 6 errors and 2 warnings in 637ms 672us 834ns
