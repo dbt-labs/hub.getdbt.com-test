@@ -26,11 +26,11 @@ error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML pa
 error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
   --> ../fullstorydev_dbt_fullstory/models/identifies.yml:8:5
 error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML path: `access`.
-  --> ../fullstorydev_dbt_fullstory/models/sessions.yml:424:5
+  --> ../fullstorydev_dbt_fullstory/models/sessions.yml:433:5
 error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
-  --> ../fullstorydev_dbt_fullstory/models/sessions.yml:429:5
+  --> ../fullstorydev_dbt_fullstory/models/sessions.yml:438:5
 error: dbt1060: While parsing config: Ignored unexpected key `"access"`. YAML path: `access`.
   --> ../fullstorydev_dbt_fullstory/models/users.yml:377:5
 error: dbt1060: While parsing config: Ignored unexpected key `"enforce"`. YAML path: `config.contract.enforce`.
   --> ../fullstorydev_dbt_fullstory/models/users.yml:382:5
-  Finished 'parse' target 'dev' with 16 errors in 159ms
+  Finished 'parse' target 'dev' with 16 errors in 166ms
