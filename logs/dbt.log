@@ -1,8 +1,5 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: dq_tools
-(in :1:2)
-  --> ../infinitelambda_dq-tools/models/01_lake/source_dq_tools.yml:5:13
-  Finished 'parse'  with 1 error and 1 warning in 46ms
+  Finished 'parse' target 'dev' with 1 warning in 65ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
