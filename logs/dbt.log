@@ -1,7 +1,7 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
 error: dbt1060: Ignored unexpected key 'camunda'. Try '+camunda' instead. YAML path: 'camunda'.
-  --> ../metaops-solutions_dbt-camunda/dbt_project.yml:38:11
+  --> ../metaops-solutions_dbt-camunda/dbt_project.yml:35:11
 error: dbt1060: Ignored unexpected key `"type"`. YAML path: `columns[0].type`.
   --> ../metaops-solutions_dbt-camunda/models/staging/schema.yml:191:13
 error: dbt1060: Ignored unexpected key `"type"`. YAML path: `columns[2].type`.
