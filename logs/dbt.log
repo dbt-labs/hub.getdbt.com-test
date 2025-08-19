@@ -5,4 +5,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
 error: dbt1502: Failed to parse macro SQL syntax error: unexpected identifier, expected end of block
 (in models/docs.md:1:1)
   --> models/docs.md:1:1
-  Finished 'parse'  with 1 error and 1 warning in 102ms
+  Finished 'parse'  with 1 error and 1 warning in 101ms
