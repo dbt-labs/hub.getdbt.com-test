@@ -2,9 +2,7 @@ dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
   Fetching packages.yml
    Loading dbt_project.yml
-   Loading dbt_packages/dbt_utils/dbt_project.yml
+warning: dbt1005: Package dbt_utils does not contain a dbt_project.yml file
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key 'dbt_date:time_zone'. Try '+dbt_date:time_zone' instead. YAML path: 'vars.dbt_date:time_zone'.
-  --> ../godatadriven_dbt-date/dbt_project.yml:17:31
-  Finished 'parse' target 'dev' with 1 error in 108ms 693us 933ns
+  Finished 'parse' target 'dev' with 1 warning in 83ms 235us 516ns
