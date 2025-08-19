@@ -1,233 +1,17 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for edu_edfi_source@0.3.6: 0.5.0
+Installing edu_edfi_source: 0.3.6
+warning: dbt1065: Updated version available for dbt_utils@0.9.6: 1.3.0
+Installing dbt_utils: 0.9.6
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
+   Loading dbt_packages/edu_edfi_source/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key `"referential_integrity_tests"`. YAML path: `referential_integrity_tests`.
-  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:3:1
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__education_organization_networks.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__education_organization_networks.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__education_service_centers.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__education_service_centers.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__grades.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__grades__learning_standards.sql:13:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__grading_periods.sql:10:10)
-  --> models/staging/edfi_3/stage/stg_ef3__grading_periods.sql:10:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__graduation_plans.sql:7:10)
-  --> models/staging/edfi_3/stage/stg_ef3__graduation_plans.sql:7:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__learning_standards.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__learning_standards.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__local_education_agencies.sql:7:10)
-  --> models/staging/edfi_3/stage/stg_ef3__local_education_agencies.sql:7:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_academic_records.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__student_academic_records.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__locations.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__locations.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__objective_assessments.sql:36:9)
-  --> models/staging/edfi_3/stage/stg_ef3__objective_assessments.sql:36:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_assessments.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__student_assessments.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__assessments.sql:16:9)
-  --> models/staging/edfi_3/stage/stg_ef3__assessments.sql:16:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__parents.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__parents.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_cohort_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1060: While parsing config: Ignored unexpected key `"columns"`. YAML path: `config.columns`.
-  --> ../edanalytics_edu_edfi_source/models/staging/edfi_3/stage/_edfi_3__stage.yml:646:20
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_contact_associations.sql:23:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__bell_schedules.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__bell_schedules.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__bell_schedules__class_periods.sql:10:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_behavior_associations.sql:51:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__calendar_dates.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__calendar_dates.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__calendars.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__calendars.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_non_offender_associations.sql:46:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__class_periods.sql:7:10)
-  --> models/staging/edfi_3/stage/stg_ef3__class_periods.sql:7:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__cohorts.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__cohorts.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sections.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__sections.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_education_organization_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__contacts.sql:18:9)
-  --> models/staging/edfi_3/stage/stg_ef3__contacts.sql:18:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sections__class_periods.sql:9:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_homeless_program_associations.sql:8:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_language_instruction_program_associations.sql:8:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__sessions__grading_periods.sql:9:9)
-(in macros/gen_skey.sql:235:22)
-  --> macros/gen_skey.sql:235:22
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__course_offerings.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__course_offerings.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9)
-  --> models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staff_education_organization_assignment_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__course_transcripts.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staff_education_organization_employment_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_parent_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staff_school_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_program_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staff_section_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_school_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__discipline_actions.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_school_attendance_events.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_section_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__discipline_actions__staffs.sql:12:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10)
-  --> models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_section_attendance_events.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_special_education_program_associations.sql:8:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__student_title_i_part_a_program_associations.sql:8:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__education_organization_network_associations.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__students.sql:8:9)
-  --> models/staging/edfi_3/stage/stg_ef3__students.sql:8:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__survey_question_responses.sql:7:9)
-(in macros/gen_skey.sql:241:13)
-  --> macros/gen_skey.sql:241:13
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__survey_questions.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__survey_questions.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__survey_responses.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__survey_responses.sql:7:9
-error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `generate_surrogate_key` is unknown
-(in models/staging/edfi_3/stage/stg_ef3__surveys.sql:7:9)
-  --> models/staging/edfi_3/stage/stg_ef3__surveys.sql:7:9
+error: dbt1065: Package `edu_edfi_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("base_ef3__student_education_organization_responsibility_associations")' is longer than 63 characters
   --> models/staging/edfi_3/base/base_ef3__student_education_organization_responsibility_associations.sql
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__discipline_actions__student_discipline_incident_behaviors")' is longer than 63 characters
@@ -238,6 +22,54 @@ error: dbt1501: Failed to create relation invalid operation: Relation name 'Some
   --> models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_non_offender_associations__participation_codes.sql
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_education_organization_responsibility_associations")' is longer than 63 characters
   --> models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql
+error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("bld_ef3__student_program__language_instruction__program_services")' is longer than 63 characters
+  --> models/build/edfi_3/students/bld_ef3__student_program__language_instruction__program_services.sql
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/dim_school.yml:19:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_course_transcripts.yml:45:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_cohort_association.yml:18:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_daily_attendance.yml:29:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_diploma.yml:18:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_actions.yml:124:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_actions_summary.yml:23:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_incident_behaviors.yml:17:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_incident_non_offenders.yml:17:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_discipline_incident_summary.yml:23:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_grades.yml:28:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_homeless_program_association.yml:19:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_language_instruction_program_association.yml:19:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_learning_standard_grades.yml:39:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_parent_association.yml:18:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_program_association.yml:15:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_program_service.yml:78:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_school_association.yml:59:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_school_attendance_event.yml:20:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_section_association.yml:20:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_special_education_program_association.yml:18:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_subgroup.yml:84:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../edanalytics_edu_wh/models/core_warehouse/fct_student_title_i_part_a_program_association.yml:19:13
 error: dbt1005: Source 'raw_edfi_3.assessments' not found in project. Searched for 'assessments'
   --> models/staging/edfi_3/base/base_ef3__assessments.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
@@ -262,10 +94,6 @@ error: dbt1005: Source 'raw_edfi_3.cohorts' not found in project. Searched for '
   --> models/staging/edfi_3/base/base_ef3__cohorts.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
   --> models/staging/edfi_3/base/base_ef3__cohorts.sql:11:23
-error: dbt1005: Source 'raw_edfi_3.contacts' not found in project. Searched for 'contacts'
-  --> models/staging/edfi_3/base/base_ef3__contacts.sql:9:14
-error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
-  --> models/staging/edfi_3/base/base_ef3__contacts.sql:11:23
 error: dbt1005: Source 'raw_edfi_3.course_offerings' not found in project. Searched for 'course_offerings'
   --> models/staging/edfi_3/base/base_ef3__course_offerings.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
@@ -384,10 +212,6 @@ error: dbt1005: Source 'raw_edfi_3.student_cohort_associations' not found in pro
   --> models/staging/edfi_3/base/base_ef3__student_cohort_associations.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
   --> models/staging/edfi_3/base/base_ef3__student_cohort_associations.sql:11:23
-error: dbt1005: Source 'raw_edfi_3.student_contact_associations' not found in project. Searched for 'student_contact_associations'
-  --> models/staging/edfi_3/base/base_ef3__student_contact_associations.sql:9:14
-error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
-  --> models/staging/edfi_3/base/base_ef3__student_contact_associations.sql:11:23
 error: dbt1005: Source 'raw_edfi_3.student_discipline_incident_associations' not found in project. Searched for 'student_discipline_incident_associations'
   --> models/staging/edfi_3/base/base_ef3__student_discipline_incident_associations.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
@@ -468,8 +292,128 @@ error: dbt1005: Source 'raw_edfi_3.surveys' not found in project. Searched for '
   --> models/staging/edfi_3/base/base_ef3__surveys.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
   --> models/staging/edfi_3/base/base_ef3__surveys.sql:11:23
-error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
+error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, edu_wh.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
   --> models/staging/edfi_3/intermediate/int_ef3__student_assessments__identify_subject.sql:18:19
-error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
+error: dbt1005: Ref 'base_ef3__student_education_organization_responsibility_associations' not found in project. Searched for 'edu_edfi_source.base_ef3__student_education_organization_responsibility_associations, edu_wh.base_ef3__student_education_organization_responsibility_associations, base_ef3__student_education_organization_responsibility_associations'
+  --> models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql:2:19
+error: dbt1005: Ref 'xwalk_course_level_characteristics' not found in project. Searched for 'edu_wh.xwalk_course_level_characteristics, xwalk_course_level_characteristics'
+  --> models/build/edfi_3/courses/bld_ef3__course_char__combined_wide.sql:6:19
+error: dbt1005: Ref 'xwalk_course_level_characteristics' not found in project. Searched for 'edu_wh.xwalk_course_level_characteristics, xwalk_course_level_characteristics'
+  --> models/build/edfi_3/courses/bld_ef3__course_char__combined_wide.sql:4:26
+error: dbt1005: Ref 'xwalk_parent_email_types' not found in project. Searched for 'edu_wh.xwalk_parent_email_types, xwalk_parent_email_types'
+  --> models/build/edfi_3/parents/bld_ef3__parent_wide_emails.sql:5:19
+error: dbt1005: Ref 'xwalk_parent_email_types' not found in project. Searched for 'edu_wh.xwalk_parent_email_types, xwalk_parent_email_types'
+  --> models/build/edfi_3/parents/bld_ef3__parent_wide_emails.sql:4:26
+error: dbt1005: Ref 'xwalk_parent_phone_number_types' not found in project. Searched for 'edu_wh.xwalk_parent_phone_number_types, xwalk_parent_phone_number_types'
+  --> models/build/edfi_3/parents/bld_ef3__parent_wide_phone_numbers.sql:5:19
+error: dbt1005: Ref 'xwalk_parent_phone_number_types' not found in project. Searched for 'edu_wh.xwalk_parent_phone_number_types, xwalk_parent_phone_number_types'
+  --> models/build/edfi_3/parents/bld_ef3__parent_wide_phone_numbers.sql:4:26
+error: dbt1005: Ref 'stg_ef3__discipline_actions__student_discipline_incident_behaviors' not found in project. Searched for 'edu_wh.stg_ef3__discipline_actions__student_discipline_incident_behaviors, stg_ef3__discipline_actions__student_discipline_incident_behaviors'
+  --> models/build/edfi_3/discipline/bld_ef3__stu_discipline_action__stu_incident_behavior.sql:2:19
+error: dbt1005: Ref 'xwalk_grade_levels' not found in project. Searched for 'edu_wh.xwalk_grade_levels, xwalk_grade_levels'
+  --> models/build/edfi_3/students/bld_ef3__stu_grade_level.sql:5:19
+error: dbt1005: Ref 'xwalk_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_assessment_scores, xwalk_assessment_scores'
+  --> models/build/edfi_3/assessments/bld_ef3__student_assessments_long_results.sql:5:19
+error: dbt1005: Ref 'xwalk_student_characteristics' not found in project. Searched for 'edu_wh.xwalk_student_characteristics, xwalk_student_characteristics'
+  --> models/build/edfi_3/students/bld_ef3__student_characteristics.sql:5:19
+error: dbt1005: Ref 'xwalk_student_characteristics' not found in project. Searched for 'edu_wh.xwalk_student_characteristics, xwalk_student_characteristics'
+  --> models/build/edfi_3/students/bld_ef3__student_characteristics.sql:4:26
+error: dbt1005: Ref 'xwalk_student_indicators' not found in project. Searched for 'edu_wh.xwalk_student_indicators, xwalk_student_indicators'
+  --> models/build/edfi_3/students/bld_ef3__student_indicators.sql:5:10
+error: dbt1005: Ref 'xwalk_student_indicators' not found in project. Searched for 'edu_wh.xwalk_student_indicators, xwalk_student_indicators'
+  --> models/build/edfi_3/students/bld_ef3__student_indicators.sql:13:19
+error: dbt1005: Ref 'xwalk_student_indicators' not found in project. Searched for 'edu_wh.xwalk_student_indicators, xwalk_student_indicators'
+  --> models/build/edfi_3/students/bld_ef3__student_indicators.sql:4:26
+error: dbt1005: Ref 'xwalk_objective_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_objective_assessment_scores, xwalk_objective_assessment_scores'
+  --> models/build/edfi_3/assessments/bld_ef3__student_objective_assessments_long_results.sql:5:19
+error: dbt1005: Ref 'xwalk_student_programs' not found in project. Searched for 'edu_wh.xwalk_student_programs, xwalk_student_programs'
+  --> models/build/edfi_3/students/bld_ef3__student_programs.sql:8:10
+error: dbt1005: Ref 'xwalk_student_programs' not found in project. Searched for 'edu_wh.xwalk_student_programs, xwalk_student_programs'
+  --> models/build/edfi_3/students/bld_ef3__student_programs.sql:28:19
+error: dbt1005: Ref 'xwalk_id_types_course' not found in project. Searched for 'edu_wh.xwalk_id_types_course, xwalk_id_types_course'
+  --> models/build/edfi_3/courses/bld_ef3__wide_ids_course.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_course' not found in project. Searched for 'edu_wh.xwalk_id_types_course, xwalk_id_types_course'
+  --> models/build/edfi_3/courses/bld_ef3__wide_ids_course.sql:13:34
+error: dbt1005: Ref 'xwalk_id_types_ed_org' not found in project. Searched for 'edu_wh.xwalk_id_types_ed_org, xwalk_id_types_ed_org'
+  --> models/build/edfi_3/bld_ef3__wide_ids_lea.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_ed_org' not found in project. Searched for 'edu_wh.xwalk_id_types_ed_org, xwalk_id_types_ed_org'
+  --> models/build/edfi_3/bld_ef3__wide_ids_lea.sql:13:34
+error: dbt1005: Ref 'xwalk_id_types_ed_org' not found in project. Searched for 'edu_wh.xwalk_id_types_ed_org, xwalk_id_types_ed_org'
+  --> models/build/edfi_3/bld_ef3__wide_ids_school.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_ed_org' not found in project. Searched for 'edu_wh.xwalk_id_types_ed_org, xwalk_id_types_ed_org'
+  --> models/build/edfi_3/bld_ef3__wide_ids_school.sql:12:34
+error: dbt1005: Ref 'xwalk_id_types_staff' not found in project. Searched for 'edu_wh.xwalk_id_types_staff, xwalk_id_types_staff'
+  --> models/build/edfi_3/staffs/bld_ef3__wide_ids_staff.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_staff' not found in project. Searched for 'edu_wh.xwalk_id_types_staff, xwalk_id_types_staff'
+  --> models/build/edfi_3/staffs/bld_ef3__wide_ids_staff.sql:13:34
+error: dbt1005: Ref 'xwalk_id_types_student' not found in project. Searched for 'edu_wh.xwalk_id_types_student, xwalk_id_types_student'
+  --> models/build/edfi_3/students/bld_ef3__wide_ids_student.sql:5:19
+error: dbt1005: Ref 'xwalk_id_types_student' not found in project. Searched for 'edu_wh.xwalk_id_types_student, xwalk_id_types_student'
+  --> models/build/edfi_3/students/bld_ef3__wide_ids_student.sql:15:34
+error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
+  --> models/build/edfi_3/bld_ef3__wide_school_network_assoc.sql:6:17
+error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
+  --> models/build/edfi_3/bld_ef3__wide_school_network_assoc.sql:45:34
+error: dbt1005: Ref 'xwalk_calendar_events' not found in project. Searched for 'edu_wh.xwalk_calendar_events, xwalk_calendar_events'
+  --> models/core_warehouse/dim_calendar_date.sql:21:19
+error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
+  --> models/core_warehouse/dim_school.sql:48:34
+error: dbt1005: Ref 'xwalk_network_association_types' not found in project. Searched for 'edu_wh.xwalk_network_association_types, xwalk_network_association_types'
+  --> models/core_warehouse/dim_school.sql:2:34
+error: dbt1005: Ref 'xwalk_subgroup_value_display_names' not found in project. Searched for 'edu_wh.xwalk_subgroup_value_display_names, xwalk_subgroup_value_display_names'
+  --> models/core_warehouse/dim_subgroup.sql:10:19
+error: dbt1005: Ref 'xwalk_subgroup_category_display_names' not found in project. Searched for 'edu_wh.xwalk_subgroup_category_display_names, xwalk_subgroup_category_display_names'
+  --> models/core_warehouse/dim_subgroup.sql:13:19
+error: dbt1005: Ref 'xwalk_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_assessment_scores, xwalk_assessment_scores'
+  --> models/core_warehouse/fct_student_assessment.sql:4:26
+error: dbt1005: Ref 'absentee_categories' not found in project. Searched for 'edu_wh.absentee_categories, absentee_categories'
+  --> models/core_warehouse/fct_student_daily_attendance.sql:25:19
+error: dbt1005: Ref 'xwalk_discipline_actions' not found in project. Searched for 'edu_wh.xwalk_discipline_actions, xwalk_discipline_actions'
+  --> models/core_warehouse/fct_student_discipline_actions.sql:23:19
+error: dbt1005: Ref 'xwalk_discipline_actions' not found in project. Searched for 'edu_wh.xwalk_discipline_actions, xwalk_discipline_actions'
+  --> models/core_warehouse/fct_student_discipline_actions.sql:6:5
+error: dbt1005: Ref 'stg_ef3__discipline_actions__student_discipline_incident_behaviors' not found in project. Searched for 'edu_wh.stg_ef3__discipline_actions__student_discipline_incident_behaviors, stg_ef3__discipline_actions__student_discipline_incident_behaviors'
+  --> models/core_warehouse/fct_student_discipline_actions_summary.sql:11:19
+error: dbt1005: Ref 'xwalk_discipline_behaviors' not found in project. Searched for 'edu_wh.xwalk_discipline_behaviors, xwalk_discipline_behaviors'
+  --> models/core_warehouse/fct_student_discipline_incident_behaviors.sql:24:19
+error: dbt1005: Ref 'stg_ef3__student_discipline_incident_behavior_associations__participation_codes' not found in project. Searched for 'edu_wh.stg_ef3__student_discipline_incident_behavior_associations__participation_codes, stg_ef3__student_discipline_incident_behavior_associations__participation_codes'
+  --> models/core_warehouse/fct_student_discipline_incident_behaviors.sql:32:10
+error: dbt1005: Ref 'xwalk_discipline_behaviors' not found in project. Searched for 'edu_wh.xwalk_discipline_behaviors, xwalk_discipline_behaviors'
+  --> models/core_warehouse/fct_student_discipline_incident_behaviors.sql:6:5
+error: dbt1005: Ref 'stg_ef3__student_discipline_incident_non_offender_associations__participation_codes' not found in project. Searched for 'edu_wh.stg_ef3__student_discipline_incident_non_offender_associations__participation_codes, stg_ef3__student_discipline_incident_non_offender_associations__participation_codes'
+  --> models/core_warehouse/fct_student_discipline_incident_non_offenders.sql:29:10
+error: dbt1005: Ref 'stg_ef3__discipline_actions__student_discipline_incident_behaviors' not found in project. Searched for 'edu_wh.stg_ef3__discipline_actions__student_discipline_incident_behaviors, stg_ef3__discipline_actions__student_discipline_incident_behaviors'
+  --> models/core_warehouse/fct_student_discipline_incident_summary.sql:12:19
+error: dbt1005: Ref 'xwalk_letter_grades' not found in project. Searched for 'edu_wh.xwalk_letter_grades, xwalk_letter_grades'
+  --> models/core_warehouse/fct_student_grades.sql:29:19
+error: dbt1005: Ref 'xwalk_objective_assessment_scores' not found in project. Searched for 'edu_wh.xwalk_objective_assessment_scores, xwalk_objective_assessment_scores'
+  --> models/core_warehouse/fct_student_objective_assessment.sql:4:26
+error: dbt1005: Ref 'xwalk_grade_levels' not found in project. Searched for 'edu_wh.xwalk_grade_levels, xwalk_grade_levels'
+  --> models/core_warehouse/fct_student_school_association.sql:30:19
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> models/core_warehouse/fct_student_school_attendance_event.sql:51:19
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> models/core_warehouse/fct_student_section_attendance_event.sql:21:19
+error: dbt1005: Ref 'absentee_categories' not found in project. Searched for 'edu_wh.absentee_categories, absentee_categories'
+  --> models/core_warehouse/msr_student_cumulative_attendance.sql:18:19
+error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, edu_wh.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
   --> tests/config_tests/cfg_student_assessment_subjects.sql:16:10
-  Finished 'parse' target 'dev' with 187 errors in 200ms 41us 719ns
+error: dbt1005: Ref 'xwalk_assessment_school_year_dates' not found in project. Searched for 'edu_wh.xwalk_assessment_school_year_dates, xwalk_assessment_school_year_dates'
+  --> tests/config_tests/cfg_assess_school_year_overlapping_dates.sql:20:20
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> tests/config_tests/cfg_attendance_codes_valid_range.sql:8:6
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> tests/config_tests/cfg_attendance_event_codes.sql:11:19
+error: dbt1005: Ref 'xwalk_discipline_behaviors' not found in project. Searched for 'edu_wh.xwalk_discipline_behaviors, xwalk_discipline_behaviors'
+  --> tests/config_tests/cfg_behavior_types.sql:11:19
+error: dbt1005: Ref 'xwalk_calendar_events' not found in project. Searched for 'edu_wh.xwalk_calendar_events, xwalk_calendar_events'
+  --> tests/config_tests/cfg_calendar_event_codes.sql:17:19
+error: dbt1005: Ref 'xwalk_discipline_actions' not found in project. Searched for 'edu_wh.xwalk_discipline_actions, xwalk_discipline_actions'
+  --> tests/config_tests/cfg_discipline_actions.sql:11:19
+error: dbt1005: Ref 'xwalk_letter_grades' not found in project. Searched for 'edu_wh.xwalk_letter_grades, xwalk_letter_grades'
+  --> tests/config_tests/cfg_letter_grades.sql:11:19
+error: dbt1005: Ref 'xwalk_attendance_events' not found in project. Searched for 'edu_wh.xwalk_attendance_events, xwalk_attendance_events'
+  --> tests/config_tests/cfg_section_attendance_event_codes.sql:11:19
+error: dbt1005: Ref 'xwalk_student_programs' not found in project. Searched for 'edu_wh.xwalk_student_programs, xwalk_student_programs'
+  --> tests/config_tests/cfg_student_programs_consistent_agg_types.sql:13:19
+  Finished 'parse' target 'dev' with 203 errors and 2 warnings in 693ms 611us 393ns
