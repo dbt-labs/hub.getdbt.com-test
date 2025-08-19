@@ -2,7 +2,8 @@
     "name": "reddit_ads_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_reddit_ads_source",
-    "latest": "0.2.0",
+    "latest": "0.7.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
