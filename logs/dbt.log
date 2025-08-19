@@ -1,25 +1,30 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
-   Loading packages.yml
+  Fetching packages.yml
+Installing packages
+Installing dbt_utils: 1.3.0
+warning: dbt1065: Updated version available for snowplow_utils@0.13.2: 0.17.4
+Installing snowplow_utils: 0.13.2
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/snowplow_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/manifest/snowplow_attribution_incremental_manifest.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/manifest/snowplow_attribution_incremental_manifest.sql
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/snowplow_attribution_campaign_attributions.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/snowplow_attribution_campaign_attributions.sql
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/snowplow_attribution_channel_attributions.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/snowplow_attribution_channel_attributions.sql
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/snowplow_attribution_paths_to_conversion.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/snowplow_attribution_paths_to_conversion.sql
-  Finished 'parse' target 'dev' with 8 errors in 97ms 730us 688ns
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.base.scratch.bigquery.enabled'.
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:86:20
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.base.scratch.databricks.enabled'.
+  --> <unknown>
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.base.scratch.default.enabled'.
+  --> <unknown>
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.base.scratch.snowflake.enabled'.
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:92:20
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.optional_modules.consent.enabled'.
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:95:18
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.page_views.scratch.bigquery.enabled'.
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:105:20
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.page_views.scratch.databricks.enabled'.
+  --> <unknown>
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.page_views.scratch.default.enabled'.
+  --> <unknown>
+error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_web.page_views.scratch.snowflake.enabled'.
+  --> ../snowplow_dbt-snowplow-web/dbt_project.yml:111:20
