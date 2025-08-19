@@ -2,10 +2,20 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'amplitude.staging.materialized'.
-  --> ../fivetran_dbt_amplitude/dbt_project.yml:12:21
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'amplitude.staging.tmp.materialized'.
-  --> ../fivetran_dbt_amplitude/dbt_project.yml:14:23
-error: dbt1065: Package `amplitude_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1005: dbt found two resources with the database relation "postgres"."public__source_amplitude"."stg_amplitude__event". Nodes: model.amplitude_source.stg_amplitude__event, model.amplitude.stg_amplitude__event
-  Finished 'parse'  with 4 errors and 1 warning in 114ms
+Installing packages
+Installing fivetran_utils: 0.4.10
+Installing spark_utils: 0.3.0
+Installing dbt_utils: 1.3.0
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_instagram_business_source/models/src_instagram_business.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_instagram_business_source/models/src_instagram_business.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_instagram_business_source/models/src_instagram_business.yml:8:5
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_instagram_business_source/models/stg_instagram_business.yml:9:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_instagram_business_source/models/stg_instagram_business.yml:59:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_instagram_business_source/models/stg_instagram_business.yml:145:13
+  Finished 'parse' target 'dev' with 6 errors and 1 warning in 627ms
