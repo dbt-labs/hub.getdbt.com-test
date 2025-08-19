@@ -5,4 +5,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
 error: dbt1065: Package `greenhouse_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_greenhouse/models/greenhouse.yml:143:13
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 243ms
+  Finished 'parse' target 'dev' with 2 errors and 1 warning in 235ms
