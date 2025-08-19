@@ -4,54 +4,34 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading packages.yml
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:37:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:10:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:220:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:232:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:123:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -59,13 +39,13 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:189:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:320:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:341:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:289:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:301:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:418:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:439:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:389:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:410:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:490:13
-  Finished 'parse' target 'dev' with 33 errors and 1 warning in 142ms
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:511:13
+  Finished 'parse' target 'dev' with 23 errors and 1 warning in 143ms
