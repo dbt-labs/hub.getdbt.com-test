@@ -1,9 +1,11 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for dbt_utils@0.8.6: 1.3.0
+Installing dbt_utils: 0.8.6
    Loading dbt_project.yml
-warning: dbt1005: Package dbt_utils does not contain a dbt_project.yml file
+   Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1005: Encountered unexpected package not found in project: dbt_utils
-  Finished 'parse'  with 1 error and 1 warning in 74ms 254us 134ns
+  Finished 'parse' target 'dev' with 1 warning in 179ms 21us 215ns
