@@ -1,0 +1,10 @@
+{
+    "name": "dbt_ml_inline_preprocessing",
+    "namespace": "Matts52",
+    "description": "dbt models for dbt-ml-inline-preprocessing",
+    "latest": "0.2.5",
+    "latest-fusion-schema-compat": false,
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
