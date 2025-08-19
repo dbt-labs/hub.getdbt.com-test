@@ -3,5 +3,8 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 Installing packages
-Installing dbt_date: 0.10.1
-  Finished 'parse' target 'dev' with 1 warning in 168ms
+warning: dbt1065: Updated version available for dbt_utils@0.8.6: 1.3.0
+Installing dbt_utils: 0.8.6
+warning: dbt1065: Updated version available for dbt_date@0.5.7: 0.10.1
+Installing dbt_date: 0.5.7
+  Finished 'parse' target 'dev' with 3 warnings in 319ms
