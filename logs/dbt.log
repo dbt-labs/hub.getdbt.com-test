@@ -2,102 +2,60 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+Installing dbt_utils: 1.3.0
+Installing fivetran_utils: 0.4.10
+Installing spark_utils: 0.3.0
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_greenhouse_source/models/src_greenhouse.yml:9:5
+  --> ../fivetran_dbt_pendo_source/models/src_pendo.yml:9:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:9:13
+  --> ../fivetran_dbt_pendo_source/models/stg_pendo.yml:12:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:73:13
+  --> ../fivetran_dbt_pendo_source/models/stg_pendo.yml:33:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:92:13
+  --> ../fivetran_dbt_pendo_source/models/stg_pendo.yml:152:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:146:13
+  --> ../fivetran_dbt_pendo_source/models/stg_pendo.yml:259:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:207:13
+  --> ../fivetran_dbt_pendo_source/models/stg_pendo.yml:306:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:226:13
+  --> ../fivetran_dbt_pendo_source/models/stg_pendo.yml:363:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:290:13
+  --> ../fivetran_dbt_pendo_source/models/stg_pendo.yml:398:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:305:13
+  --> ../fivetran_dbt_pendo_source/models/stg_pendo.yml:552:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:320:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:335:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:439:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:655:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:485:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:531:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:554:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_greenhouse_source/models/stg_greenhouse.yml:626:13
-  Finished 'parse' target 'dev' with 49 errors and 1 warning in 248ms
+  --> ../fivetran_dbt_pendo_source/models/stg_pendo.yml:441:13
+  Finished 'parse' target 'dev' with 26 errors and 1 warning in 612ms
