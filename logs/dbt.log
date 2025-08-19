@@ -4,25 +4,21 @@ warning: dbt1005: No profile specified in dbt_project.yml
   Fetching packages.yml
 error: dbt1065: Package `stripe_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:613:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:585:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:730:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:702:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe/models/stripe.yml:24:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:527:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:509:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:855:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:827:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:305:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:283:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:384:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:366:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/standardized_models/stripe__standardized_models.yml:9:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:952:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:980:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:468:13
-error: dbt1005: Ref 'stg_stripe__payout_balance_transaction' not found in project. Searched for 'stripe.stg_stripe__payout_balance_transaction, stg_stripe__payout_balance_transaction'
-  --> models/stripe__balance_transactions.sql:1:1
-  Finished 'parse' target 'dev' with 12 errors and 1 warning in 323ms
+  --> ../fivetran_dbt_stripe/models/stripe.yml:450:13
+  Finished 'parse' target 'dev' with 10 errors and 1 warning in 310ms
