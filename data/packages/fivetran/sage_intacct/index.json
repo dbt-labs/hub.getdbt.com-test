@@ -2,7 +2,8 @@
     "name": "sage_intacct",
     "namespace": "fivetran",
     "description": "dbt models for dbt_sage_intacct",
-    "latest": "0.1.2",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
