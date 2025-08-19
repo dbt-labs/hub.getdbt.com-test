@@ -43,4 +43,4 @@ error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detect
   --> ../fivetran_dbt_hubspot/models/marketing/email_events/email_events.yml:484:30
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot/models/marketing/marketing.yml:22:30
-  Finished 'parse' target 'dev' with 21 errors and 1 warning in 342ms
+  Finished 'parse' target 'dev' with 21 errors and 1 warning in 345ms
