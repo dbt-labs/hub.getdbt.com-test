@@ -1,28 +1,10 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.marts.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:19:21
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.reports.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:22:21
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.staging.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:25:21
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.utils.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:31:21
-error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
-  --> models/reports/rpt_bigquery_dbt_metrics_daily.sql
-error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
-  --> models/reports/rpt_bigquery_query_alerting.sql
-error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
-  --> models/reports/rpt_bigquery_table_usage_daily.sql
-error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
-  --> models/reports/rpt_bigquery_usage_cost_daily.sql
-error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
-  --> models/reports/rpt_bigquery_user_metrics_daily.sql
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../grafana_dbt_leaner_query/models/marts/bigquery_audit_log.yml:77:13
-warning: dbt1005: Unused schema.yml entry for model 'int_dbt_execution_info'
-  --> models/intermediate/int_bigquery_audit_log.yml
-warning: dbt1005: Unused schema.yml entry for model 'int_importance_calculation'
-  --> models/intermediate/int_bigquery_audit_log.yml
-  Finished 'parse' target 'dev' with 10 errors and 3 warnings in 109ms
+  Fetching packages.yml
+Installing packages
+Installing dbt_utils: 1.3.0
+error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `datediff` is unknown
+(in models/staging/stg_hightouch_audit__sync_runs.sql:17:5)
+  --> models/staging/stg_hightouch_audit__sync_runs.sql:17:5
+  Finished 'parse' target 'dev' with 1 error and 1 warning in 247ms
