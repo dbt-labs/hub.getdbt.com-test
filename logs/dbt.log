@@ -1,9 +1,8 @@
 dbt-fusion 2.0.0-preview.1
+warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-warning: dbt1041: Found package-lock.yml file with out of date formatting, ignoring...
-warning: dbt1041: Attempted to infer package name from package-lock.yml, but no packages directory found, skipping...
-  Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-  Finished 'parse' target 'dev' with 2 warnings in 273ms
+error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: Missing context variable 'this'. Var should be initialized for package: dq_tools
+(in :1:2)
+  --> ../infinitelambda_dq-tools/models/01_lake/source_dq_tools.yml:5:13
+  Finished 'parse'  with 1 error and 1 warning in 46ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
