@@ -1,13 +1,14 @@
 dbt-fusion 2.0.0-preview.1
+warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.marts.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:21:21
+  --> ../grafana_dbt_leaner_query/dbt_project.yml:19:21
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.reports.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:24:21
+  --> ../grafana_dbt_leaner_query/dbt_project.yml:22:21
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.staging.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:27:21
+  --> ../grafana_dbt_leaner_query/dbt_project.yml:25:21
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'leaner_query.utils.materialized'.
-  --> ../grafana_dbt_leaner_query/dbt_project.yml:33:21
+  --> ../grafana_dbt_leaner_query/dbt_project.yml:31:21
 error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
   --> models/reports/rpt_bigquery_dbt_metrics_daily.sql
 error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
@@ -20,4 +21,8 @@ error: dbt1060: Ignored unexpected key `"enable"`. YAML path: `enable`.
   --> models/reports/rpt_bigquery_user_metrics_daily.sql
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../grafana_dbt_leaner_query/models/marts/bigquery_audit_log.yml:77:13
-  Finished 'parse' target 'dev' with 10 errors in 108ms
+warning: dbt1005: Unused schema.yml entry for model 'int_dbt_execution_info'
+  --> models/intermediate/int_bigquery_audit_log.yml
+warning: dbt1005: Unused schema.yml entry for model 'int_importance_calculation'
+  --> models/intermediate/int_bigquery_audit_log.yml
+  Finished 'parse' target 'dev' with 10 errors and 3 warnings in 108ms
