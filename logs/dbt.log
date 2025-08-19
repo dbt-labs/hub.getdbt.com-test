@@ -375,4 +375,4 @@ error: dbt1005: Ref 'base_ef3__student_education_organization_responsibility_ass
   --> models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql:2:19
 error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
   --> tests/config_tests/cfg_student_assessment_subjects.sql:16:10
-  Finished 'parse' target 'dev' with 187 errors in 273ms
+  Finished 'parse' target 'dev' with 187 errors in 272ms
