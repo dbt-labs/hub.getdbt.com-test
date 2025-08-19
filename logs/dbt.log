@@ -1,7 +1,4 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-  Fetching packages.yml
-Installing packages
-warning: dbt1065: Updated version available for dbt_utils@0.6.6: 0.7.0
-Installing dbt_utils: 0.6.6
-  Finished 'parse' target 'dev' with 1 warning in 295ms
+error: dbt1005: Unexpected 'config' key in profiles.yml
+  Finished 'parse'  with 1 error in 1ms
