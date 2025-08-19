@@ -18,5 +18,5 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:112:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_app_reporting/models/app_reporting.yml:136:13
-  Finished 'parse' target 'dev' with 10 errors and 1 warning in 305ms
+  Finished 'parse' target 'dev' with 10 errors and 1 warning in 325ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
