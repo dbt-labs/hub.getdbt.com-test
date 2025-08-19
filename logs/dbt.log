@@ -5,6 +5,8 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
+error: dbt1060: Ignored unexpected key `"indexes"`. YAML path: `indexes`.
+  --> models/edr/data_monitoring/data_monitoring/data_monitoring_metrics.sql
 error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
   --> models/edr/data_monitoring/data_monitoring/data_monitoring_metrics.sql
 error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
@@ -14,6 +16,8 @@ error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
 error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
   --> models/edr/dbt_artifacts/dbt_exposures.sql
 error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
+  --> models/edr/dbt_artifacts/dbt_groups.sql
+error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
   --> models/edr/dbt_artifacts/dbt_invocations.sql
 error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
   --> models/edr/dbt_artifacts/dbt_metrics.sql
@@ -21,6 +25,8 @@ error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
   --> models/edr/dbt_artifacts/dbt_models.sql
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `meta`.
   --> ../elementary-data_dbt-data-reliability/models/run_results.yml:139:5
+error: dbt1060: Ignored unexpected key `"indexes"`. YAML path: `indexes`.
+  --> models/edr/dbt_artifacts/dbt_run_results.sql
 error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
   --> models/edr/dbt_artifacts/dbt_run_results.sql
 error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
@@ -35,6 +41,8 @@ error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
   --> models/edr/run_results/dbt_source_freshness_results.sql
 error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
   --> models/edr/run_results/elementary_test_results.sql
+error: dbt1060: Ignored unexpected key `"indexes"`. YAML path: `indexes`.
+  --> models/edr/run_results/test_result_rows.sql
 error: dbt1060: Ignored unexpected key `"table_type"`. YAML path: `table_type`.
   --> models/edr/run_results/test_result_rows.sql
-  Finished 'parse' target 'dev' with 16 errors in 204ms 208us 648ns
+  Finished 'parse' target 'dev' with 20 errors in 216ms 636us 432ns
