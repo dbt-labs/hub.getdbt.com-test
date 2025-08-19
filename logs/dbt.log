@@ -1,11 +1,7 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-  Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-Installing fivetran_utils: 0.4.10
-Installing spark_utils: 0.3.0
+   Loading packages.yml
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_twilio_source/models/src_twilio.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
@@ -36,4 +32,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_twilio_source/models/stg_twilio.yml:363:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_twilio_source/models/stg_twilio.yml:491:13
-  Finished 'parse' target 'dev' with 15 errors and 1 warning in 414ms
+  Finished 'parse' target 'dev' with 15 errors and 1 warning in 130ms
