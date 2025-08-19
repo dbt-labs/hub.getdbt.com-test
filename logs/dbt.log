@@ -1,65 +1,34 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-   Loading packages.yml
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_pinterest_source/models/src_pinterest_ads.yml:11:5
+  Fetching packages.yml
+Installing packages
+Installing fivetran_utils: 0.4.10
+Installing dbt_utils: 1.3.0
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:9:13
+  --> ../fivetran_dbt_servicenow/models/servicenow.yml:518:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:182:13
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:1006:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:224:13
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:951:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:258:13
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:1205:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:49:13
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:1292:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:290:13
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:1149:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:329:13
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:830:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:368:13
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:618:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:85:13
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:757:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_pinterest_source/models/stg_pinterest_ads.yml:140:13
-  Finished 'parse' target 'dev' with 30 errors and 1 warning in 138ms
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:386:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:1391:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:9:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_servicenow/models/staging/stg_servicenow.yml:280:13
+  Finished 'parse' target 'dev' with 13 errors and 1 warning in 510ms
