@@ -2,12 +2,6 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-warning: dbt1065: Updated version available for stripe_source@0.13.0: 0.15.1
-Installing stripe_source: 0.13.0
-Installing fivetran_utils: 0.4.10
-Installing spark_utils: 0.3.0
-Installing dbt_utils: 1.3.0
 error: dbt1065: Package `stripe_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe/models/stripe.yml:613:13
@@ -20,11 +14,15 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe/models/stripe.yml:855:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe/models/stripe.yml:303:13
+  --> ../fivetran_dbt_stripe/models/stripe.yml:305:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe/models/stripe.yml:384:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_stripe/models/standardized_models/stripe__standardized_models.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe/models/stripe.yml:980:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe/models/stripe.yml:468:13
-  Finished 'parse' target 'dev' with 10 errors and 2 warnings in 1s 43ms
+error: dbt1005: Ref 'stg_stripe__payout_balance_transaction' not found in project. Searched for 'stripe.stg_stripe__payout_balance_transaction, stg_stripe__payout_balance_transaction'
+  --> models/stripe__balance_transactions.sql:1:1
+  Finished 'parse' target 'dev' with 12 errors and 1 warning in 323ms
