@@ -1,7 +1,7 @@
 dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-  Fetching packages.yml
+   Loading packages.yml
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
@@ -14,4 +14,4 @@ error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' inste
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'salesforce.materialized'.
   --> ../fivetran_dbt_salesforce/dbt_project.yml:7:19
 error: dbt1065: Package `salesforce_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-  Finished 'parse' target 'dev' with 3 errors and 1 warning in 230ms 984us 863ns
+  Finished 'parse' target 'dev' with 3 errors and 1 warning in 204ms 192us 277ns
