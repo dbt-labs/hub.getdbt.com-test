@@ -3,4 +3,4 @@ dbt-fusion 2.0.0-preview.1
   Fetching packages.yml
 error: dbt1059: Duplicate key `snowplow__query_tag`. This key overwrites a previous definition of the same key at line 44 column 5. YAML path: `vars.snowplow_ecommerce.snowplow__query_tag`.
   --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:48:5
-  Finished 'parse' target 'dev' with 1 error in 33ms
+  Finished 'parse' target 'dev' with 1 error in 40ms
