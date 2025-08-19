@@ -11,11 +11,11 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1065: Package `jira_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:227:13
+  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:228:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:479:13
+  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:476:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:501:13
+  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:498:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:240:13
-  Finished 'parse' target 'dev' with 5 errors and 1 warning in 242ms 602us 106ns
+  --> ../fivetran_dbt_jira/models/intermediate/int_jira.yml:241:13
+  Finished 'parse' target 'dev' with 5 errors and 1 warning in 241ms 1us 359ns
