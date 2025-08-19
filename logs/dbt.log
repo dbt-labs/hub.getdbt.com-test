@@ -4,21 +4,21 @@ warning: dbt1005: No profile specified in dbt_project.yml
   Fetching packages.yml
 error: dbt1065: Package `hubspot_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_hubspot/models/sales/sales.yml:132:30
+  --> ../fivetran_dbt_hubspot/models/sales/sales.yml:170:30
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot/models/sales/history/history.yml:10:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot/models/marketing/history/history.yml:10:13
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_hubspot/models/marketing/marketing.yml:244:30
+  --> ../fivetran_dbt_hubspot/models/marketing/marketing.yml:344:30
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_hubspot/models/marketing/marketing.yml:159:30
+  --> ../fivetran_dbt_hubspot/models/marketing/marketing.yml:223:30
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot/models/sales/history/history.yml:49:13
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_hubspot/models/sales/sales.yml:76:30
+  --> ../fivetran_dbt_hubspot/models/sales/sales.yml:97:30
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_hubspot/models/sales/sales.yml:22:30
+  --> ../fivetran_dbt_hubspot/models/sales/sales.yml:27:30
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot/models/marketing/email_events/email_events.yml:24:30
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -42,5 +42,5 @@ error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detect
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot/models/marketing/email_events/email_events.yml:484:30
 error: dbt0102: Deprecated test arguments: ["row_condition"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_hubspot/models/marketing/marketing.yml:22:30
-  Finished 'parse' target 'dev' with 21 errors and 1 warning in 344ms
+  --> ../fivetran_dbt_hubspot/models/marketing/marketing.yml:27:30
+  Finished 'parse' target 'dev' with 21 errors and 1 warning in 350ms
