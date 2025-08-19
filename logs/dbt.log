@@ -68,19 +68,6 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__graduation_plans model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__graduation_plans.sql:7:10)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__graduation_plans.sql:7:10
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
 The edu_edfi_source.stg_ef3__assessments model triggered this warning. 
 
 (in models/staging/edfi_3/stage/stg_ef3__assessments.sql:16:9)
@@ -107,12 +94,12 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__learning_standards model triggered this warning. 
+The edu_edfi_source.stg_ef3__graduation_plans model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__learning_standards.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__graduation_plans.sql:7:10)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__learning_standards.sql:7:9
+  --> models/staging/edfi_3/stage/stg_ef3__graduation_plans.sql:7:10
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -120,12 +107,12 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__local_education_agencies model triggered this warning. 
+The edu_edfi_source.stg_ef3__learning_standards model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__local_education_agencies.sql:7:10)
+(in models/staging/edfi_3/stage/stg_ef3__learning_standards.sql:7:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__local_education_agencies.sql:7:10
+  --> models/staging/edfi_3/stage/stg_ef3__learning_standards.sql:7:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -160,9 +147,36 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__local_education_agencies model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__local_education_agencies.sql:7:10)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> models/staging/edfi_3/stage/stg_ef3__local_education_agencies.sql:7:10
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
 The edu_edfi_source.stg_ef3__bell_schedules__class_periods model triggered this warning. 
 
 (in models/staging/edfi_3/stage/stg_ef3__bell_schedules__class_periods.sql:10:9)
+(in macros/gen_skey.sql:217:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> macros/gen_skey.sql:217:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__student_discipline_incident_behavior_associations model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_behavior_associations.sql:51:9)
 (in macros/gen_skey.sql:217:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
@@ -187,13 +201,12 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__student_discipline_incident_behavior_associations model triggered this warning. 
+The edu_edfi_source.stg_ef3__objective_assessments model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_behavior_associations.sql:51:9)
-(in macros/gen_skey.sql:217:9)
+(in models/staging/edfi_3/stage/stg_ef3__objective_assessments.sql:36:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> macros/gen_skey.sql:217:9
+  --> models/staging/edfi_3/stage/stg_ef3__objective_assessments.sql:36:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -207,19 +220,6 @@ The edu_edfi_source.stg_ef3__calendar_dates model triggered this warning.
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
   --> models/staging/edfi_3/stage/stg_ef3__calendar_dates.sql:7:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__objective_assessments model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__objective_assessments.sql:36:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__objective_assessments.sql:36:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -269,7 +269,7 @@ macro, add a global variable in dbt_project.yml called
 dbt_project.yml file with a value of True. 
 The edu_edfi_source.stg_ef3__student_education_organization_associations model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__student_education_organization_associations.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__student_education_organization_associations.sql:6:9)
 (in macros/gen_skey.sql:217:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
@@ -294,22 +294,9 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__programs model triggered this warning. 
+The edu_edfi_source.stg_ef3__student_homeless_program_associations model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__student_education_organization_responsibility_associations model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__student_homeless_program_associations.sql:8:9)
 (in macros/gen_skey.sql:217:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
@@ -334,12 +321,12 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__schools model triggered this warning. 
+The edu_edfi_source.stg_ef3__programs model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9
+  --> models/staging/edfi_3/stage/stg_ef3__programs.sql:7:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -347,9 +334,9 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__student_homeless_program_associations model triggered this warning. 
+The edu_edfi_source.stg_ef3__student_language_instruction_program_associations model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__student_homeless_program_associations.sql:8:9)
+(in models/staging/edfi_3/stage/stg_ef3__student_language_instruction_program_associations.sql:8:9)
 (in macros/gen_skey.sql:217:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
@@ -374,13 +361,25 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__student_language_instruction_program_associations model triggered this warning. 
+The edu_edfi_source.stg_ef3__schools model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__student_language_instruction_program_associations.sql:8:9)
-(in macros/gen_skey.sql:217:9)
+(in models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> macros/gen_skey.sql:217:9
+  --> models/staging/edfi_3/stage/stg_ef3__schools.sql:7:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__student_objective_assessments model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -402,12 +401,13 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__courses model triggered this warning. 
+The edu_edfi_source.stg_ef3__student_parent_associations model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__student_parent_associations.sql:6:9)
+(in macros/gen_skey.sql:217:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9
+  --> macros/gen_skey.sql:217:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -428,67 +428,12 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__student_objective_assessments model triggered this warning. 
+The edu_edfi_source.stg_ef3__courses model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9)
+(in models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__student_objective_assessments.sql:41:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__sections__class_periods model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__sections__class_periods.sql:9:9)
-(in macros/gen_skey.sql:217:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> macros/gen_skey.sql:217:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__descriptors model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__student_parent_associations model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__student_parent_associations.sql:7:9)
-(in macros/gen_skey.sql:217:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> macros/gen_skey.sql:217:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__discipline_actions model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__discipline_actions.sql:7:9)
-(in macros/gen_skey.sql:217:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> macros/gen_skey.sql:217:9
+  --> models/staging/edfi_3/stage/stg_ef3__courses.sql:7:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -510,36 +455,9 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__sessions model triggered this warning. 
+The edu_edfi_source.stg_ef3__sections__class_periods model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__discipline_actions__staffs model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__discipline_actions__staffs.sql:12:9)
-(in macros/gen_skey.sql:217:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> macros/gen_skey.sql:217:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__sessions__grading_periods model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__sessions__grading_periods.sql:9:9)
+(in models/staging/edfi_3/stage/stg_ef3__sections__class_periods.sql:9:9)
 (in macros/gen_skey.sql:217:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
@@ -565,12 +483,39 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__discipline_incidents model triggered this warning. 
+The edu_edfi_source.stg_ef3__descriptors model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9
+  --> models/staging/edfi_3/stage/stg_ef3__descriptors.sql:7:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__sessions model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> models/staging/edfi_3/stage/stg_ef3__sessions.sql:7:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__discipline_actions model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__discipline_actions.sql:7:9)
+(in macros/gen_skey.sql:217:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> macros/gen_skey.sql:217:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -592,23 +537,9 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__staff_education_organization_assignment_associations model triggered this warning. 
+The edu_edfi_source.stg_ef3__sessions__grading_periods model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__staff_education_organization_assignment_associations.sql:7:9)
-(in macros/gen_skey.sql:217:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> macros/gen_skey.sql:217:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__education_organization_network_associations model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__education_organization_network_associations.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__sessions__grading_periods.sql:9:9)
 (in macros/gen_skey.sql:217:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
@@ -634,6 +565,48 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__discipline_actions__staffs model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__discipline_actions__staffs.sql:12:9)
+(in macros/gen_skey.sql:217:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> macros/gen_skey.sql:217:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__staff_education_organization_assignment_associations model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__staff_education_organization_assignment_associations.sql:7:9)
+(in macros/gen_skey.sql:217:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> macros/gen_skey.sql:217:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__student_section_attendance_events model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__student_section_attendance_events.sql:7:9)
+(in macros/gen_skey.sql:217:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> macros/gen_skey.sql:217:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
 The edu_edfi_source.stg_ef3__staff_education_organization_employment_associations model triggered this warning. 
 
 (in models/staging/edfi_3/stage/stg_ef3__staff_education_organization_employment_associations.sql:7:9)
@@ -648,12 +621,26 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__education_organization_networks model triggered this warning. 
+The edu_edfi_source.stg_ef3__discipline_incidents model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__education_organization_networks.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__education_organization_networks.sql:7:9
+  --> models/staging/edfi_3/stage/stg_ef3__discipline_incidents.sql:7:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__student_special_education_program_associations model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__student_special_education_program_associations.sql:8:9)
+(in macros/gen_skey.sql:217:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> macros/gen_skey.sql:217:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -675,22 +662,9 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__education_service_centers model triggered this warning. 
+The edu_edfi_source.stg_ef3__education_organization_network_associations model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__education_service_centers.sql:7:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__education_service_centers.sql:7:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__student_section_attendance_events model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__student_section_attendance_events.sql:7:9)
+(in models/staging/edfi_3/stage/stg_ef3__education_organization_network_associations.sql:7:9)
 (in macros/gen_skey.sql:217:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
@@ -716,33 +690,6 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__staffs model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__student_special_education_program_associations model triggered this warning. 
-
-(in models/staging/edfi_3/stage/stg_ef3__student_special_education_program_associations.sql:8:9)
-(in macros/gen_skey.sql:217:9)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> macros/gen_skey.sql:217:9
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
 The edu_edfi_source.stg_ef3__student_title_i_part_a_program_associations model triggered this warning. 
 
 (in models/staging/edfi_3/stage/stg_ef3__student_title_i_part_a_program_associations.sql:8:9)
@@ -757,12 +704,25 @@ differently to empty strings. To restore the behaviour of the original
 macro, add a global variable in dbt_project.yml called 
 `surrogate_key_treat_nulls_as_empty_strings` to your 
 dbt_project.yml file with a value of True. 
-The edu_edfi_source.stg_ef3__state_education_agencies model triggered this warning. 
+The edu_edfi_source.stg_ef3__education_organization_networks model triggered this warning. 
 
-(in models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10)
+(in models/staging/edfi_3/stage/stg_ef3__education_organization_networks.sql:7:9)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10
+  --> models/staging/edfi_3/stage/stg_ef3__education_organization_networks.sql:7:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__staffs model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> models/staging/edfi_3/stage/stg_ef3__staffs.sql:7:9
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -776,6 +736,32 @@ The edu_edfi_source.stg_ef3__students model triggered this warning.
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
   --> models/staging/edfi_3/stage/stg_ef3__students.sql:8:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__education_service_centers model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__education_service_centers.sql:7:9)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> models/staging/edfi_3/stage/stg_ef3__education_service_centers.sql:7:9
+error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
+Warning: `dbt_utils.surrogate_key` has been replaced by 
+`dbt_utils.generate_surrogate_key`. The new macro treats null values 
+differently to empty strings. To restore the behaviour of the original 
+macro, add a global variable in dbt_project.yml called 
+`surrogate_key_treat_nulls_as_empty_strings` to your 
+dbt_project.yml file with a value of True. 
+The edu_edfi_source.stg_ef3__state_education_agencies model triggered this warning. 
+
+(in models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
+(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
+  --> models/staging/edfi_3/stage/stg_ef3__state_education_agencies.sql:7:10
 error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
 Warning: `dbt_utils.surrogate_key` has been replaced by 
 `dbt_utils.generate_surrogate_key`. The new macro treats null values 
@@ -829,16 +815,12 @@ The edu_edfi_source.stg_ef3__surveys model triggered this warning.
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
 (in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
   --> models/staging/edfi_3/stage/stg_ef3__surveys.sql:7:9
-error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("base_ef3__student_education_organization_responsibility_associations")' is longer than 63 characters
-  --> models/staging/edfi_3/base/base_ef3__student_education_organization_responsibility_associations.sql
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__discipline_actions__student_discipline_incident_behaviors")' is longer than 63 characters
   --> models/staging/edfi_3/stage/stg_ef3__discipline_actions__student_discipline_incident_behaviors.sql
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_discipline_incident_behavior_associations__participation_codes")' is longer than 63 characters
   --> models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_behavior_associations__participation_codes.sql
 error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_discipline_incident_non_offender_associations__participation_codes")' is longer than 63 characters
   --> models/staging/edfi_3/stage/stg_ef3__student_discipline_incident_non_offender_associations__participation_codes.sql
-error: dbt1501: Failed to create relation invalid operation: Relation name 'Some("stg_ef3__student_education_organization_responsibility_associations")' is longer than 63 characters
-  --> models/staging/edfi_3/stage/stg_ef3__student_education_organization_responsibility_associations.sql
 error: dbt1005: Source 'raw_edfi_3.assessments' not found in project. Searched for 'assessments'
   --> models/staging/edfi_3/base/base_ef3__assessments.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
@@ -997,10 +979,6 @@ error: dbt1005: Source 'raw_edfi_3.student_education_organization_associations' 
   --> models/staging/edfi_3/base/base_ef3__student_education_organization_associations.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
   --> models/staging/edfi_3/base/base_ef3__student_education_organization_associations.sql:11:23
-error: dbt1005: Source 'raw_edfi_3.student_education_organization_responsibility_associations' not found in project. Searched for 'student_education_organization_responsibility_associations'
-  --> models/staging/edfi_3/base/base_ef3__student_education_organization_responsibility_associations.sql:9:14
-error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
-  --> models/staging/edfi_3/base/base_ef3__student_education_organization_responsibility_associations.sql:11:23
 error: dbt1005: Source 'raw_edfi_3.student_homeless_program_associations' not found in project. Searched for 'student_homeless_program_associations'
   --> models/staging/edfi_3/base/base_ef3__student_homeless_program_associations.sql:9:14
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
@@ -1062,7 +1040,7 @@ error: dbt1005: Source 'raw_edfi_3.surveys' not found in project. Searched for '
 error: dbt1005: Source 'raw_edfi_3._deletes' not found in project. Searched for '_deletes'
   --> models/staging/edfi_3/base/base_ef3__surveys.sql:11:23
 error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
-  --> models/staging/edfi_3/intermediate/int_ef3__student_assessments__identify_subject.sql:18:19
+  --> models/staging/edfi_3/intermediate/int_ef3__student_assessments__identify_subject.sql:16:19
 error: dbt1005: Ref 'xwalk_student_assessment_subject' not found in project. Searched for 'edu_edfi_source.xwalk_student_assessment_subject, xwalk_student_assessment_subject'
   --> tests/config_tests/cfg_student_assessment_subjects.sql:16:10
-  Finished 'parse' target 'dev' with 180 errors in 200ms 828us 158ns
+  Finished 'parse' target 'dev' with 175 errors in 243ms 289us 206ns
