@@ -2,9 +2,9 @@ dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1060: Ignored unexpected key 'scratch'. Try '+scratch' instead. YAML path: 'snowplow_normalize.base.scratch'.
-  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:74:9
+  --> ../snowplow_dbt-snowplow-normalize/dbt_project.yml:68:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-normalize/models/base/manifest/base_manifest.yml:9:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[6].tags`.
   --> ../snowplow_dbt-snowplow-normalize/models/base/scratch/base_scratch.yml:28:9
-  Finished 'parse' target 'dev' with 3 errors in 657ms
+  Finished 'parse' target 'dev' with 3 errors in 655ms
