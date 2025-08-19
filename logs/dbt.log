@@ -3,20 +3,7 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1065: Package `facebook_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_facebook_ads/models/facebook.yml:226:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_facebook_ads/models/facebook.yml:80:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_facebook_ads/models/facebook.yml:127:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_facebook_ads/models/facebook.yml:179:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_facebook_ads/models/facebook.yml:9:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_facebook_ads/models/facebook.yml:266:13
-error: dbt1005: Ref 'stg_facebook_ads__basic_ad_actions' not found in project. Searched for 'facebook_ads.stg_facebook_ads__basic_ad_actions, stg_facebook_ads__basic_ad_actions'
-  --> models/intermediate/int_facebook_ads__conversions.sql:1:1
-error: dbt1005: Ref 'stg_facebook_ads__basic_ad_action_values' not found in project. Searched for 'facebook_ads.stg_facebook_ads__basic_ad_action_values, stg_facebook_ads__basic_ad_action_values'
-  --> models/intermediate/int_facebook_ads__conversions.sql:1:1
-  Finished 'parse' target 'dev' with 9 errors and 1 warning in 220ms
+error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: doc: doc 'country_id' not found for package 'facebook_ads'
+(in :1:2)
+  --> ../fivetran_dbt_facebook_ads/models/facebook.yml:356:22
+  Finished 'parse'  with 2 errors and 1 warning in 185ms
