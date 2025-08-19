@@ -73,5 +73,5 @@ error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_jira_source/models/stg_jira.yml:150:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_jira_source/models/stg_jira.yml:171:13
-  Finished 'parse' target 'dev' with 36 errors and 1 warning in 145ms
+  --> ../fivetran_dbt_jira_source/models/stg_jira.yml:169:13
+  Finished 'parse' target 'dev' with 36 errors and 1 warning in 147ms
