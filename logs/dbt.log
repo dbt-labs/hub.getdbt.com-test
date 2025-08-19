@@ -24,5 +24,5 @@ warning: dbt1005: Unused schema.yml entry for model 'int_dbt_execution_info'
   --> models/intermediate/int_bigquery_audit_log.yml
 warning: dbt1005: Unused schema.yml entry for model 'int_importance_calculation'
   --> models/intermediate/int_bigquery_audit_log.yml
-  Finished 'parse' target 'dev' with 10 errors and 2 warnings in 106ms
+  Finished 'parse' target 'dev' with 10 errors and 2 warnings in 103ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
