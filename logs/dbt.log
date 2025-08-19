@@ -91,4 +91,4 @@ error: dbt1501: Failed to render SQL invalid operation: Compilation Error: Unsup
 (in dbt_internal_packages/dbt-adapters/macros/utils/datediff.sql:2:29)
 (in dbt_internal_packages/dbt-postgres/macros/utils/datediff.sql:29:9)
   --> macros/get_missing_date.sql:50:11
-  Finished 'parse' target 'dev' with 15 errors in 148ms
+  Finished 'parse' target 'dev' with 15 errors in 145ms
