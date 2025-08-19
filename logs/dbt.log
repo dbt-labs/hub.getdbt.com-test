@@ -4,12 +4,6 @@ warning: dbt1005: No profile specified in dbt_project.yml
   Fetching packages.yml
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:11:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:19:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_amplitude_source/models/src_amplitude.yml:11:5
-  Finished 'parse' target 'dev' with 5 errors and 1 warning in 175ms
+  Finished 'parse' target 'dev' with 2 errors and 1 warning in 177ms
