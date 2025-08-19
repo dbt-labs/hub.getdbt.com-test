@@ -2,12 +2,10 @@ dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing dbt_artifacts: 2.9.3
    Loading dbt_project.yml
    Loading dbt_packages/dbt_artifacts/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1059: Duplicate key `quote`. This key overwrites a previous definition of the same key at line 32 column 11. YAML path: `models[0].columns[8].quote`.
   --> ../irvingpop_dbt_otel_export/models/models.yml:34:11
-  Finished 'parse' target 'dev' with 1 error and 1 warning in 312ms 429us 939ns
+  Finished 'parse' target 'dev' with 1 error and 1 warning in 165ms 155us 4ns
