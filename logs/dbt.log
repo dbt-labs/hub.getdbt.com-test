@@ -25,8 +25,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../grafana_dbt_leaner_query/models/marts/bigquery_audit_log.yml:77:13
 warning: dbt1005: Unused schema.yml entry for model 'dim_query_statement'
   --> models/marts/bigquery_audit_log.yml
-warning: dbt1005: Unused schema.yml entry for model 'int_dbt_execution_info'
-  --> models/intermediate/int_bigquery_audit_log.yml
-warning: dbt1005: Unused schema.yml entry for model 'int_importance_calculation'
-  --> models/intermediate/int_bigquery_audit_log.yml
-  Finished 'parse' target 'dev' with 10 errors and 3 warnings in 109ms 686us 717ns
+  Finished 'parse' target 'dev' with 10 errors and 1 warning in 109ms 311us 803ns
