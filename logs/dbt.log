@@ -12,5 +12,17 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_linkedin/models/linkedin.yml:330:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_linkedin/models/linkedin.yml:438:13
-  Finished 'parse' target 'dev' with 6 errors and 1 warning in 166ms
+  --> ../fivetran_dbt_linkedin/models/linkedin.yml:544:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_linkedin/models/linkedin.yml:715:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_linkedin/models/linkedin.yml:439:13
+error: dbt1005: Ref 'stg_linkedin_ads__geo' not found in project. Searched for 'linkedin.stg_linkedin_ads__geo, stg_linkedin_ads__geo'
+  --> models/linkedin_ads__monthly_campaign_country_report.sql:1:1
+error: dbt1005: Ref 'stg_linkedin_ads__monthly_ad_analytics_by_country' not found in project. Searched for 'linkedin.stg_linkedin_ads__monthly_ad_analytics_by_country, stg_linkedin_ads__monthly_ad_analytics_by_country'
+  --> models/linkedin_ads__monthly_campaign_country_report.sql:1:1
+error: dbt1005: Ref 'stg_linkedin_ads__geo' not found in project. Searched for 'linkedin.stg_linkedin_ads__geo, stg_linkedin_ads__geo'
+  --> models/linkedin_ads__monthly_campaign_region_report.sql:1:1
+error: dbt1005: Ref 'stg_linkedin_ads__monthly_ad_analytics_by_region' not found in project. Searched for 'linkedin.stg_linkedin_ads__monthly_ad_analytics_by_region, stg_linkedin_ads__monthly_ad_analytics_by_region'
+  --> models/linkedin_ads__monthly_campaign_region_report.sql:1:1
+  Finished 'parse' target 'dev' with 12 errors and 1 warning in 170ms
