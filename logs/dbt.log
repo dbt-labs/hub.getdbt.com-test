@@ -2,12 +2,11 @@ dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
    Loading dbt_project.yml
-warning: dbt1005: Package dbt_utils does not contain a dbt_project.yml file
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1501: Failed to render SQL unknown function: In dispatch: No macro named 'generate_uuid' found within namespace: 'tasman_dbt_mta'
     Searched for: 'tasman_dbt_mta.postgres__generate_uuid', 'tasman_dbt_mta.default__generate_uuid', 'tasman_dbt_mta.postgres__generate_uuid', 'tasman_dbt_mta.default__generate_uuid'
-(in models/prs_tasman_mta__attribution_performance_history.sql:128:9)
+(in models/prs_tasman_mta__attribution_performance_history.sql:14:9)
 (in macros/generate_uuid.sql:2:29)
   --> macros/generate_uuid.sql:2:29
 error: dbt1501: Failed to render SQL unknown function: In dispatch: No macro named 'current_utc_time' found within namespace: 'tasman_dbt_mta'
@@ -46,4 +45,4 @@ error: dbt1501: Failed to render SQL unknown function: In dispatch: No macro nam
 (in macros/test_in_past.sql:5:52)
 (in macros/current_utc_time.sql:2:29)
   --> macros/current_utc_time.sql:2:29
-  Finished 'parse' target 'dev' with 7 errors and 2 warnings in 82ms 411us 672ns
+  Finished 'parse' target 'dev' with 7 errors and 1 warning in 85ms 827us 409ns
