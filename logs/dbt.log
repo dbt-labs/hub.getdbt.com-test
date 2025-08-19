@@ -129,7 +129,7 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_stripe_source/models/src_stripe.yml:10:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:794:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:792:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -139,9 +139,9 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:202:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:1032:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:1030:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:849:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:847:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:271:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -157,13 +157,13 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:406:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:671:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:669:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:987:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:985:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:449:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:616:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:614:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:944:13
+  --> ../fivetran_dbt_stripe_source/models/stg_stripe.yml:942:13
   Finished 'parse' target 'dev' with 82 errors and 1 warning in 226ms
