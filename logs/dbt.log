@@ -4,4 +4,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 warning in 58ms 489us 202ns
+  Finished 'parse' target 'dev' with 1 warning in 54ms 448us 910ns
