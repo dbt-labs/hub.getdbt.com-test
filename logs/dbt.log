@@ -1,73 +1,75 @@
 dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-   Loading packages.yml
+  Fetching packages.yml
+Installing packages
+Installing spark_utils: 0.3.0
+Installing dbt_utils: 1.3.0
+Installing fivetran_utils: 0.4.10
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_twitter_source/models/src_twitter_ads.yml:10:5
+  --> ../fivetran_dbt_microsoft_ads_source/models/src_microsoft_ads.yml:11:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:9:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:37:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:48:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:10:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:288:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:220:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:101:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:123:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:376:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:92:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:332:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:189:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:170:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:320:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:201:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:289:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:422:13
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:418:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_twitter_source/models/stg_twitter_ads.yml:245:13
-  Finished 'parse' target 'dev' with 34 errors and 1 warning in 154ms
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:389:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_microsoft_ads_source/models/stg_microsoft_ads.yml:490:13
+  Finished 'parse' target 'dev' with 33 errors and 1 warning in 445ms
