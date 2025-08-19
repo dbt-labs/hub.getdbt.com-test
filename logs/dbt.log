@@ -3,7 +3,5 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1065: Package `apple_search_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: doc: doc 'new_downloads' not found for package 'apple_search_ads'
-(in :1:2)
-  --> ../fivetran_dbt_apple_search_ads/models/apple_search_ads.yml:46:22
-  Finished 'parse'  with 2 errors and 1 warning in 222ms
+error: dbt1005: dbt found two resources with the database relation "postgres"."public_apple_search_ads_source"."stg_apple_search_ads__ad_group_history". Nodes: model.apple_search_ads_source.stg_apple_search_ads__ad_group_history, model.apple_search_ads.stg_apple_search_ads__ad_group_history
+  Finished 'parse'  with 2 errors and 1 warning in 185ms
