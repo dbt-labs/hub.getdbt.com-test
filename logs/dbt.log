@@ -2,4 +2,6 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-  Finished 'parse' target 'dev' with 1 warning in 182ms
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_mixpanel/models/staging/src_mixpanel.yml:9:5
+  Finished 'parse' target 'dev' with 1 error and 1 warning in 171ms
