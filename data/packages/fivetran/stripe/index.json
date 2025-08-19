@@ -2,7 +2,8 @@
     "name": "stripe",
     "namespace": "fivetran",
     "description": "dbt models for dbt_stripe",
-    "latest": "0.11.0",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
