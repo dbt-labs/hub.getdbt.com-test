@@ -5,4 +5,4 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_packages/dbt_date/dbt_project.yml
    Loading dbt_packages/dbt_expectations/dbt_project.yml
 error: dbt1005: Could not find package godatadriven/dbt_date in the package lookup map
-  Finished 'parse'  with 1 error in 48ms 474us 701ns
+  Finished 'parse'  with 1 error in 56ms 621us 633ns
