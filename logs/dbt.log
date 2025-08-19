@@ -1,5 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-  Fetching packages.yml
-  Finished 'parse' target 'dev' in 139ms
+error: dbt1013: YAML error: mapping values are not allowed in this context at line 15 column 21
+  --> ../google_fhir-dbt-analytics/profiles.yml:15:21
+  Finished 'parse'  with 1 error in 1ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
