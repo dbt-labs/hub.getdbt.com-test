@@ -5,7 +5,4 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1502: Failed to parse macro SQL syntax error: unexpected 'endmacro' end of block identifier
-(in macros/internal/metadata_processing/concat_ws.sql:1:1)
-  --> macros/internal/metadata_processing/concat_ws.sql:1:1
-  Finished 'parse'  with 1 error in 48ms 448us 147ns
+  Finished 'parse' target 'dev' in 196ms 347us 146ns
