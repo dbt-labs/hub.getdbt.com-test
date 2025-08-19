@@ -2,10 +2,6 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'apple_store.materialized'.
-  --> ../fivetran_dbt_apple_store/dbt_project.yml:31:19
 error: dbt1065: Package `apple_store_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: doc: doc 'account_id' not found for package 'apple_store'
-(in :1:2)
-  --> ../fivetran_dbt_apple_store/models/apple_store.yml:19:22
-  Finished 'parse'  with 3 errors and 1 warning in 126ms
+error: dbt1005: dbt found two resources with the database relation "postgres"."public_apple_store_source"."stg_apple_store__app_crash_daily". Nodes: model.apple_store_source.stg_apple_store__app_crash_daily, model.apple_store.stg_apple_store__app_crash_daily
+  Finished 'parse'  with 2 errors and 1 warning in 137ms
