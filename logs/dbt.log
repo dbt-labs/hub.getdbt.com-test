@@ -2,5 +2,11 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1005: Could not find package calogica/dbt_date in the package lookup map
-  Finished 'parse'  with 1 error and 1 warning in 39ms
+Installing packages
+Installing intercom_source: 0.9.0
+Installing dbt_utils: 1.3.0
+Installing fivetran_utils: 0.4.10
+error: dbt1065: Package `intercom_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_intercom/models/intercom.yml:13:35
+  Finished 'parse' target 'dev' with 2 errors and 1 warning in 716ms
