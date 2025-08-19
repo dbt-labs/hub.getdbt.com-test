@@ -8,4 +8,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/spark_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 warning in 141ms 805us 528ns
+  Finished 'parse' target 'dev' with 1 warning in 144ms 887us 799ns
