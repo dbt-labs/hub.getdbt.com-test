@@ -2,7 +2,8 @@
     "name": "twilio_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_twilio_source",
-    "latest": "0.1.0",
+    "latest": "0.5.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
