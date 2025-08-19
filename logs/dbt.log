@@ -2,10 +2,8 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
 error: dbt1501: Failed to render SQL unknown function: Jinja macro or function `datediff` is unknown
 (in models/staging/stg_hightouch_audit__sync_runs.sql:17:5)
   --> models/staging/stg_hightouch_audit__sync_runs.sql:17:5
-  Finished 'parse' target 'dev' with 1 error and 1 warning in 345ms
+  Finished 'parse' target 'dev' with 1 error and 1 warning in 115ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
