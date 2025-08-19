@@ -1,10 +1,7 @@
 dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-  Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-Installing fivetran_utils: 0.4.10
+   Loading packages.yml
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
@@ -26,4 +23,4 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_pardot_source/models/src_pardot.yml:8:5
-  Finished 'parse' target 'dev' with 8 errors and 1 warning in 562ms 842us 78ns
+  Finished 'parse' target 'dev' with 8 errors and 1 warning in 118ms 503us 160ns
