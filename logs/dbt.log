@@ -12,4 +12,4 @@ error: dbt1060: Ignored unexpected key `"install_prerelease"`. YAML path: `packa
    Loading dbt_packages/elementary/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 2 errors in 598ms 958us 600ns
+  Finished 'parse' target 'dev' with 2 errors in 552ms 657us 225ns
