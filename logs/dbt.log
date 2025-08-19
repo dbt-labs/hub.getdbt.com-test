@@ -2,8 +2,8 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1065: Package `apple_search_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `amazon_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `apple_search_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `facebook_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `google_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `linkedin_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
@@ -13,47 +13,29 @@ error: dbt1065: Package `pinterest_source` issued one or more compatibility warn
 error: dbt1065: Package `reddit_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `snapchat_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `tiktok_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `amazon_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `apple_search_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `linkedin` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `facebook_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `google_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `snapchat_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `amazon_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `twitter_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `pinterest` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `snapchat_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `microsoft_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `pinterest` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `reddit_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `tiktok_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:10:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:45:13
+  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:41:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:88:13
+  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:80:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:136:13
+  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:124:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:174:13
+  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:158:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:352:13
+  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:205:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:395:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:225:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:279:13
-error: dbt1005: Ref 'linkedin_ads__monthly_campaign_country_report' not found in project. Searched for 'ad_reporting.linkedin_ads__monthly_campaign_country_report, linkedin_ads__monthly_campaign_country_report'
-  --> models/intermediate/int_ad_reporting__monthly_campaign_country_report.sql:49:18
-error: dbt1005: Ref 'pinterest_ads__campaign_country_report' not found in project. Searched for 'ad_reporting.pinterest_ads__campaign_country_report, pinterest_ads__campaign_country_report'
-  --> models/intermediate/int_ad_reporting__monthly_campaign_country_report.sql:83:18
-error: dbt1005: Ref 'reddit_ads__campaign_country_report' not found in project. Searched for 'ad_reporting.reddit_ads__campaign_country_report, reddit_ads__campaign_country_report'
-  --> models/intermediate/int_ad_reporting__monthly_campaign_country_report.sql:100:18
-error: dbt1005: Ref 'tiktok_ads__campaign_country_report' not found in project. Searched for 'ad_reporting.tiktok_ads__campaign_country_report, tiktok_ads__campaign_country_report'
-  --> models/intermediate/int_ad_reporting__monthly_campaign_country_report.sql:139:18
-error: dbt1005: Ref 'linkedin_ads__monthly_campaign_region_report' not found in project. Searched for 'ad_reporting.linkedin_ads__monthly_campaign_region_report, linkedin_ads__monthly_campaign_region_report'
-  --> models/intermediate/int_ad_reporting__monthly_campaign_region_report.sql:43:18
-error: dbt1005: Ref 'pinterest_ads__campaign_region_report' not found in project. Searched for 'ad_reporting.pinterest_ads__campaign_region_report, pinterest_ads__campaign_region_report'
-  --> models/intermediate/int_ad_reporting__monthly_campaign_region_report.sql:72:18
-error: dbt1005: Ref 'google_ads__search_term_report' not found in project. Searched for 'ad_reporting.google_ads__search_term_report, google_ads__search_term_report'
-  --> models/intermediate/int_ad_reporting__search_report.sql:73:18
-  Finished 'parse' target 'dev' with 38 errors and 1 warning in 1s 51ms
+  --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:255:13
+  Finished 'parse' target 'dev' with 29 errors and 1 warning in 953ms
