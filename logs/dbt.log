@@ -7,31 +7,31 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:11:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:145:9
+  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:143:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:11:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:51:9
+  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:49:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:11:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:73:9
+  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:71:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:11:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:101:9
+  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:99:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:11:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:163:9
+  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:161:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
@@ -45,29 +45,23 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:11:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:209:9
+  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:85:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:9:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:11:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:87:9
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:11:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:183:9
+  --> ../fivetran_dbt_fivetran_log/models/staging/src_fivetran_platform.yml:181:9
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_fivetran_log/models/fivetran_platform.yml:298:13
+  --> ../fivetran_dbt_fivetran_log/models/fivetran_platform.yml:289:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_fivetran_log/models/fivetran_platform.yml:183:13
+  --> ../fivetran_dbt_fivetran_log/models/fivetran_platform.yml:174:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_fivetran_log/models/fivetran_platform.yml:13:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_fivetran_log/models/fivetran_platform.yml:71:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_fivetran_log/models/fivetran_platform.yml:265:13
+  --> ../fivetran_dbt_fivetran_log/models/fivetran_platform.yml:256:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_fivetran_log/models/fivetran_platform.yml:125:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -79,7 +73,5 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_fivetran_log/models/staging/stg_fivetran_platform.yml:113:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_fivetran_log/models/staging/stg_fivetran_platform.yml:197:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_fivetran_log/models/staging/stg_fivetran_platform.yml:79:13
-  Finished 'parse' target 'dev' with 40 errors and 1 warning in 164ms
+  Finished 'parse' target 'dev' with 36 errors and 1 warning in 154ms
