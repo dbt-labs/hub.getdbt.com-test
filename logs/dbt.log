@@ -2,6 +2,8 @@ dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
   Fetching dependencies.yml
    Loading dbt_project.yml
+error: dbt1060: Ignored unexpected key `"description"`. YAML path: `description`.
+  --> ../gmdata-co_dbt-portable-google-sheets/dbt_project.yml:8:1
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' in 74ms 803us 123ns
+  Finished 'parse' target 'dev' with 1 error in 48ms 303us 462ns
