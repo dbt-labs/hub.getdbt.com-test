@@ -1,8 +1,4 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-warning: dbt1065: Updated version available for snowplow_utils@0.15.2: 0.17.4
-Installing snowplow_utils: 0.15.2
-  Finished 'parse' target 'dev' with 1 warning in 976ms
+  Finished 'parse' target 'dev' in 634ms
