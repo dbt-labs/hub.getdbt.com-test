@@ -2,7 +2,8 @@
     "name": "amplitude_source",
     "namespace": "fivetran",
     "description": "dbt models for dbt_amplitude_source",
-    "latest": "0.3.0",
+    "latest": "0.5.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
