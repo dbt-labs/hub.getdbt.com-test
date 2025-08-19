@@ -1,6 +1,4 @@
 dbt-fusion 2.0.0-preview.1
+warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-error: dbt1501: Failed to eval the compiled Jinja expression invalid operation: 'env_var': environment variable 'DBT_SOURCE_SCHEMA' not found
-(in :1:2)
-  --> ../Matatika_dbt-tap-trello/models/trello_source.yml:4:13
-  Finished 'parse'  with 1 error in 42ms
+  Finished 'parse' target 'dev' with 1 warning in 60ms
