@@ -11,4 +11,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_sage_intacct/models/sage_intacct.yml:228:13
 error: dbt1005: Ref 'stg_sage_intacct__gl_batch' not found in project. Searched for 'sage_intacct.stg_sage_intacct__gl_batch, stg_sage_intacct__gl_batch'
   --> models/intermediate/int_sage_intacct__active_gl_detail.sql:1:1
-  Finished 'parse' target 'dev' with 5 errors and 1 warning in 163ms
+  Finished 'parse' target 'dev' with 5 errors and 1 warning in 162ms
