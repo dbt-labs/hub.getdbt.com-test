@@ -1,3 +1,7 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
-  Finished 'parse' target 'dev' in 178ms
+  Fetching packages.yml
+error: dbt1502: Failed to parse macro SQL syntax error: unexpected 'endmacro' end of block identifier
+(in macros/internal/metadata_processing/concat_ws.sql:1:1)
+  --> macros/internal/metadata_processing/concat_ws.sql:1:1
+  Finished 'parse'  with 1 error in 70ms
