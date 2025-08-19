@@ -2,7 +2,8 @@
     "name": "snapchat_ads",
     "namespace": "fivetran",
     "description": "dbt models for dbt_snapchat_ads",
-    "latest": "0.6.1",
+    "latest": "1.0.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
