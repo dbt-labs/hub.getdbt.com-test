@@ -1,5 +1,85 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-  Finished 'parse' target 'dev' in 124ms
+Installing packages
+Installing dbt_utils: 1.3.0
+warning: dbt1065: Updated version available for snowplow_utils@0.16.8: 0.17.4
+Installing snowplow_utils: 0.16.8
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/base/manifest/base_manifest.yml:41:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/base/manifest/base_manifest.yml:9:9
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/base/manifest/snowplow_unified_base_sessions_lifecycle_manifest.sql
+error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
+  --> models/base/manifest/snowplow_unified_base_sessions_lifecycle_manifest.sql
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/base/manifest/base_manifest.yml:29:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[6].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/base/scratch/base_scratch.yml:44:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/base/scratch/base_scratch.yml:16:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[7].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/base/scratch/base_scratch.yml:465:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/optional_modules/app_errors/scratch/app_errors_scratch.yml:9:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/optional_modules/app_errors/app_errors.yml:9:9
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/optional_modules/app_errors/snowplow_unified_app_errors.sql
+error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
+  --> models/optional_modules/app_errors/snowplow_unified_app_errors.sql
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/optional_modules/consent/snowplow_unified_consent_log.sql
+error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
+  --> models/optional_modules/consent/snowplow_unified_consent_log.sql
+error: dbt1060: While parsing config: Ignored unexpected key `"describtion"`. YAML path: `columns[14].describtion`.
+  --> ../snowplow_dbt-snowplow-unified/models/optional_modules/consent/consent.yml:124:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/optional_modules/conversions/conversions.yml:9:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/optional_modules/conversions/conversions.yml:47:9
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/optional_modules/conversions/snowplow_unified_conversions.sql
+error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
+  --> models/optional_modules/conversions/snowplow_unified_conversions.sql
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/optional_modules/core_web_vitals/snowplow_unified_web_vitals.sql
+error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
+  --> models/optional_modules/core_web_vitals/snowplow_unified_web_vitals.sql
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[2].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/sessions/scratch/sessions_scratch.yml:12:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[1].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/sessions/sessions.yml:10:9
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/sessions/snowplow_unified_sessions.sql
+error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
+  --> models/sessions/snowplow_unified_sessions.sql
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/user_mapping/user_mapping.yml:9:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:142:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:152:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:162:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[1].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/users/scratch/users_scratch.yml:11:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[1].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/users/users.yml:11:9
+error: dbt1060: Ignored unexpected key `"disable_upsert_lookback"`. YAML path: `disable_upsert_lookback`.
+  --> models/users/snowplow_unified_users.sql
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/users/snowplow_unified_users.sql
+error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
+  --> models/users/snowplow_unified_users.sql
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/views/scratch/views_scratch.yml:9:9
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-unified/models/views/views.yml:9:9
+error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
+  --> models/views/snowplow_unified_views.sql
+error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
+  --> models/views/snowplow_unified_views.sql
+  Finished 'parse' target 'dev' with 38 errors and 1 warning in 819ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
