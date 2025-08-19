@@ -2,13 +2,26 @@ dbt-fusion 2.0.0-beta.66
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+Installing fivetran_utils: 0.4.10
+warning: dbt1065: Updated version available for zendesk_source@0.16.0-a2: 0.18.2
+Installing zendesk_source: 0.16.0-a2
+Installing dbt_utils: 1.3.0
+Installing spark_utils: 0.3.0
    Loading dbt_project.yml
-   Loading dbt_packages/asana_source/dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
+   Loading dbt_packages/spark_utils/dbt_project.yml
+   Loading dbt_packages/zendesk_source/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1065: Package `asana_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `zendesk_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1060: While parsing config: Ignored unexpected key `"dev_snowflake"`. YAML path: `columns[109].dev_snowflake`.
+  --> ../fivetran_dbt_zendesk/models/zendesk.yml:471:9
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_asana/models/intermediate/intermediate_asana.yml:17:13
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 202ms 710us 677ns
+  --> ../fivetran_dbt_zendesk/models/zendesk.yml:190:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_zendesk/models/zendesk.yml:9:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_zendesk/models/zendesk.yml:247:13
+  Finished 'parse' target 'dev' with 5 errors and 2 warnings in 612ms 534us 72ns
