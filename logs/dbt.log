@@ -2,10 +2,6 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
-Installing packages
-Installing fivetran_utils: 0.4.10
-Installing spark_utils: 0.3.0
-Installing dbt_utils: 1.3.0
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'zendesk_source.materialized'.
   --> ../fivetran_dbt_zendesk_source/dbt_project.yml:8:19
 error: dbt1060: Ignored unexpected key 'materialized'. Try '+materialized' instead. YAML path: 'zendesk_source.tmp.materialized'.
@@ -136,4 +132,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_zendesk_source/models/stg_zendesk.yml:221:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_zendesk_source/models/stg_zendesk.yml:429:13
-  Finished 'parse' target 'dev' with 65 errors and 1 warning in 601ms
+  Finished 'parse' target 'dev' with 65 errors and 1 warning in 244ms
