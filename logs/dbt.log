@@ -42,5 +42,5 @@ error: dbt1501: Failed to render SQL unknown function: In dispatch: No macro nam
 (in macros/test_in_past.sql:5:52)
 (in macros/current_utc_time.sql:2:29)
   --> macros/current_utc_time.sql:2:29
-  Finished 'parse' target 'dev' with 7 errors and 1 warning in 88ms
+  Finished 'parse' target 'dev' with 7 errors and 1 warning in 84ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
