@@ -2,76 +2,89 @@ dbt-fusion 2.0.0-preview.1
 warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+Installing fivetran_utils: 0.4.10
+Installing dbt_utils: 1.3.0
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:16:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:30:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:68:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:88:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:108:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:144:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:9:5
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_reddit_ads_source/models/src_reddit_ads.yml:11:5
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:8:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:256:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:37:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:63:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:333:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:128:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:293:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:171:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:100:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:199:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:373:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_reddit_ads_source/models/stg_reddit_ads.yml:228:13
-  Finished 'parse' target 'dev' with 36 errors and 1 warning in 282ms
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:164:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:182:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:234:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:268:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:286:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:312:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:298:9
+error: dbt1060: While parsing config: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/stg_intercom.yml:54:5
+error: dbt1060: While parsing config: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/stg_intercom.yml:133:5
+  Finished 'parse' target 'dev' with 41 errors and 1 warning in 398ms
