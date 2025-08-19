@@ -2,7 +2,8 @@
     "name": "shopify",
     "namespace": "fivetran",
     "description": "dbt models for dbt_shopify",
-    "latest": "0.10.0",
+    "latest": "0.21.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
