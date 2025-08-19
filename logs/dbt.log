@@ -1,8 +1,6 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
 warning: dbt1041: Found package-lock.yml file with out of date formatting, ignoring...
-warning: dbt1041: Attempted to infer package name from package-lock.yml, but no packages directory found, skipping...
+warning: dbt1041: Attempted to infer package name from package-lock.yml, but package metaplane/dbt_expectations not found in '/home/runner/work/hubcap/hubcap/target/Saras-Daton_klaviyo-fivetran-to-daton/dbt_packages', skipping...
   Fetching packages.yml
-Installing packages
-Installing dbt_utils: 1.3.0
-  Finished 'parse' target 'dev' with 2 warnings in 337ms
+  Finished 'parse' target 'dev' with 2 warnings in 144ms
