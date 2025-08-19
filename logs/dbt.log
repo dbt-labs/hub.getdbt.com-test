@@ -29,5 +29,5 @@ error: dbt0102: Deprecated test arguments: ["expression"] at top-level detected.
   --> ../infinitelambda_dq-vault/models/staging/stg_test.yml:84:27
 error: dbt0102: Deprecated test arguments: ["values"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../infinitelambda_dq-vault/models/staging/stg_test.yml:20:23
-  Finished 'parse' target 'dev' with 14 errors and 1 warning in 93ms
+  Finished 'parse' target 'dev' with 14 errors and 1 warning in 95ms
 New version available 2.0.0-preview.2 (run `dbt system update`)
