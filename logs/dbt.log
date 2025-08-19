@@ -25,4 +25,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_stripe/models/stripe.yml:470:13
 error: dbt1005: Ref 'stg_stripe__payout_balance_transaction' not found in project. Searched for 'stripe.stg_stripe__payout_balance_transaction, stg_stripe__payout_balance_transaction'
   --> models/stripe__balance_transactions.sql:1:1
-  Finished 'parse' target 'dev' with 12 errors and 1 warning in 358ms
+  Finished 'parse' target 'dev' with 12 errors and 1 warning in 313ms
