@@ -98,4 +98,4 @@ error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:9:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_salesforce_source/models/salesforce_history/src_salesforce_history.yml:172:9
-  Finished 'parse' target 'dev' with 48 errors and 1 warning in 250ms
+  Finished 'parse' target 'dev' with 48 errors and 1 warning in 237ms
