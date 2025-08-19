@@ -3,27 +3,27 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 error: dbt1065: Package `apple_search_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `amazon_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `facebook_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `amazon_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `google_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `twitter_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `linkedin_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `microsoft_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `pinterest_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `reddit_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `linkedin_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `snapchat_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `tiktok_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `snapchat_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `facebook_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `microsoft_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `twitter_ads_source` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `apple_search_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `twitter_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `facebook_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `google_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `linkedin` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `twitter_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `reddit_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `amazon_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
-error: dbt1065: Package `pinterest` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `microsoft_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `snapchat_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `reddit_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt1065: Package `tiktok_ads` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
+error: dbt1065: Package `pinterest` issued one or more compatibility warnings. To display all warnings associated with this package, run with `--show-all-deprecations`.
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_ad_reporting/models/ad_reporting_models.yml:10:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
@@ -56,4 +56,4 @@ error: dbt1005: Ref 'pinterest_ads__campaign_region_report' not found in project
   --> models/intermediate/int_ad_reporting__monthly_campaign_region_report.sql:72:18
 error: dbt1005: Ref 'google_ads__search_term_report' not found in project. Searched for 'ad_reporting.google_ads__search_term_report, google_ads__search_term_report'
   --> models/intermediate/int_ad_reporting__search_report.sql:73:18
-  Finished 'parse' target 'dev' with 38 errors and 1 warning in 964ms
+  Finished 'parse' target 'dev' with 38 errors and 1 warning in 1s 111ms
