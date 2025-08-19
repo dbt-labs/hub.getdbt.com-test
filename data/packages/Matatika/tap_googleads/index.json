@@ -2,7 +2,8 @@
     "name": "tap_googleads",
     "namespace": "Matatika",
     "description": "dbt models for dbt-tap-googleads",
-    "latest": "0.4.0",
+    "latest": "0.5.0",
+    "latest-fusion-schema-compat": false,
     "assets": {
         "logo": "logos/placeholder.svg"
     }
