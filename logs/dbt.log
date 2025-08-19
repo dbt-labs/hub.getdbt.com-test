@@ -3,25 +3,47 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 Installing packages
-Installing dbt_utils: 1.3.0
 Installing fivetran_utils: 0.4.10
+Installing dbt_utils: 1.3.0
    Loading dbt_project.yml
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_ga4_export/models/staging/src_ga4_export.yml:9:5
-error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_ga4_export/models/staging/src_ga4_export.yml:11:5
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_iterable_source/models/src_iterable.yml:9:5
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ga4_export/models/ga4_export.yml:112:13
+  --> ../fivetran_dbt_iterable_source/models/stg_iterable.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ga4_export/models/ga4_export.yml:179:13
+  --> ../fivetran_dbt_iterable_source/models/stg_iterable.yml:297:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ga4_export/models/ga4_export.yml:60:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ga4_export/models/ga4_export.yml:10:13
-error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
-  --> ../fivetran_dbt_ga4_export/models/staging/stg_ga4_export.yml:10:17
-  Finished 'parse' target 'dev' with 7 errors and 1 warning in 479ms 747us 760ns
+  --> ../fivetran_dbt_iterable_source/models/stg_iterable.yml:326:13
+  Finished 'parse' target 'dev' with 18 errors and 1 warning in 483ms 237us 358ns
