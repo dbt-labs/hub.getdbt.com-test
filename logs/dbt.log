@@ -5,4 +5,4 @@ dbt-fusion 2.0.0-beta.66
    Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' in 115ms 247us 578ns
+  Finished 'parse' target 'dev' in 107ms 45us 41ns
