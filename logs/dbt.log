@@ -1,9 +1,11 @@
 dbt-fusion 2.0.0-beta.66
    Loading profiles.yml
   Fetching packages.yml
+Installing packages
+warning: dbt1065: Updated version available for dbt_utils@0.6.6: 0.7.0
+Installing dbt_utils: 0.6.6
    Loading dbt_project.yml
-error: dbt1059: Duplicate key `require-dbt-version`. This key overwrites a previous definition of the same key at line 6 column 1. YAML path: `require-dbt-version`.
-  --> ../godatadriven_dbt-date/dbt_project.yml:10:1
+   Loading dbt_packages/dbt_utils/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-  Finished 'parse' target 'dev' with 1 error in 37ms 563us 312ns
+  Finished 'parse' target 'dev' with 1 warning in 164ms 992us 960ns
