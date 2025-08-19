@@ -62,4 +62,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_zendesk_source/models/stg_zendesk.yml:221:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_zendesk_source/models/stg_zendesk.yml:429:13
-  Finished 'parse' target 'dev' with 30 errors and 1 warning in 232ms
+  Finished 'parse' target 'dev' with 30 errors and 1 warning in 239ms
