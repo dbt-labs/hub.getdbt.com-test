@@ -4,28 +4,42 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading packages.yml
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:15:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:19:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:23:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:39:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:27:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:31:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:35:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:47:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:51:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
-error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
-  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:9:5
-  Finished 'parse' target 'dev' with 13 errors and 1 warning in 87ms
+error: dbt1060: Ignored unexpected key `"enabled"`. YAML path: `enabled`.
+  --> ../fivetran_dbt_dynamics_365_crm/models/src_dynamics_365_crm.yml:43:9
+  Finished 'parse' target 'dev' with 20 errors and 1 warning in 84ms
