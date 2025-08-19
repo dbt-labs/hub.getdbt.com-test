@@ -6,4 +6,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/dbt_date/dbt_project.yml
    Loading dbt_packages/dbt_expectations/dbt_project.yml
 error: dbt1005: Could not find package calogica/dbt_date in the package lookup map
-  Finished 'parse'  with 1 error and 1 warning in 67ms 839us 29ns
+  Finished 'parse'  with 1 error and 1 warning in 66ms 383us 54ns
