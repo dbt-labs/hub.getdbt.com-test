@@ -1,38 +1,18 @@
 dbt-fusion 2.0.0-preview.1
    Loading profiles.yml
   Fetching packages.yml
-error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_ecommerce.base.manifest.databricks'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:95:11
-error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_ecommerce.base.manifest.default'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:97:11
-error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_ecommerce.base.scratch.databricks'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:106:11
-error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_ecommerce.base.scratch.default'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:108:11
 error: dbt1060: Ignored unexpected key 'databricks'. Try '+databricks' instead. YAML path: 'snowplow_ecommerce.products.scratch.databricks'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:132:11
+  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:136:11
 error: dbt1060: Ignored unexpected key 'default'. Try '+default' instead. YAML path: 'snowplow_ecommerce.products.scratch.default'.
-  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:134:11
+  --> ../snowplow_dbt-snowplow-ecommerce/dbt_project.yml:138:11
+error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
+  --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:41:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:9:9
 error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/base/manifest/bigquery/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
+  --> models/base/manifest/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
 error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/base/manifest/bigquery/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/base/manifest/databricks/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/base/manifest/databricks/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/base/manifest/default/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/base/manifest/default/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"snowplow_optimize"`. YAML path: `snowplow_optimize`.
-  --> models/base/manifest/snowflake/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_date_key`.
-  --> models/base/manifest/snowflake/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
-  --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:41:9
+  --> models/base/manifest/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
   --> ../snowplow_dbt-snowplow-ecommerce/models/base/manifest/base_manifest.yml:29:9
 error: dbt1060: While parsing config: Ignored unexpected key `"tags"`. YAML path: `columns[0].tags`.
@@ -79,8 +59,4 @@ error: dbt1060: Ignored unexpected key `"upsert_date_key"`. YAML path: `upsert_d
   --> models/transactions/snowplow_ecommerce_transaction_interactions.sql
 error: dbt1005: Found duplicate model 'snowplow_ecommerce_product_interactions_this_run'
   --> models/products/scratch/default/snowplow_ecommerce_product_interactions_this_run.sql
-error: dbt1005: Found duplicate model 'snowplow_ecommerce_base_sessions_lifecycle_manifest'
-  --> models/base/manifest/default/snowplow_ecommerce_base_sessions_lifecycle_manifest.sql
-error: dbt1005: Found duplicate model 'snowplow_ecommerce_base_events_this_run'
-  --> models/base/scratch/default/snowplow_ecommerce_base_events_this_run.sql
-  Finished 'parse'  with 41 errors in 123ms
+  Finished 'parse'  with 29 errors in 125ms
