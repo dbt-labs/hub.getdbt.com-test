@@ -16,4 +16,4 @@ error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-lev
   --> ../fivetran_dbt_recharge/models/recharge.yml:133:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_recharge/models/recharge.yml:305:13
-  Finished 'parse' target 'dev' with 4 errors and 1 warning in 232ms 84us 350ns
+  Finished 'parse' target 'dev' with 4 errors and 1 warning in 213ms 614us 601ns
