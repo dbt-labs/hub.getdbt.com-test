@@ -3,31 +3,60 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
   Fetching packages.yml
 Installing packages
+Installing fivetran_utils: 0.4.10
 Installing dbt_utils: 1.3.0
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The dbt_snow_utils.stg_snowpipe__copy_history model triggered this warning. 
-
-(in models/staging/snowpipe/stg_snowpipe__copy_history.sql:23:2)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/snowpipe/stg_snowpipe__copy_history.sql:23:2
-error: dbt1501: Failed to render SQL invalid operation: Compilation Error: 
-Warning: `dbt_utils.surrogate_key` has been replaced by 
-`dbt_utils.generate_surrogate_key`. The new macro treats null values 
-differently to empty strings. To restore the behaviour of the original 
-macro, add a global variable in dbt_project.yml called 
-`surrogate_key_treat_nulls_as_empty_strings` to your 
-dbt_project.yml file with a value of True. 
-The dbt_snow_utils.stg_snowpipe__usage_history model triggered this warning. 
-
-(in models/staging/snowpipe/stg_snowpipe__usage_history.sql:11:2)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:3:31)
-(in dbt_packages/dbt_utils/macros/sql/surrogate_key.sql:18:18)
-  --> models/staging/snowpipe/stg_snowpipe__usage_history.sql:11:2
-  Finished 'parse' target 'dev' with 2 errors and 1 warning in 262ms
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:32:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:70:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:90:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:110:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:146:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:166:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:184:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:236:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:270:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:288:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:314:9
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/src_intercom.yml:300:9
+error: dbt1060: While parsing config: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/stg_intercom.yml:54:5
+error: dbt1060: While parsing config: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_intercom_source/models/stg_intercom.yml:133:5
+  Finished 'parse' target 'dev' with 27 errors and 1 warning in 483ms
