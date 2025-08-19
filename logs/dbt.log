@@ -49,28 +49,28 @@ error: dbt1060: Ignored unexpected key `"target_schema"`. YAML path: `target_sch
   --> target/snapshots/quality_measures__summary_counts_snapshot.sql
 error: dbt1060: Ignored unexpected key `"target_schema"`. YAML path: `target_schema`.
   --> target/snapshots/quality_measures__summary_long_snapshot.sql
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:44:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
   --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:22:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:49:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
   --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:26:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:56:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
   --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:38:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:60:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
   --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:51:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
+  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:76:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
   --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:68:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[21].meta`.
   --> ../tuva-health_the_tuva_project/models/ed_classification/ed_classification_models.yml:80:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:44:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:49:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:56:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:60:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
-  --> ../tuva-health_the_tuva_project/models/core/core_models.yml:76:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:130:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
@@ -155,8 +155,6 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:595:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[45].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:598:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:26:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:639:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
@@ -169,28 +167,36 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:665:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[22].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:684:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[3].meta`.
+  --> ../tuva-health_the_tuva_project/models/ccsr/ccsr_models.yml:103:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
+  --> ../tuva-health_the_tuva_project/models/ccsr/ccsr_models.yml:201:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
+  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:26:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
   --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:59:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:90:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:757:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
+  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:90:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:813:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:817:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[3].meta`.
-  --> ../tuva-health_the_tuva_project/models/ccsr/ccsr_models.yml:32:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[3].meta`.
-  --> ../tuva-health_the_tuva_project/models/ccsr/ccsr_models.yml:161:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:174:9
+  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:291:11
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
+  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:296:11
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:902:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
+  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:302:11
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[8].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:908:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[10].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:915:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
+  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:174:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:972:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
@@ -213,26 +219,20 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:1055:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[14].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:1059:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:319:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:1063:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[16].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:1067:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[17].meta`.
   --> ../tuva-health_the_tuva_project/models/core/core_models.yml:1071:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:362:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[3].meta`.
-  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:291:11
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
-  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:296:11
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:367:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
-  --> ../tuva-health_the_tuva_project/models/chronic_conditions/cms_chronic_conditions_models.yml:302:11
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
+  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:319:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
   --> ../tuva-health_the_tuva_project/models/chronic_conditions/tuva_chronic_conditions_models.yml:36:11
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
+  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:362:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
+  --> ../tuva-health_the_tuva_project/models/hcc_suspecting/hcc_suspecting_models.yml:367:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:31:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
@@ -249,21 +249,6 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:67:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[19].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:73:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[0].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:16:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:20:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:24:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:102:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:106:9
-error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:110:9
-error: dbt1502: Failed to render SQL syntax error: unexpected `+`
-(in models/quality_measures/intermediate/cbe0055_diabetes_eye_exam/quality_measures__int_cbe0055__performance_period.sql:1:1)
-  --> models/quality_measures/intermediate/cbe0055_diabetes_eye_exam/quality_measures__int_cbe0055__performance_period.sql:1:1
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[5].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:301:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
@@ -284,15 +269,21 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:347:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[22].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:353:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[0].meta`.
+  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:16:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[1].meta`.
+  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:20:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
+  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:24:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[11].meta`.
+  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:102:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[12].meta`.
+  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:106:9
+error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
+  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:110:9
 error: dbt1502: Failed to render SQL syntax error: unexpected `+`
-(in models/quality_measures/intermediate/cbe0101_falls_plan_of_care/quality_measures__int_cbe0101__performance_period.sql:1:1)
-  --> models/quality_measures/intermediate/cbe0101_falls_plan_of_care/quality_measures__int_cbe0101__performance_period.sql:1:1
-error: dbt1502: Failed to render SQL syntax error: unexpected `+`
-(in models/quality_measures/intermediate/cqm236_controlling_blood_pressure/quality_measures__int_cqm236__performance_period.sql:1:1)
-  --> models/quality_measures/intermediate/cqm236_controlling_blood_pressure/quality_measures__int_cqm236__performance_period.sql:1:1
-error: dbt1502: Failed to render SQL syntax error: unexpected `+`
-(in models/quality_measures/intermediate/cqm236_controlling_blood_pressure/quality_measures__int_cqm236_denominator.sql:1:1)
-  --> models/quality_measures/intermediate/cqm236_controlling_blood_pressure/quality_measures__int_cqm236_denominator.sql:1:1
+(in models/quality_measures/intermediate/cbe0055_diabetes_eye_exam/quality_measures__int_cbe0055__performance_period.sql:1:1)
+  --> models/quality_measures/intermediate/cbe0055_diabetes_eye_exam/quality_measures__int_cbe0055__performance_period.sql:1:1
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[3].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:967:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[4].meta`.
@@ -306,8 +297,11 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[15].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1003:9
 error: dbt1502: Failed to render SQL syntax error: unexpected `+`
-(in models/quality_measures/intermediate/cqm438_statin_therapy_for_patients_with_cardiovascular_disease/quality_measures__int_cqm438__performance_period.sql:1:1)
-  --> models/quality_measures/intermediate/cqm438_statin_therapy_for_patients_with_cardiovascular_disease/quality_measures__int_cqm438__performance_period.sql:1:1
+(in models/quality_measures/intermediate/cqm236_controlling_blood_pressure/quality_measures__int_cqm236__performance_period.sql:1:1)
+  --> models/quality_measures/intermediate/cqm236_controlling_blood_pressure/quality_measures__int_cqm236__performance_period.sql:1:1
+error: dbt1502: Failed to render SQL syntax error: unexpected `+`
+(in models/quality_measures/intermediate/cqm236_controlling_blood_pressure/quality_measures__int_cqm236_denominator.sql:1:1)
+  --> models/quality_measures/intermediate/cqm236_controlling_blood_pressure/quality_measures__int_cqm236_denominator.sql:1:1
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[2].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1063:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[13].meta`.
@@ -358,6 +352,9 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1217:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[45].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1222:9
+error: dbt1502: Failed to render SQL syntax error: unexpected `+`
+(in models/quality_measures/intermediate/cqm438_statin_therapy_for_patients_with_cardiovascular_disease/quality_measures__int_cqm438__performance_period.sql:1:1)
+  --> models/quality_measures/intermediate/cqm438_statin_therapy_for_patients_with_cardiovascular_disease/quality_measures__int_cqm438__performance_period.sql:1:1
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[46].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1227:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[47].meta`.
@@ -490,9 +487,6 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1547:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[111].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1552:9
-error: dbt1502: Failed to render SQL syntax error: unexpected `+`
-(in models/quality_measures/intermediate/nqf0034_colorectal_cancer_screening/quality_measures__int_nqf0034__performance_period.sql:1:1)
-  --> models/quality_measures/intermediate/nqf0034_colorectal_cancer_screening/quality_measures__int_nqf0034__performance_period.sql:1:1
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[112].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1557:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[113].meta`.
@@ -501,8 +495,6 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1567:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[115].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1572:9
-error: dbt1060: While parsing config: Ignored unexpected key `"desciption"`. YAML path: `columns[4].desciption`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:453:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[6].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1683:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[7].meta`.
@@ -510,13 +502,18 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[9].meta`.
   --> ../tuva-health_the_tuva_project/models/claims_preprocessing/claims_preprocessing_models.yml:1696:9
 error: dbt1502: Failed to render SQL syntax error: unexpected `+`
+(in models/quality_measures/intermediate/nqf0034_colorectal_cancer_screening/quality_measures__int_nqf0034__performance_period.sql:1:1)
+  --> models/quality_measures/intermediate/nqf0034_colorectal_cancer_screening/quality_measures__int_nqf0034__performance_period.sql:1:1
+error: dbt1060: While parsing config: Ignored unexpected key `"desciption"`. YAML path: `columns[4].desciption`.
+  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:449:9
+error: dbt1502: Failed to render SQL syntax error: unexpected `+`
 (in models/quality_measures/intermediate/nqf0041_influenza_immunization/quality_measures__int_nqf0041__performance_period.sql:1:1)
   --> models/quality_measures/intermediate/nqf0041_influenza_immunization/quality_measures__int_nqf0041__performance_period.sql:1:1
 error: dbt1502: Failed to render SQL syntax error: unexpected `+`
 (in models/quality_measures/intermediate/nqf0053_osteoporosis_management_in_women_who_had_a_fracture/quality_measures__int_nqf0053__performance_period.sql:1:1)
   --> models/quality_measures/intermediate/nqf0053_osteoporosis_management_in_women_who_had_a_fracture/quality_measures__int_nqf0053__performance_period.sql:1:1
 error: dbt1060: While parsing config: Ignored unexpected key `"desciption"`. YAML path: `columns[4].desciption`.
-  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:1015:9
+  --> ../tuva-health_the_tuva_project/models/quality_measures/quality_measures_models.yml:1011:9
 error: dbt1502: Failed to render SQL syntax error: unexpected `+`
 (in models/quality_measures/intermediate/nqf0053_osteoporosis_management_in_women_who_had_a_fracture/quality_measures__int_nqf0053_numerator.sql:1:1)
   --> models/quality_measures/intermediate/nqf0053_osteoporosis_management_in_women_who_had_a_fracture/quality_measures__int_nqf0053_numerator.sql:1:1
@@ -559,4 +556,4 @@ error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path
   --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:196:9
 error: dbt1060: While parsing config: Ignored unexpected key `"meta"`. YAML path: `columns[29].meta`.
   --> ../tuva-health_the_tuva_project/models/readmissions/readmissions_models.yml:203:9
-  Finished 'parse' target 'dev' with 271 errors in 468ms 30us 661ns
+  Finished 'parse' target 'dev' with 270 errors in 477ms 2us 559ns
