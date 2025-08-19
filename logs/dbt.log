@@ -68,4 +68,4 @@ error: dbt1005: Found duplicate model 'snowplow_ecommerce_product_interactions_t
   --> models/products/scratch/spark/snowplow_ecommerce_product_interactions_this_run.sql
 error: dbt1005: Found duplicate model 'snowplow_ecommerce_product_interactions_this_run'
   --> models/products/scratch/default/snowplow_ecommerce_product_interactions_this_run.sql
-  Finished 'parse'  with 31 errors in 143ms 84us 624ns
+  Finished 'parse'  with 31 errors in 157ms 84us 779ns
