@@ -8,4 +8,4 @@ warning: dbt1005: No profile specified in dbt_project.yml
    Loading dbt_packages/fivetran_utils/dbt_project.yml
    Loading dbt_packages/shopify_source/dbt_project.yml
 error: dbt1005: Could not find package calogica/dbt_date in the package lookup map
-  Finished 'parse'  with 1 error and 1 warning in 71ms 134us 229ns
+  Finished 'parse'  with 1 error and 1 warning in 64ms 538us 533ns
