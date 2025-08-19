@@ -1,17 +1,7 @@
 dbt-fusion 2.0.0-beta.66
+warning: dbt1005: No profile specified in dbt_project.yml
    Loading profiles.yml
-  Fetching packages.yml
    Loading dbt_project.yml
-   Loading dbt_packages/dbt_utils/dbt_project.yml
-   Loading dbt_packages/snowplow_utils/dbt_project.yml
-   Loading dbt_packages/snowplow_web/dbt_project.yml
    Loading dbt_internal_packages/dbt-adapters/dbt_project.yml
    Loading dbt_internal_packages/dbt-postgres/dbt_project.yml
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.bigquery.enabled'.
-  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:55:22
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.databricks.enabled'.
-  --> <unknown>
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.redshift_postgres.enabled'.
-  --> <unknown>
-error: dbt1060: Ignored unexpected key 'enabled'. Try '+enabled' instead. YAML path: 'snowplow_media_player.web.scratch.interactions_this_run.snowflake.enabled'.
-  --> ../snowplow_dbt-snowplow-media-player/dbt_project.yml:61:22
+  Finished 'parse' target 'dev' with 1 warning in 54ms 90us 356ns
