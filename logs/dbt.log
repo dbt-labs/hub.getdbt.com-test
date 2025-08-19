@@ -23,7 +23,7 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:300:9
+  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:304:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
@@ -43,7 +43,7 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
 error: dbt1060: Ignored unexpected key `"freshness"`. YAML path: `freshness`.
-  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:514:9
+  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:518:9
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
@@ -118,12 +118,30 @@ error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_a
   --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
 error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
   --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
+error: dbt1060: Ignored unexpected key `"loaded_at_field"`. YAML path: `loaded_at_field`.
+  --> ../fivetran_dbt_hubspot_source/models/src_hubspot.yml:8:5
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_hubspot_source/models/stg_hubspot__contact.yml:9:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot_source/models/stg_hubspot__deal.yml:116:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot_source/models/stg_hubspot__deal.yml:137:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_hubspot_source/models/stg_hubspot__team.yml:10:13
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot_source/models/stg_hubspot__property.yml:10:13
 error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
   --> ../fivetran_dbt_hubspot_source/models/stg_hubspot__property.yml:47:13
-  Finished 'parse' target 'dev' with 62 errors and 1 warning in 251ms
+error: dbt0102: Deprecated test arguments: ["combination_of_columns"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.
+  --> ../fivetran_dbt_hubspot_source/models/stg_hubspot__team.yml:55:13
+  Finished 'parse' target 'dev' with 71 errors and 1 warning in 280ms
