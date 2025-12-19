@@ -19,11 +19,11 @@
     "works_with": [],
     "_source": {
         "type": "github",
-        "url": "https://github.com/Datavault-UK/dbtvault/tree/v0.9.4/",
-        "readme": "https://raw.githubusercontent.com/Datavault-UK/dbtvault/v0.9.4/README.md"
+        "url": "https://github.com/Datavault-UK/automate-dv/tree/v0.9.4/",
+        "readme": "https://raw.githubusercontent.com/Datavault-UK/automate-dv/v0.9.4/README.md"
     },
     "downloads": {
-        "tarball": "https://codeload.github.com/Datavault-UK/dbtvault/tar.gz/v0.9.4",
+        "tarball": "https://codeload.github.com/Datavault-UK/automate-dv/tar.gz/v0.9.4",
         "format": "tgz",
         "sha1": "645eb8cd3f2d25162ae4041ffc9f9cc8e1e735aa"
     }

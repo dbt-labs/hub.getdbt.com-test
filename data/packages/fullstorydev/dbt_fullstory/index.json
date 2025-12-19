@@ -1,0 +1,9 @@
+{
+    "name": "dbt_fullstory",
+    "namespace": "fullstorydev",
+    "description": "dbt models for dbt_fullstory",
+    "latest": "0.10.1",
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "unified_rag",
+    "namespace": "fivetran",
+    "description": "dbt models for dbt_unified_rag",
+    "latest": "0.2.0",
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}

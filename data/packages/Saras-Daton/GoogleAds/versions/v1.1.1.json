@@ -16,12 +16,12 @@
     "works_with": [],
     "_source": {
         "type": "github",
-        "url": "https://github.com/Saras-Daton/GoogleAds/tree/v1.1.1/",
-        "readme": "https://raw.githubusercontent.com/Saras-Daton/GoogleAds/v1.1.1/README.md"
+        "url": "https://github.com/Saras-Daton/google_ads/tree/v1.1.1/",
+        "readme": "https://raw.githubusercontent.com/Saras-Daton/google_ads/v1.1.1/README.md"
     },
     "downloads": {
-        "tarball": "https://codeload.github.com/Saras-Daton/GoogleAds/tar.gz/v1.1.1",
+        "tarball": "https://codeload.github.com/Saras-Daton/google_ads/tar.gz/v1.1.1",
         "format": "tgz",
-        "sha1": "51fb12d8362d838d0600f27b860c9cc9c4ae0dc3"
+        "sha1": "dd1c414855b77de54614515a4e5197a35df6caf7"
     }
 }

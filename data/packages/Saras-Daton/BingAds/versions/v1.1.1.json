@@ -16,12 +16,12 @@
     "works_with": [],
     "_source": {
         "type": "github",
-        "url": "https://github.com/Saras-Daton/BingAds/tree/v1.1.1/",
-        "readme": "https://raw.githubusercontent.com/Saras-Daton/BingAds/v1.1.1/README.md"
+        "url": "https://github.com/Saras-Daton/bing_ads/tree/v1.1.1/",
+        "readme": "https://raw.githubusercontent.com/Saras-Daton/bing_ads/v1.1.1/README.md"
     },
     "downloads": {
-        "tarball": "https://codeload.github.com/Saras-Daton/BingAds/tar.gz/v1.1.1",
+        "tarball": "https://codeload.github.com/Saras-Daton/bing_ads/tar.gz/v1.1.1",
         "format": "tgz",
-        "sha1": "22b5924f532f60f7bdf6bb1493b2b747c39c23cb"
+        "sha1": "b6fb81527b96c2466a728bdfaceaed764289f53a"
     }
 }

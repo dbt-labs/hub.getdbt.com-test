@@ -2,7 +2,7 @@
     "id": "data-diving/dbt_diving/1.1.0",
     "name": "dbt_diving",
     "version": "1.1.0",
-    "published_at": "2023-11-18T17:03:59",
+    "published_at": "1970-01-01T00:00:00.000000+00:00",
     "packages": [],
     "require_dbt_version": ">=1.0.0",
     "works_with": [],

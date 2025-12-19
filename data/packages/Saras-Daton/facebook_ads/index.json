@@ -1,0 +1,9 @@
+{
+    "name": "facebook_ads",
+    "namespace": "Saras-Daton",
+    "description": "dbt models for facebook_ads",
+    "latest": "1.1.1",
+    "assets": {
+        "logo": "logos/placeholder.svg"
+    }
+}
