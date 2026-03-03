@@ -1,0 +1,53 @@
+{
+    "id": "smithclay/dbt_opentelemetry/v0.0.1",
+    "name": "dbt_opentelemetry",
+    "version": "v0.0.1",
+    "published_at": "1970-01-01T00:00:00.000000+00:00",
+    "packages": [],
+    "require_dbt_version": [
+        ">=1.6.0",
+        "<3.0.0"
+    ],
+    "works_with": [],
+    "_source": {
+        "type": "github",
+        "url": "https://github.com/smithclay/dbt_opentelemetry/tree/v0.0.1/",
+        "readme": "https://raw.githubusercontent.com/smithclay/dbt_opentelemetry/v0.0.1/README.md"
+    },
+    "downloads": {
+        "tarball": "https://codeload.github.com/smithclay/dbt_opentelemetry/tar.gz/v0.0.1",
+        "format": "tgz",
+        "sha1": "7b388688b954c4acd1d1226057ead48548692ec2"
+    },
+    "fusion_compatibility": {
+        "version": "v0.0.1",
+        "require_dbt_version_defined": true,
+        "require_dbt_version_compatible": true,
+        "parse_compatible": false,
+        "parse_compatibility_result": {
+            "parse_exit_code": 1,
+            "total_errors": 2,
+            "total_warnings": 0,
+            "errors": [
+                {
+                    "body": "Deprecated test arguments: [\"values\"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.\n  --> models/staging/schema.yml:15:23",
+                    "error_code": 102,
+                    "severity_text": "ERROR",
+                    "original_severity_text": "ERROR"
+                },
+                {
+                    "body": "Deprecated test arguments: [\"values\"] at top-level detected. Please migrate to the new format under the 'arguments' field: https://docs.getdbt.com/reference/deprecations#missingargumentspropertyingenerictestdeprecation.\n  --> models/staging/schema.yml:28:23",
+                    "error_code": 102,
+                    "severity_text": "ERROR",
+                    "original_severity_text": "ERROR"
+                }
+            ],
+            "warnings": [],
+            "fusion_version": "2.0.0-preview.143"
+        },
+        "manually_verified_compatible": false,
+        "manually_verified_incompatible": false,
+        "download_failed": false,
+        "fusion_compatible_download": {}
+    }
+}
