@@ -17,6 +17,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/Teradata/dbt-teradata-utils/tar.gz/v1.3.0",
         "format": "tgz",
-        "sha1": "3e894eeda4bc47e53c36386d7eb4d3c5fde749e7"
+        "sha1": "3e894eeda4bc47e53c36386d7eb4d3c5fde749e7",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/Teradata/dbt-teradata-utils/tar.gz/v1.3.0",
+            "format": "tgz",
+            "sha1": "3e894eeda4bc47e53c36386d7eb4d3c5fde749e7"
+        }
     }
 }

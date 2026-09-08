@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_salesforce_source/tar.gz/v1.1.1",
         "format": "tgz",
-        "sha1": "6d8db384a604f1cedd06894dc3fc1c0199c1fde0"
+        "sha1": "6d8db384a604f1cedd06894dc3fc1c0199c1fde0",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_salesforce_source/tar.gz/v1.1.1",
+            "format": "tgz",
+            "sha1": "6d8db384a604f1cedd06894dc3fc1c0199c1fde0"
+        }
     }
 }

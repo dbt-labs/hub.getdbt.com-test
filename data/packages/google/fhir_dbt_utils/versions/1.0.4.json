@@ -29,6 +29,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/google/fhir-dbt-utils/tar.gz/1.0.4",
         "format": "tgz",
-        "sha1": "b4789132accaea3aca92ffc950df5be89560ff57"
+        "sha1": "b4789132accaea3aca92ffc950df5be89560ff57",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/google/fhir-dbt-utils/tar.gz/1.0.4",
+            "format": "tgz",
+            "sha1": "b4789132accaea3aca92ffc950df5be89560ff57"
+        }
     }
 }

@@ -22,6 +22,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/snowplow/dbt-snowplow-media-player/tar.gz/0.3.1",
         "format": "tgz",
-        "sha1": "791a4bf7c4d490cffa9c97602968819b702ba95e"
+        "sha1": "791a4bf7c4d490cffa9c97602968819b702ba95e",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/snowplow/dbt-snowplow-media-player/tar.gz/0.3.1",
+            "format": "tgz",
+            "sha1": "791a4bf7c4d490cffa9c97602968819b702ba95e"
+        }
     }
 }

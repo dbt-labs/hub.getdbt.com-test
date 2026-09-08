@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/tuva-health/chronic_conditions/tar.gz/0.1.0",
         "format": "tgz",
-        "sha1": "2a1061542f4b27ed138710a2a6cb18b9abb28bdb"
+        "sha1": "2a1061542f4b27ed138710a2a6cb18b9abb28bdb",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/tuva-health/chronic_conditions/tar.gz/0.1.0",
+            "format": "tgz",
+            "sha1": "2a1061542f4b27ed138710a2a6cb18b9abb28bdb"
+        }
     }
 }

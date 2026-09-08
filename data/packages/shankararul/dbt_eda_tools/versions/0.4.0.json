@@ -22,6 +22,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/shankararul/dbt_eda_tools/tar.gz/0.4.0",
         "format": "tgz",
-        "sha1": "a00daf6e0d0222638ae758691b51efc2a7f5933f"
+        "sha1": "a00daf6e0d0222638ae758691b51efc2a7f5933f",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/shankararul/dbt_eda_tools/tar.gz/0.4.0",
+            "format": "tgz",
+            "sha1": "a00daf6e0d0222638ae758691b51efc2a7f5933f"
+        }
     }
 }

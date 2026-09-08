@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/tuva-health/core/tar.gz/0.1.8",
         "format": "tgz",
-        "sha1": "2a8b1fa9709abe46c99e417a003827e0b8cccd11"
+        "sha1": "2a8b1fa9709abe46c99e417a003827e0b8cccd11",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/tuva-health/core/tar.gz/0.1.8",
+            "format": "tgz",
+            "sha1": "fde67726cf8b478822ec101d9add8e516fee4b93"
+        }
     }
 }

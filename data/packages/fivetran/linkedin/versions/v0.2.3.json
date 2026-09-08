@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_linkedin/tar.gz/v0.2.3",
         "format": "tgz",
-        "sha1": "63b279efb13f3dd0b56b7a3079dd50de9003f8ff"
+        "sha1": "63b279efb13f3dd0b56b7a3079dd50de9003f8ff",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_linkedin/tar.gz/v0.2.3",
+            "format": "tgz",
+            "sha1": "63b279efb13f3dd0b56b7a3079dd50de9003f8ff"
+        }
     }
 }

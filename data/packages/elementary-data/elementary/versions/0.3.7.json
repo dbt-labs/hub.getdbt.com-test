@@ -22,6 +22,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/elementary-data/dbt-data-reliability/tar.gz/0.3.7",
         "format": "tgz",
-        "sha1": "f1faa54b77175f6c26e0b36436c97f66498e64ba"
+        "sha1": "f1faa54b77175f6c26e0b36436c97f66498e64ba",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/elementary-data/dbt-data-reliability/tar.gz/0.3.7",
+            "format": "tgz",
+            "sha1": "f1faa54b77175f6c26e0b36436c97f66498e64ba"
+        }
     }
 }

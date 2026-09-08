@@ -13,6 +13,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fishtown-analytics/adwords/tar.gz/0.1.2",
         "format": "tgz",
-        "sha1": "7a698f5c3e7ee8897aef684aac47e4fae0ebcdb7"
+        "sha1": "7a698f5c3e7ee8897aef684aac47e4fae0ebcdb7",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fishtown-analytics/adwords/tar.gz/0.1.2",
+            "format": "tgz",
+            "sha1": "7a698f5c3e7ee8897aef684aac47e4fae0ebcdb7"
+        }
     }
 }

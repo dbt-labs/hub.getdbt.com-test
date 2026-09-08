@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_netsuite/tar.gz/v0.2.0",
         "format": "tgz",
-        "sha1": "751aa82e65d797653564bc079a8415b6211c183f"
+        "sha1": "751aa82e65d797653564bc079a8415b6211c183f",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_netsuite/tar.gz/v0.2.0",
+            "format": "tgz",
+            "sha1": "751aa82e65d797653564bc079a8415b6211c183f"
+        }
     }
 }

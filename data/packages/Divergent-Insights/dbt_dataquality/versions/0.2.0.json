@@ -19,6 +19,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/Divergent-Insights/dbt-dataquality/tar.gz/0.2.0",
         "format": "tgz",
-        "sha1": "8257ce6c618cb8e3a77922d691bfd4ba1a68b107"
+        "sha1": "8257ce6c618cb8e3a77922d691bfd4ba1a68b107",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/Divergent-Insights/dbt-dataquality/tar.gz/0.2.0",
+            "format": "tgz",
+            "sha1": "8257ce6c618cb8e3a77922d691bfd4ba1a68b107"
+        }
     }
 }

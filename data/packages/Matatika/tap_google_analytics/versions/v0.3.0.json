@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/Matatika/dbt-tap-google-analytics/tar.gz/v0.3.0",
         "format": "tgz",
-        "sha1": "5b5ed4b3af2641f15d5311621c8f7bc283bd0f6f"
+        "sha1": "5b5ed4b3af2641f15d5311621c8f7bc283bd0f6f",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/Matatika/dbt-tap-google-analytics/tar.gz/v0.3.0",
+            "format": "tgz",
+            "sha1": "5b5ed4b3af2641f15d5311621c8f7bc283bd0f6f"
+        }
     }
 }

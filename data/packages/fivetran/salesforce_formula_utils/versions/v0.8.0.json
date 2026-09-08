@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_salesforce_formula_utils/tar.gz/v0.8.0",
         "format": "tgz",
-        "sha1": "a776500ed49a03b1c511bc222f9e973e835b9e5b"
+        "sha1": "a776500ed49a03b1c511bc222f9e973e835b9e5b",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_salesforce_formula_utils/tar.gz/v0.8.0",
+            "format": "tgz",
+            "sha1": "a776500ed49a03b1c511bc222f9e973e835b9e5b"
+        }
     }
 }

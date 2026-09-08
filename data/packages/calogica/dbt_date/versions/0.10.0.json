@@ -17,6 +17,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/calogica/dbt-date/tar.gz/0.10.0",
         "format": "tgz",
-        "sha1": "38c8a0857f8b429de35f99b19ecbf1db246cd3bc"
+        "sha1": "38c8a0857f8b429de35f99b19ecbf1db246cd3bc",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/calogica/dbt-date/tar.gz/0.10.0",
+            "format": "tgz",
+            "sha1": "38c8a0857f8b429de35f99b19ecbf1db246cd3bc"
+        }
     }
 }

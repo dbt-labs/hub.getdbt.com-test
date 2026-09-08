@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/gmdata-co/dbt-portable-google-sheets/tar.gz/0.1.1",
         "format": "tgz",
-        "sha1": "6ef2799ce1e00c51ba184ae715aee6ef0d416711"
+        "sha1": "6ef2799ce1e00c51ba184ae715aee6ef0d416711",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/gmdata-co/dbt-portable-google-sheets/tar.gz/0.1.1",
+            "format": "tgz",
+            "sha1": "6ef2799ce1e00c51ba184ae715aee6ef0d416711"
+        }
     }
 }

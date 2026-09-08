@@ -16,6 +16,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/YukiTechnologies/yuki-snowflake-dbt-tags/tar.gz/0.2.2",
         "format": "tgz",
-        "sha1": "18db33fb5277fd0e1fe219d80860ad233026378e"
+        "sha1": "18db33fb5277fd0e1fe219d80860ad233026378e",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/YukiTechnologies/yuki-snowflake-dbt-tags/tar.gz/0.2.2",
+            "format": "tgz",
+            "sha1": "18db33fb5277fd0e1fe219d80860ad233026378e"
+        }
     }
 }

@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/dbt-labs/dbt-project-evaluator/tar.gz/v1.0.1",
         "format": "tgz",
-        "sha1": "ce9db6b2192f02e43c8cd93d2cc7a5d48ee09a36"
+        "sha1": "ce9db6b2192f02e43c8cd93d2cc7a5d48ee09a36",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/dbt-labs/dbt-project-evaluator/tar.gz/v1.0.1",
+            "format": "tgz",
+            "sha1": "ce9db6b2192f02e43c8cd93d2cc7a5d48ee09a36"
+        }
     }
 }

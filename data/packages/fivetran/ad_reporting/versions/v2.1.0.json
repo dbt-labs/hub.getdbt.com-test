@@ -95,6 +95,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_ad_reporting/tar.gz/v2.1.0",
         "format": "tgz",
-        "sha1": "b0e4bfe2735f26da4c2408e7014302de33b0d495"
+        "sha1": "b0e4bfe2735f26da4c2408e7014302de33b0d495",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_ad_reporting/tar.gz/v2.1.0",
+            "format": "tgz",
+            "sha1": "b0e4bfe2735f26da4c2408e7014302de33b0d495"
+        }
     }
 }

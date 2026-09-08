@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/datnguye/dbt-translate/tar.gz/1.0.0",
         "format": "tgz",
-        "sha1": "a276acd3a382fcc7234c26569fd302513ea1e9ae"
+        "sha1": "a276acd3a382fcc7234c26569fd302513ea1e9ae",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/datnguye/dbt-translate/tar.gz/1.0.0",
+            "format": "tgz",
+            "sha1": "a276acd3a382fcc7234c26569fd302513ea1e9ae"
+        }
     }
 }

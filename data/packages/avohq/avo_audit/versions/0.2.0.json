@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/avohq/avo_audit/tar.gz/0.2.0",
         "format": "tgz",
-        "sha1": "137f31ed4e097df2350b4bf5365b7ad58380bdde"
+        "sha1": "137f31ed4e097df2350b4bf5365b7ad58380bdde",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/avohq/avo_audit/tar.gz/0.2.0",
+            "format": "tgz",
+            "sha1": "137f31ed4e097df2350b4bf5365b7ad58380bdde"
+        }
     }
 }

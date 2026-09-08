@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_shopify_source/tar.gz/v0.18.2",
         "format": "tgz",
-        "sha1": "e21300ba3230e590ed6ce72a68a239c4be7cab2f"
+        "sha1": "e21300ba3230e590ed6ce72a68a239c4be7cab2f",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_shopify_source/tar.gz/v0.18.2",
+            "format": "tgz",
+            "sha1": "e21300ba3230e590ed6ce72a68a239c4be7cab2f"
+        }
     }
 }

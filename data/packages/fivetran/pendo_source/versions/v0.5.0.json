@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_pendo_source/tar.gz/v0.5.0",
         "format": "tgz",
-        "sha1": "fb3a0bfed930276e8ce9ac0820911c080ed5bc50"
+        "sha1": "fb3a0bfed930276e8ce9ac0820911c080ed5bc50",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_pendo_source/tar.gz/v0.5.0",
+            "format": "tgz",
+            "sha1": "fb3a0bfed930276e8ce9ac0820911c080ed5bc50"
+        }
     }
 }

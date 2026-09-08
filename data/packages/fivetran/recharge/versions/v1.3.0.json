@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_recharge/tar.gz/v1.3.0",
         "format": "tgz",
-        "sha1": "c8e7c4fda7762fbdec17dd6c43485a03498ac86f"
+        "sha1": "c8e7c4fda7762fbdec17dd6c43485a03498ac86f",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_recharge/tar.gz/v1.3.0",
+            "format": "tgz",
+            "sha1": "c8e7c4fda7762fbdec17dd6c43485a03498ac86f"
+        }
     }
 }

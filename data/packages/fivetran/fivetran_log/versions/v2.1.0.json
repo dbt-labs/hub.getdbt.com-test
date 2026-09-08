@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_fivetran_log/tar.gz/v2.1.0",
         "format": "tgz",
-        "sha1": "c23678593119d40e9f0accdb5151d27c590b4c6a"
+        "sha1": "c23678593119d40e9f0accdb5151d27c590b4c6a",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_fivetran_log/tar.gz/v2.1.0",
+            "format": "tgz",
+            "sha1": "c23678593119d40e9f0accdb5151d27c590b4c6a"
+        }
     }
 }

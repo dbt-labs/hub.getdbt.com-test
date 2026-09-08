@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_zendesk_source/tar.gz/v0.3.2",
         "format": "tgz",
-        "sha1": "33260781850157b4ad09e24dd5004cb4539c5ba9"
+        "sha1": "33260781850157b4ad09e24dd5004cb4539c5ba9",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_zendesk_source/tar.gz/v0.3.2",
+            "format": "tgz",
+            "sha1": "33260781850157b4ad09e24dd5004cb4539c5ba9"
+        }
     }
 }

@@ -19,6 +19,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/rudderlabs/dbt-id-stitching/tar.gz/1.3.2",
         "format": "tgz",
-        "sha1": "9149461eb4b086fd5bd4e120e7b0e14c2f4df106"
+        "sha1": "9149461eb4b086fd5bd4e120e7b0e14c2f4df106",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/rudderlabs/dbt-id-stitching/tar.gz/1.3.2",
+            "format": "tgz",
+            "sha1": "9149461eb4b086fd5bd4e120e7b0e14c2f4df106"
+        }
     }
 }

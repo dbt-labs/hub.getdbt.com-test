@@ -19,6 +19,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/re-data/dbt-re-data/tar.gz/v0.1.0-alpha",
         "format": "tgz",
-        "sha1": "3c491c502224ccd7969582fd15a8f29f74ffb362"
+        "sha1": "3c491c502224ccd7969582fd15a8f29f74ffb362",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/re-data/dbt-re-data/tar.gz/v0.1.0-alpha",
+            "format": "tgz",
+            "sha1": "3c491c502224ccd7969582fd15a8f29f74ffb362"
+        }
     }
 }

@@ -24,6 +24,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/EqualExperts/dbt-unit-testing/tar.gz/v0.3.3",
         "format": "tgz",
-        "sha1": "072af3b14d18382b4406df29f65f18e2270e762d"
+        "sha1": "072af3b14d18382b4406df29f65f18e2270e762d",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/EqualExperts/dbt-unit-testing/tar.gz/v0.3.3",
+            "format": "tgz",
+            "sha1": "072af3b14d18382b4406df29f65f18e2270e762d"
+        }
     }
 }
