@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_instagram_business_source/tar.gz/v0.2.1",
         "format": "tgz",
-        "sha1": "ae4398d94c2ea00caf8bcbdc314f26fe963fd7cb"
+        "sha1": "ae4398d94c2ea00caf8bcbdc314f26fe963fd7cb",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_instagram_business_source/tar.gz/v0.2.1",
+            "format": "tgz",
+            "sha1": "ae4398d94c2ea00caf8bcbdc314f26fe963fd7cb"
+        }
     }
 }

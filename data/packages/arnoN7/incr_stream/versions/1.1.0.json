@@ -16,6 +16,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/arnoN7/dbt-incremental-stream/tar.gz/1.1.0",
         "format": "tgz",
-        "sha1": "34f11213ea1178cc6f0e023f1179697b548faab6"
+        "sha1": "34f11213ea1178cc6f0e023f1179697b548faab6",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/arnoN7/dbt-incremental-stream/tar.gz/1.1.0",
+            "format": "tgz",
+            "sha1": "34f11213ea1178cc6f0e023f1179697b548faab6"
+        }
     }
 }

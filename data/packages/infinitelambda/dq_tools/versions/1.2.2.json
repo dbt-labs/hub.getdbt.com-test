@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/infinitelambda/dq-tools/tar.gz/1.2.2",
         "format": "tgz",
-        "sha1": "7ed5ce48c288fdd657ba811f90a097efde61fdfc"
+        "sha1": "7ed5ce48c288fdd657ba811f90a097efde61fdfc",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/infinitelambda/dq-tools/tar.gz/1.2.2",
+            "format": "tgz",
+            "sha1": "7ed5ce48c288fdd657ba811f90a097efde61fdfc"
+        }
     }
 }

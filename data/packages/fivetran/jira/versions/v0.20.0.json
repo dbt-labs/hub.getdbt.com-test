@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_jira/tar.gz/v0.20.0",
         "format": "tgz",
-        "sha1": "b2e59d51877b3024b45bcf452daf752c58a956ed"
+        "sha1": "b2e59d51877b3024b45bcf452daf752c58a956ed",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_jira/tar.gz/v0.20.0",
+            "format": "tgz",
+            "sha1": "b2e59d51877b3024b45bcf452daf752c58a956ed"
+        }
     }
 }

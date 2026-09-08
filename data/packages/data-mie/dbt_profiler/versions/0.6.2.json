@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/data-mie/dbt-profiler/tar.gz/0.6.2",
         "format": "tgz",
-        "sha1": "bb8669103659aad441ef5ff6f898061baa8685a9"
+        "sha1": "bb8669103659aad441ef5ff6f898061baa8685a9",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/data-mie/dbt-profiler/tar.gz/0.6.2",
+            "format": "tgz",
+            "sha1": "bb8669103659aad441ef5ff6f898061baa8685a9"
+        }
     }
 }

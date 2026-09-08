@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_marketo/tar.gz/v0.12.0",
         "format": "tgz",
-        "sha1": "be345958b4e99bfb368717ecc38542f54b4d9b0b"
+        "sha1": "be345958b4e99bfb368717ecc38542f54b4d9b0b",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_marketo/tar.gz/v0.12.0",
+            "format": "tgz",
+            "sha1": "be345958b4e99bfb368717ecc38542f54b4d9b0b"
+        }
     }
 }

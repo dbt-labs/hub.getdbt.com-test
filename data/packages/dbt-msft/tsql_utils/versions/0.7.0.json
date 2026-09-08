@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/dbt-msft/tsql-utils/tar.gz/0.7.0",
         "format": "tgz",
-        "sha1": "968c21071e305f9fcaa70615612f3f5e1b4ea970"
+        "sha1": "968c21071e305f9fcaa70615612f3f5e1b4ea970",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/dbt-msft/tsql-utils/tar.gz/0.7.0",
+            "format": "tgz",
+            "sha1": "968c21071e305f9fcaa70615612f3f5e1b4ea970"
+        }
     }
 }

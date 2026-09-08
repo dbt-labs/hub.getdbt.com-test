@@ -21,6 +21,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/tailsdotcom/dbt_artifacts/tar.gz/0.4.0",
         "format": "tgz",
-        "sha1": "23846814e83a1e2a535278ba131ec566fe7b6d60"
+        "sha1": "23846814e83a1e2a535278ba131ec566fe7b6d60",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/tailsdotcom/dbt_artifacts/tar.gz/0.4.0",
+            "format": "tgz",
+            "sha1": "23846814e83a1e2a535278ba131ec566fe7b6d60"
+        }
     }
 }

@@ -16,6 +16,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/yu-iskw/dbt-unittest/tar.gz/0.1.1",
         "format": "tgz",
-        "sha1": "5fa6ea547e14da943dcdae8724274570d60430ba"
+        "sha1": "5fa6ea547e14da943dcdae8724274570d60430ba",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/yu-iskw/dbt-unittest/tar.gz/0.1.1",
+            "format": "tgz",
+            "sha1": "5fa6ea547e14da943dcdae8724274570d60430ba"
+        }
     }
 }

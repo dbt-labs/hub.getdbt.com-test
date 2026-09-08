@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_snapchat_ads/tar.gz/v1.1.0",
         "format": "tgz",
-        "sha1": "fe8dfca835c1c5a66dffd837ce0fb58c16a5a6df"
+        "sha1": "fe8dfca835c1c5a66dffd837ce0fb58c16a5a6df",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_snapchat_ads/tar.gz/v1.1.0",
+            "format": "tgz",
+            "sha1": "fe8dfca835c1c5a66dffd837ce0fb58c16a5a6df"
+        }
     }
 }

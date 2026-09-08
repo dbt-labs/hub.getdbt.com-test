@@ -28,6 +28,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/cerebriumai/airbyte_dbt_google_ads/tar.gz/0.1.0",
         "format": "tgz",
-        "sha1": "f121fdec652001c12d3296b3a7c9c5aafec0999b"
+        "sha1": "f121fdec652001c12d3296b3a7c9c5aafec0999b",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/cerebriumai/airbyte_dbt_google_ads/tar.gz/0.1.0",
+            "format": "tgz",
+            "sha1": "f121fdec652001c12d3296b3a7c9c5aafec0999b"
+        }
     }
 }

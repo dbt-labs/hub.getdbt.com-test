@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/kgmcquate/dbt-testgen/tar.gz/v0.1.1",
         "format": "tgz",
-        "sha1": "24093de4dda5e6028c9ed34b46e8f85773795258"
+        "sha1": "24093de4dda5e6028c9ed34b46e8f85773795258",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/kgmcquate/dbt-testgen/tar.gz/v0.1.1",
+            "format": "tgz",
+            "sha1": "24093de4dda5e6028c9ed34b46e8f85773795258"
+        }
     }
 }

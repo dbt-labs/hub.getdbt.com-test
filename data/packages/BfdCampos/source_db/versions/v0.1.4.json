@@ -17,6 +17,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/BfdCampos/source_db/tar.gz/v0.1.4",
         "format": "tgz",
-        "sha1": "83b736cce8ff9c47bf12bfde85c746272eee4f13"
+        "sha1": "83b736cce8ff9c47bf12bfde85c746272eee4f13",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/BfdCampos/source_db/tar.gz/v0.1.4",
+            "format": "tgz",
+            "sha1": "83b736cce8ff9c47bf12bfde85c746272eee4f13"
+        }
     }
 }

@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_recurly/tar.gz/v1.1.0",
         "format": "tgz",
-        "sha1": "1030fad17fe9b9362f3f803184185a8fcc3920de"
+        "sha1": "1030fad17fe9b9362f3f803184185a8fcc3920de",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_recurly/tar.gz/v1.1.0",
+            "format": "tgz",
+            "sha1": "1030fad17fe9b9362f3f803184185a8fcc3920de"
+        }
     }
 }

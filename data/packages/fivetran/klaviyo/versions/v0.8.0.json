@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_klaviyo/tar.gz/v0.8.0",
         "format": "tgz",
-        "sha1": "1b0c62835e86042154b4de3d5aa28211499e404f"
+        "sha1": "1b0c62835e86042154b4de3d5aa28211499e404f",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_klaviyo/tar.gz/v0.8.0",
+            "format": "tgz",
+            "sha1": "1b0c62835e86042154b4de3d5aa28211499e404f"
+        }
     }
 }

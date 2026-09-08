@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_asana/tar.gz/v1.2.0",
         "format": "tgz",
-        "sha1": "c95e1b11ba77ca520d0e65b70179a1a113d6354e"
+        "sha1": "c95e1b11ba77ca520d0e65b70179a1a113d6354e",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_asana/tar.gz/v1.2.0",
+            "format": "tgz",
+            "sha1": "c95e1b11ba77ca520d0e65b70179a1a113d6354e"
+        }
     }
 }

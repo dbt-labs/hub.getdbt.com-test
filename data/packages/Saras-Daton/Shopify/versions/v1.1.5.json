@@ -33,6 +33,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/Saras-Daton/Shopify/tar.gz/v1.1.5",
         "format": "tgz",
-        "sha1": "497a70a88ae95d3cb4cba01846cd94d14db1bd3b"
+        "sha1": "497a70a88ae95d3cb4cba01846cd94d14db1bd3b",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/Saras-Daton/Shopify/tar.gz/v1.1.5",
+            "format": "tgz",
+            "sha1": "1cb7b70db0d8a1a4447eb87ed89428c956bda4ec"
+        }
     }
 }

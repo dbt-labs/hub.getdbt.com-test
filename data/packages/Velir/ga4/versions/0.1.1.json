@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/Velir/dbt-ga4/tar.gz/0.1.1",
         "format": "tgz",
-        "sha1": "5b2ce144ca0209517192481bfab1c0a6e338c92e"
+        "sha1": "5b2ce144ca0209517192481bfab1c0a6e338c92e",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/Velir/dbt-ga4/tar.gz/0.1.1",
+            "format": "tgz",
+            "sha1": "5b2ce144ca0209517192481bfab1c0a6e338c92e"
+        }
     }
 }

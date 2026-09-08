@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_zuora/tar.gz/v1.0.0",
         "format": "tgz",
-        "sha1": "8ef0d75ab51cb19f62c426fe7c95854022c3cb28"
+        "sha1": "8ef0d75ab51cb19f62c426fe7c95854022c3cb28",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_zuora/tar.gz/v1.0.0",
+            "format": "tgz",
+            "sha1": "8ef0d75ab51cb19f62c426fe7c95854022c3cb28"
+        }
     }
 }

@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/omnata-labs/dbt-ml-preprocessing/tar.gz/1.0.2",
         "format": "tgz",
-        "sha1": "41db0c60ee51578e280962253e390e97619b713b"
+        "sha1": "41db0c60ee51578e280962253e390e97619b713b",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/omnata-labs/dbt-ml-preprocessing/tar.gz/1.0.2",
+            "format": "tgz",
+            "sha1": "41db0c60ee51578e280962253e390e97619b713b"
+        }
     }
 }

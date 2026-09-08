@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/snowplow/dbt-snowplow-utils/tar.gz/0.12.0",
         "format": "tgz",
-        "sha1": "1cafcb83dcc041b0719d7e7c023a6260328e230d"
+        "sha1": "1cafcb83dcc041b0719d7e7c023a6260328e230d",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/snowplow/dbt-snowplow-utils/tar.gz/0.12.0",
+            "format": "tgz",
+            "sha1": "1cafcb83dcc041b0719d7e7c023a6260328e230d"
+        }
     }
 }

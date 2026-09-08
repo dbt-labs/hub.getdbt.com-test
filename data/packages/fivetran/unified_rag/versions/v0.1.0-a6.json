@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_unified_rag/tar.gz/v0.1.0-a6",
         "format": "tgz",
-        "sha1": "16d9d5273767a8308ad1267ad60e028c78f309a4"
+        "sha1": "16d9d5273767a8308ad1267ad60e028c78f309a4",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_unified_rag/tar.gz/v0.1.0-a6",
+            "format": "tgz",
+            "sha1": "16d9d5273767a8308ad1267ad60e028c78f309a4"
+        }
     }
 }

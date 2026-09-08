@@ -19,6 +19,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/entechlog/dbt-snow-utils/tar.gz/0.1.2",
         "format": "tgz",
-        "sha1": "fc58f27685ccb14e6fd1cf6b903307a34871b80e"
+        "sha1": "fc58f27685ccb14e6fd1cf6b903307a34871b80e",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/entechlog/dbt-snow-utils/tar.gz/0.1.2",
+            "format": "tgz",
+            "sha1": "fc58f27685ccb14e6fd1cf6b903307a34871b80e"
+        }
     }
 }

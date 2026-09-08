@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_quickbooks/tar.gz/v1.1.0",
         "format": "tgz",
-        "sha1": "04e78cae32c3fe25b3a747d23c152b13934f02ee"
+        "sha1": "04e78cae32c3fe25b3a747d23c152b13934f02ee",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_quickbooks/tar.gz/v1.1.0",
+            "format": "tgz",
+            "sha1": "04e78cae32c3fe25b3a747d23c152b13934f02ee"
+        }
     }
 }

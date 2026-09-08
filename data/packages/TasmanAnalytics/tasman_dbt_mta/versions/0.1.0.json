@@ -22,6 +22,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/TasmanAnalytics/tasman-dbt-mta/tar.gz/0.1.0",
         "format": "tgz",
-        "sha1": "7e90491f415dc9bfb07ab2153624e24f165a79fe"
+        "sha1": "7e90491f415dc9bfb07ab2153624e24f165a79fe",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/TasmanAnalytics/tasman-dbt-mta/tar.gz/0.1.0",
+            "format": "tgz",
+            "sha1": "7e90491f415dc9bfb07ab2153624e24f165a79fe"
+        }
     }
 }

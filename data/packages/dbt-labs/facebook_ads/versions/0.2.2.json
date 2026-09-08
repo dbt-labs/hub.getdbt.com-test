@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/dbt-labs/facebook-ads/tar.gz/0.2.2",
         "format": "tgz",
-        "sha1": "e6cd37aa753764fe68373772f0a968f6e1ff3dfc"
+        "sha1": "e6cd37aa753764fe68373772f0a968f6e1ff3dfc",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/dbt-labs/facebook-ads/tar.gz/0.2.2",
+            "format": "tgz",
+            "sha1": "e6cd37aa753764fe68373772f0a968f6e1ff3dfc"
+        }
     }
 }

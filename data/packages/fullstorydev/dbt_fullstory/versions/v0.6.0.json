@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fullstorydev/dbt_fullstory/tar.gz/v0.6.0",
         "format": "tgz",
-        "sha1": "163946e3e887e7acff0a0256ae6bccea73aa4c8d"
+        "sha1": "163946e3e887e7acff0a0256ae6bccea73aa4c8d",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fullstorydev/dbt_fullstory/tar.gz/v0.6.0",
+            "format": "tgz",
+            "sha1": "163946e3e887e7acff0a0256ae6bccea73aa4c8d"
+        }
     }
 }

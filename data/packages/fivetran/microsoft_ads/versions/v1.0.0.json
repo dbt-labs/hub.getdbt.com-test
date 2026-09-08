@@ -32,6 +32,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_microsoft_ads/tar.gz/v1.0.0",
         "format": "tgz",
-        "sha1": "3b9e31c9a9d705fea80bcb6131fa4c271f29f09a"
+        "sha1": "3b9e31c9a9d705fea80bcb6131fa4c271f29f09a",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_microsoft_ads/tar.gz/v1.0.0",
+            "format": "tgz",
+            "sha1": "3b9e31c9a9d705fea80bcb6131fa4c271f29f09a"
+        }
     }
 }

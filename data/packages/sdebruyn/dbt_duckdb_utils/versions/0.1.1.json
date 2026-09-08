@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/sdebruyn/dbt-duckdb-utils/tar.gz/0.1.1",
         "format": "tgz",
-        "sha1": "dd7f1c0446a572e37cbe424f86303e6c364fa2ec"
+        "sha1": "dd7f1c0446a572e37cbe424f86303e6c364fa2ec",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/sdebruyn/dbt-duckdb-utils/tar.gz/0.1.1",
+            "format": "tgz",
+            "sha1": "dd7f1c0446a572e37cbe424f86303e6c364fa2ec"
+        }
     }
 }

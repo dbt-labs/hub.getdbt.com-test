@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_lever_source/tar.gz/v0.8.0",
         "format": "tgz",
-        "sha1": "af6a111edbd9fee0c381f83a568f84c561a101bf"
+        "sha1": "af6a111edbd9fee0c381f83a568f84c561a101bf",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_lever_source/tar.gz/v0.8.0",
+            "format": "tgz",
+            "sha1": "af6a111edbd9fee0c381f83a568f84c561a101bf"
+        }
     }
 }

@@ -14,6 +14,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/dbt-labs/dbt-utils/tar.gz/0.1.4",
         "format": "tgz",
-        "sha1": "8e7e77b322cb610c6d202e1b246da911d2fb2971"
+        "sha1": "8e7e77b322cb610c6d202e1b246da911d2fb2971",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/dbt-labs/dbt-utils/tar.gz/0.1.4",
+            "format": "tgz",
+            "sha1": "8e7e77b322cb610c6d202e1b246da911d2fb2971"
+        }
     }
 }

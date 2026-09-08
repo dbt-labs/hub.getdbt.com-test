@@ -22,7 +22,12 @@
     "downloads": {
         "tarball": "https://codeload.github.com/Velir/dbt-ga4/tar.gz/6.2.0",
         "format": "tgz",
-        "sha1": "196e6866e20db620610262b1e2e89929e8d7b1de"
+        "sha1": "196e6866e20db620610262b1e2e89929e8d7b1de",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/Velir/dbt-ga4/tar.gz/6.2.0",
+            "format": "tgz",
+            "sha1": "196e6866e20db620610262b1e2e89929e8d7b1de"
+        }
     },
     "fusion_compatibility": {
         "version": "6.2.0",

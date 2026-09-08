@@ -25,6 +25,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fivetran/dbt_tiktok_ads/tar.gz/v0.9.0",
         "format": "tgz",
-        "sha1": "06ce576ecedbc602bba1845009e3edac2fad466c"
+        "sha1": "06ce576ecedbc602bba1845009e3edac2fad466c",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fivetran/dbt_tiktok_ads/tar.gz/v0.9.0",
+            "format": "tgz",
+            "sha1": "06ce576ecedbc602bba1845009e3edac2fad466c"
+        }
     }
 }

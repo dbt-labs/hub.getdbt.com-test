@@ -13,6 +13,11 @@
     "downloads": {
         "tarball": "https://codeload.github.com/fishtown-analytics/dbt-utils/tar.gz/0.1.17",
         "format": "tgz",
-        "sha1": "6fa372e5d34083aebafa70572ac3cca129884986"
+        "sha1": "6fa372e5d34083aebafa70572ac3cca129884986",
+        "hub": {
+            "tarball": "https://public.staging.cdn.getdbt.com/package-hub/dbt-packages/fishtown-analytics/dbt-utils/tar.gz/0.1.17",
+            "format": "tgz",
+            "sha1": "6fa372e5d34083aebafa70572ac3cca129884986"
+        }
     }
 }
