@@ -1,0 +1,27 @@
+{
+    "id": "dbt-labs/dbt_assets_sync_7c4e91d2/v0.1.0",
+    "name": "dbt_assets_sync_7c4e91d2",
+    "version": "v0.1.0",
+    "published_at": "2026-11-17T00:00:00.000000+00:00",
+    "packages": [],
+    "require_dbt_version": [
+        ">=1.6.0",
+        "<2.0.0"
+    ],
+    "works_with": [],
+    "_source": {
+        "type": "github",
+        "url": "https://github.com/dbt-labs/dbt-assets-sync/tree/v0.1.0/",
+        "readme": "https://raw.githubusercontent.com/dbt-labs/hub.getdbt.com-test/pkg-assets-dbt-assets-sync-1794952600/fixtures/dbt_assets_sync_7c4e91d2.tar.gz"
+    },
+    "downloads": {
+        "tarball": "https://raw.githubusercontent.com/dbt-labs/hub.getdbt.com-test/pkg-assets-dbt-assets-sync-1794952600/fixtures/dbt_assets_sync_7c4e91d2.tar.gz",
+        "format": "tgz",
+        "sha1": "36bcf66e13c6c85f608855f8875b43de878315a2",
+        "hub": {
+            "tarball": "https://raw.githubusercontent.com/dbt-labs/hub.getdbt.com-test/pkg-assets-dbt-assets-sync-1794952600/fixtures/dbt_assets_sync_7c4e91d2.tar.gz",
+            "format": "tgz",
+            "sha1": "36bcf66e13c6c85f608855f8875b43de878315a2"
+        }
+    }
+}
